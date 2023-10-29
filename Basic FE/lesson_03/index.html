@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <!-- ol = ordered list 
+       li = list item 
+      ul = unordered list -->
+  <ol>
+    <li>Пункт первый.
+      <ul class="inner_list">
+        <li>Подпункт первый.</li>
+        <li>Подпункт второй.</li>
+        <li>Подпункт третий.</li>
+      </ul>
+    </li>
+    <li>Пункт второй.</li>
+    <li>Пункт третий.</li>
+  </ol>
+  <!-- break -->
+  <br />
+  <ul>
+    <li>Пункт первый.</li>
+    <li>Пункт второй.</li>
+    <li>Пункт третий.</li>
+  </ul>
+  <ul class="second_list">
+    <li>Пункт первый.</li>
+    <li>Пункт второй.</li>
+    <li>Пункт третий.</li>
+  </ul>
+  <br>
+  <br>
+
+  <h2>Tables</h2>
+
+  <!-- tr = table row
+      td = table date 
+      <table border="1">
+      caption = table head
+      thead = table head
+      td = table header
+      tbody = table body
+      tfoot = table footer
+      colspan = обьединение ячеек в одной строке в ширину
+      rowspan = обьединение ячеек в одном столбце в высоту
+-->
+  <table>
+    <caption>Browsers</caption>
+    <thead>
+      <tr>
+        <th>Name of browser</th>
+        <th>Version</th>
+        <th>OS</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Chrome</td>
+        <td rowspan="2">v1.1</td>
+        <td>Windows</td>
+      </tr>
+      <tr>
+        <td>Safari</td>
+        <!-- <td>v1.1</td> -->
+        <td>Mac OS</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="3">Browser specs</td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <!-- создать таблицу 10Х3 и сделать ее полосатой (через одну строку серый задний фон), используя классы для каждого второго tr
+  docs.emmet.io/cheat-sheet/
+  tr*10>td*3{$ ячейка}
+ -->
+
+  <table class="second_table">
+    <tr>
+      <td>1 ячейка</td>
+      <td>2 ячейкка</td>
+      <td>3 ячейка</td>
+    </tr>
+    <tr class="grey">
+      <td>1 ячейка</td>
+      <td>2 ячейкка</td>
+      <td>3 ячейка</td>
+    </tr>
+    <tr>
+      <td>1 ячейка</td>
+      <td>2 ячейкка</td>
+      <td>3 ячейка</td>
+    </tr>
+    <tr class="grey">
+      <td>1 ячейка</td>
+      <td>2 ячейкка</td>
+      <td>3 ячейка</td>
+    </tr>
+    <tr>
+      <td>1 ячейка</td>
+      <td>2 ячейкка</td>
+      <td>3 ячейка</td>
+    </tr>
+    <tr class="grey">
+      <td>1 ячейка</td>
+      <td>2 ячейкка</td>
+      <td>3 ячейка</td>
+    </tr>
+    <tr>
+      <td>1 ячейка</td>
+      <td>2 ячейкка</td>
+      <td>3 ячейка</td>
+    </tr>
+    <tr class="grey">
+      <td>1 ячейка</td>
+      <td>2 ячейкка</td>
+      <td>3 ячейка</td>
+    </tr>
+    <tr>
+      <td>1 ячейка</td>
+      <td>2 ячейкка</td>
+      <td>3 ячейка</td>
+    </tr>
+    <tr class="grey">
+      <td>1 ячейка</td>
+      <td>2 ячейкка</td>
+      <td>3 ячейка</td>
+    </tr>
+  </table>
+
+</body>
+
+</html>

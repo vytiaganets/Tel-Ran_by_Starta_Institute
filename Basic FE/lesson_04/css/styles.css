@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 15px;
+  height: 10000px;
+}
+
+p {
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.p_1 {
+  width: 300px;
+}
+
+.p_2 {
+  width: 50%;
+}
+
+/* vm = viewpoint видимая область экрана
+vh = viewheiht */
+.p_3 {
+  width: 50vw;
+  height: 50vh;
+}
+
+ul {
+  padding-left: 40px;
+}
+
+.main_ul {
+  font-size: 20px;
+}
+
+/* by default 16px */
+html {
+  font-size: 20px;
+}
+
+li {
+  font-size: 0.5rem;
+}
+
+/* rem =root em корневой em*/
+
+div {
+  width: 100px;
+  height: 100px;
+  text-align: left;
+  background-color: yellow;
+  padding: 25px;
+  margin: 10px;
+}
+
+.div_2 {
+background-color: gray;
+}
+
+.p_color {
+ /* 1 способ */
+  color: red;
+
+}
+
+ /* 2 способ 
+ #FFCE30
+ FF=red
+ CE=green
+ 30=blue 
+  #FF0000=red
+ FF=red
+ 00=green
+ 00=blue */*/

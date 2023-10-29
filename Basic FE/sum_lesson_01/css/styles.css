@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.p1 {
+  /* margin: 30px 60px 100px 130px; */
+  /* margin-top: ;
+  margin-right: ;
+  margin-bottom: ;
+  margin-left: ; */
+  /* border: 1px solid black;
+  padding: 40px 20px 10px 50px; */
+  margin: 10px auto;
+
+}
+
+table {
+  border-collapse: collapse;
+  margin: 20px;
+  border: 1px solid black;
+}
+
+td,
+th {
+  border: 1px solid gray;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.block1 {
+  border: 5px solid blue;
+  background-color: lightblue;
+  padding: 20px;
+  margin: 30px;
+  width: 300px;
+  height: 300px;
+  box-sizing: content-box;
+}
+
+.block2 {
+  border: 5px solid red;
+  background-color: lightblue;
+  padding: 20px;
+  margin: 30px;
+  width: 300px;
+  height: 300px;
+}
+.tab{
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+td{
+  text-align: center;
+}
+/* выравнивание по центру экрана */
+table{
+  margin-right: auto;
+  margin-left: auto;
+}
+/* .table_block{
+text-align: center;
+} */
+ul{
+  padding-left: 20px;
+}
+ol{
+  padding-left: 40px;
+}
