@@ -1,0 +1,70 @@
+   0 rename 
+   1 whoami
+   2 pwd
+   3 1s
+   4 hfjkfbhvb
+   5 ls
+   6 ls --help
+   7 ls 
+   8 ls
+   9 ls -a
+  10 ls -1
+  11 ls -l
+  12 ls -l -a
+  13 ls -la
+  14 ls --help
+  15 clear
+  16 history
+  17 cd
+  18 pwd
+  19 cd ..
+  20 pwd
+  21 cd ..
+  22 ls
+  23 ls -a
+  24 ls -al
+  25 whereis ls
+  26 whereis cd
+  27 pwd
+  28 whoami
+  29 cd /home
+  30 pwd
+  31 mkdir user1
+  32 ls
+  33 cd /user1
+  34 cd user1
+  35 mkdir /task1
+  36 ls
+  37 mkdir task1
+  38 ls
+  39 cd task1/
+  40 mkfile
+  41 touch file.txt
+  42 ls
+  43 cd ..
+  44 ls
+  45 tree
+  46 tree /
+  47 ls -l
+  48 mkdir user2
+  49 ls
+  50 cd user2
+  51 mkdir task2
+  52 cd task2
+  53 touch file2.txt
+  54 tree /home 
+  55 cd 
+  56 pwd
+  57 mkdir /home/user3/task3
+  58 mkdir --help
+  59 mkdir -p /home/user3/task3/
+  60 touch /home/user3/task3/file4.txt
+  61 mkdir -p /home/user4/task4/file5.txt
+  62 tree /home
+  63 ls /home/user4/task4/
+  64 mkdir -p /home/user5/task5 touch /home/user5/task5/file6.txt
+  65 ls
+  66 mkdir -p /home/user5/task5 && touch /home/user5/task5/file6.txt
+  67 history > history_first_commands_vol1.txt
+  66 history > history.txt 
+  67 export_file history.txt 

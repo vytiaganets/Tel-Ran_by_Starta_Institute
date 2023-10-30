@@ -1,0 +1,54 @@
+   0 ls
+   1 tree
+   2 cat rreadme.txt
+   3 cat readme.txt
+   4 clear
+   5 df
+   6 df -h
+   7 df -h > df.txt
+   8 cat df.txt
+   9 > 1.txt
+  10 ls -l
+  11 cat bench.py
+  12 ls -l
+  13 touch bench.py
+  14 ls -l
+  15 > bench.py
+  16 ls -l
+  17 echo hello
+  18 echo "hello"
+  19 echo "hello
+  20 echo "hello" > 1.txt
+  21 cat 1.txt
+  22 df -h > 1.txt
+  23 cat 1.txt
+  24 echo "hello from tel-ran"
+  25 echo "hello from tel-ran" >> 1.txt
+  26 cat 1.txt
+  27 clear
+  28 ls -l
+  29 cat hello.js >> 1.txt
+  30 cat 1.txt
+  31 >> 2.txt
+  32 ls -l
+  33 >> 1.txt
+  34 ls -l
+  35 >> /opt/jenkins
+  36 tree /opt
+  37 tree /opt >> readme.txt
+  38 clear
+  39 ls -l
+  40 >> df.txt
+  41 ls -l
+  42 cat /etc/os-release
+  43 cat /etc/os-release >> 1.txt
+  44 cat /etc/group
+  45 cat /etc/group | wc
+  46 wc --help
+  47 cat /etc/group | wc -l
+  48 cat /etc/group | wc -m
+  49 cat /etc/os-release | wc -m
+  50 df -h
+  51 df -h | wc
+  52 history > 30_10_pipe.txt
+  53 export_file history.txt 
