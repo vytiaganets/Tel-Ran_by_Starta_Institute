@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body
+{
+  padding: 16px;
+}
+textarea {
+  resize: none;
+}
+
+input {
+  transition: padding 2s;
+}
+
+input:focus {
+  outline: none;
+  border: 3px solid green;
+  border-radius: 1px;
+  padding: 10px;
+}
+
+textarea:focus {
+outline: none;
+border: 2px solid red;
+}
+
+button {
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: grey;
+  color: bisque;
+  cursor: pointer;
+  transition: all 2s;
+  box-shadow: inset 10px 5px 5px 2px black;
+}
+
+button:hover {
+  background-color: bisque;
+  color: grey;
+}

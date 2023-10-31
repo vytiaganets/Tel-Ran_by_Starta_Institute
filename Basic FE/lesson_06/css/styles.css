@@ -87,3 +87,8 @@ border: 1px solid red;
   background-color: silver;
   /* margin: 0 0 50px 50px; */
 }
+
+/* переприсваивание порядка элементов
+.flex div:nth-child() {
+  order: 3;
+} */
