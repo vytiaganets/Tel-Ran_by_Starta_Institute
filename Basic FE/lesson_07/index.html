@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <!-- action = server endpoint адрес сервера куда нужно отправить данные 
+    method = тип запроса
+    placeholder = текст подсказки на фоне поля ввода
+    required = поле обязательное для ввода
+
+    http://127.0.0.1:5500/Basic%20FE/lesson_07/?username=John
+    -->
+  <form method="get">
+    <div>
+      <label for="Firstname_input">Firstname</label>
+      <input type="text" id="Firstname_input" placeholder="Firstname" name="Firstname" required>*
+    </div>
+    <div>
+      <label for="Lastname_input">Lastname</label>
+      <input type="text" id="Lastname_input" placeholder="Lastname" name="Lastname" required>*
+    </div>
+    <textarea name="about" cols="30" rows="10" placeholder="
+    about"></textarea>
+
+    <select name="profession" id="">
+      <option value="qa">Tester</option>
+      <option value="programmer">Developer</option>
+      <option value="hr">HR manager</option>
+    </select>
+
+    <div>
+      <label for="beer_checkbox">Beer</label>
+      <input type="checkbox" name="beer" id="beer_checkbox">
+      <label for="tea_checkbox">Tea</label>
+      <input type="checkbox" name="tea" id="tea_checkbox">
+      <label for="coffe_checkbox">Coffee</label>
+      <input type="checkbox" name="coffe" id="coffe_checkbox">
+    </div>
+
+    <div>
+      <!-- http://127.0.0.1:5500/Basic%20FE/lesson_07/?Firstname=John&Lastname=John&about=John&profession=qa&drink=beer -->
+      <label for="beer_checkbox">Beer</label>
+      <input type="radio" name="drink" id="beer_checkbox" value="beer">
+      <label for="tea_checkbox">Tea</label>
+      <input type="radio" name="drink" id="tea_checkbox" value="tea">
+      <label for="coffe_checkbox">Coffee</label>
+      <input type="radio" name="drink" id="coffe_checkbox" value="coffe">
+    </div>
+    <button>Send</button>
+  </form>
+</body>
+
+</html>
