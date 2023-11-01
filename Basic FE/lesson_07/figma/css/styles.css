@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.footer {
+  background-image: url(../media/Rectangle.png);
+  padding-top: 135px;
+  padding-bottom: 140px;
+  display: flex;
+  justify-content: center;
+}
+
+.form_container .user_data_inputs_block {
+  display: flex;
+  margin-bottom: 35px;
+  justify-content: space-between;
+}
+
+.form_container .user_data_inputs_block div {
+  display: flex;
+  flex-direction: column;
+}
+/* div:first-child = div:nth-child(1) */
+.form_container .user_data_inputs_block div:first-child {
+  margin-right: 30px;
+}
+
+.form_container label {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.form_container input, .form_container textarea {
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+  color: white;
+}
