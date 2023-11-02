@@ -1,0 +1,11 @@
+   0 mkdir -p /opt/test
+   1 mkdir -p /opt/test/andrii
+   2 cd /opt/test/andrii/
+   3 touch /opt/test/andrii/file.txt
+   4 cd
+   5 cp /opt/test/andrii/file.txt /tmp/file2.txt
+   6 cd /opt/test/andrii/
+   7 rm file.txt
+   8 cd
+   9 tree /tmp/
+  10 history > history.txt
