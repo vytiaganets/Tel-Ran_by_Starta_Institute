@@ -71,7 +71,7 @@ p {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 14px;
+  line-height: 20px;
 }
 
 .main .form-container form button {
@@ -96,7 +96,8 @@ p {
 }
 
 .main .form-container form .enter {
-  border-color: #CFD8DC;
+  border: 1px solid #CFD8DC;
+  /* border-color: #CFD8DC; */
   border-radius: 87px;
 }
 
