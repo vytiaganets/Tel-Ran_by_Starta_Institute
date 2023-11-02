@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 150px;
+}
+
+.btn {
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.btn:hover {
+  background-color: #535353;
+  padding: 10px;
+  box-shadow: 5px 5px 5px 2px black;
+  margin-top: 50px;
+}
+
+/* input:focus {
+  outline: none;
+  box-shadow: 5px 5px 5px 2px black;
+  border: 1px solid black;
+} */
+
+img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+/* Используя псевдокласс сделайте так, чтобы при наведении на картинку она увеличивалась. (изменяйте значение width и/или height) */
+/* img:hover {
+  width: 50px;
+  height: 100px;
+} */
+.btn_2 {
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 22px;
+  background-color: aqua;
+  /* transition: all 2s 1s; */
+  /* transition-property: background-color;
+  transition-delay: 2s; */
+  /* transition-timing-function: ease-in-out;
+  transition-timing-function: ease;
+  transition-timing-function: linear;
+  transition-timing-function: ease-out;
+  transition-timing-function: ease-in; */
+  /* transition-timing-function: 0.6s cubic-bezier(.05,-0.52,.84,1.41); 
+  сайт https://cubic-bezier.com/#.88,-0.09,.46,1.55*/
+
+  /* стили, которые нужно анимировать, длительность, задержка, кубическая функция */
+  transition: all 2s 1s cubic-bezier(.88, -0.09, .46, 1.55), transform 2s 1s cubic-bezier(.05,-0.52,.84,1.41);
+}
+
+.btn_2:hover {
+  background-color: red;
+  /* transition-property: background-color;
+  transition-delay: 2s; */
+
+  /* scale -> масштабирование элемента () */
+  transform: rotate(360deg) scale(2);
+  color: orange;
+  /* Используя псевдокласс hover и свойство transform сделайте так, чтобы при наведении на картинку появлялась тень и она делала полный оборот (360 градусов).   */
+  box-shadow: 5px 5px 5px 2px black;
+  /* width: 300px;
+  height: 300px; */
+}
+
+img {
+  transition: all 2s cubic-bezier(.05,-0.52,.84,1.41);
+}
+
+img :hover {
+  transform: rotate(360);
+  box-shadow: 5px 5px 5px 2px black;
+}
