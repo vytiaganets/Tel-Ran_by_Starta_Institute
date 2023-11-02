@@ -1,0 +1,116 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+.main {
+  width: 100%;
+  font-family: Nunito;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main .form-container {
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 40px 32px;
+  background-color: #fff;
+}
+
+.main .form-container h1 {
+  font-size: 21px;
+  margin-bottom: 24px;
+}
+
+.main .form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.main .form-container form input {
+  border: 1px solid #FFE44D;
+  padding: 14px 0 16px 14px;
+  border-radius: 16px;
+}
+
+input[placeholder="Логин"][text="piaceholder"] {
+  cursor: #ffAA0D;
+
+}
+
+input[type="text"][placeholder="Логин"]:focus,
+input[type="password"][class="password-input"][placeholder="Пароль"]:focus {
+  color: #1A1A1A;
+  outline: none;
+  border: 1px solid rgb(171, 28, 171);
+}
+
+.main .form-container form .password-input {
+  margin-bottom: 24px;
+  margin-top: 8px;
+  border: 1px solid #7B8E98;
+  ;
+}
+
+.main .form-container {
+  position: relative;
+}
+
+p {
+  color: #7B8E98;
+  font-family: Nunito;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.main .form-container form button {
+  padding: 14px 24px;
+  background-color: #fff;
+}
+
+.main .form-container form .registration {
+  margin-bottom: 8px;
+  margin-top: 24px;
+  background-color: #FFE44D;
+  border-radius: 55px;
+  border: #cfd8dc;
+}
+
+.main .form-container form .registration:focus,
+ .main .form-container form .enter:focus,
+.close-button button:focus { 
+  color: #1A1A1A;
+  outline: none;
+  border: 1px solid rgb(171, 28, 171);
+}
+
+.main .form-container form .enter {
+  border-color: #CFD8DC;
+  border-radius: 87px;
+}
+
+.close-button {
+  border: none;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+}
+
+.close-button button {
+  width: 24px;
+  height: 24px;
+  border: none;
+  background-color: white;
+  text-align: center;
+}
