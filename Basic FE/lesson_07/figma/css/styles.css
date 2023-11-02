@@ -9,20 +9,20 @@
   padding-bottom: 140px;
   display: flex;
   justify-content: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .form_container .user_data_inputs_block {
   display: flex;
   margin-bottom: 35px;
   justify-content: space-between;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
-.form_container .user_data_inputs_block div {
+.form_container .user_data_inputs_block div, .form_container .message_block {
   display: flex;
   flex-direction: column;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 /* div:first-child = div:nth-child(1) */
 .form_container .user_data_inputs_block div:first-child {
@@ -55,7 +55,7 @@ resize: none;
 }
 
 .form_container .buttons_block {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .form_container .message_block {
@@ -76,4 +76,20 @@ resize: none;
 
 .form_container input::placeholder, .form_container textarea::placeholder {
   font-size: 21px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+/* Lato font 300, 400 */
+
+.form_container label, .form_container .buttons_block button {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+/* .form_container {
+  width: 30%;
+} */
+.form_container .buttons_block button {
+  border: none;
 }
