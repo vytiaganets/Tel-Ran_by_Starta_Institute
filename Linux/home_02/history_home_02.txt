@@ -1,0 +1,17 @@
+   0 mkdir -p /home/user
+   1 mkdir -p /home/user/start
+   2 touch /home/user/start/1.txt
+   3 cd /home/user/start
+   4 vi 1.txt
+   5 ls -l
+   6 date + '%T' >> 1.txt
+   7 date +'%T' >> 1.txt
+   8 ls -l
+   9 cd
+  10 mkdir /opt/task
+  11 cp /home/user/start/1.txt /opt/task/start.txt
+  12 ls -al
+  13 cat / | tail -4 >> /opt/task/start.txt
+  14 cd /opt/task
+  15 cat / | tail -4 >> /opt/task/start.txt
+  16 history > history_home_02.txt
