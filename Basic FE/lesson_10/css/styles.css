@@ -1,0 +1,132 @@
+/* 3. Какие вы знаете способы комбинирования селекторов? */
+/* 1......группировка */
+/* .class1, .class1, img, #idname {
+
+} */
+/* 2.....вложенные селекторы */
+/* потомки */
+/* у потомках путь можно не прописывать  */
+/* .main p {
+  color: blue;
+}
+
+.section p {
+  color: red;
+} */
+
+/* непосредственное вложение .main>p */
+/* .main>p {
+  color: green;
+} */
+
+/* .main>p {
+  color: blue;
+}
+
+.main{
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  border: 5p solid black;
+}
+.main:hover{
+  width: 300px;
+  height: 300px;
+} */
+
+/* приоритетность селекторов
+tag name - 1 
+class name - 10 
+id - 100  */
+
+/* div{
+  display: flex;
+  flex-direction: row/column;
+  justify-content: space-evenly;
+  align-items: flex-end end;
+
+} */
+
+/* div{
+  position: static;
+  position: relative;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 15px;
+}
+
+.wrapper {
+  box-shadow: 5px 5px 5px 5px blue;
+}
+
+.header_form {
+  background-color: blue;
+  color: white;
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  font-size: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form main {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_main div {
+  padding: 5px;
+}
+
+.form_main div:hover input {
+  color: blue;
+}
+
+.form_main div:hover::placeholder {
+  color: blue;
+}
+
+label {
+  color: grey;
+}
+
+label:hover,
+input:hover {
+  color: blue;
+}
+
+input {
+  width: 100%;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  border-radius: 3px;
+  background-color: blue;
+  color: white;
+  width: 50px;
+  height: 10px;
+}
+
+.checkbox{
+  width: auto;
+}
+input[type="radio"]{
+  width: auto;
+}

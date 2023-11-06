@@ -28,11 +28,11 @@ body {
   border: 1px solid black;
 } */
 
-img {
+/* img {
   width: 250px;
   height: 250px;
   object-fit: cover;
-}
+} */
 
 /* Используя псевдокласс сделайте так, чтобы при наведении на картинку она увеличивалась. (изменяйте значение width и/или height) */
 /* img:hover {
@@ -57,7 +57,7 @@ img {
   сайт https://cubic-bezier.com/#.88,-0.09,.46,1.55*/
 
   /* стили, которые нужно анимировать, длительность, задержка, кубическая функция */
-  transition: all 2s 1s cubic-bezier(.88, -0.09, .46, 1.55), transform 2s 1s cubic-bezier(.05,-0.52,.84,1.41);
+  transition: all 2s 1s cubic-bezier(.88, -0.09, .46, 1.55), transform 2s 1s cubic-bezier(.05, -0.52, .84, 1.41);
 }
 
 .btn_2:hover {
@@ -74,11 +74,69 @@ img {
   height: 300px; */
 }
 
-img {
-  transition: all 2s cubic-bezier(.05,-0.52,.84,1.41);
+/* img {
+  transition: all 2s cubic-bezier(.05, -0.52, .84, 1.41);
 }
 
 img :hover {
   transform: rotate(360);
   box-shadow: 5px 5px 5px 2px black;
+} */
+
+/* ----------------------- */
+
+ul {
+  padding-left: 40px;
+  list-style: none;
+}
+
+/* after & before по умолчанияю строчные элементы */
+li::after,
+a::after {
+  content: '⬅';
+
+}
+
+li::before,
+a::before {
+  content: '➡';
+  /* width: 50px;
+  height: 50px; */
+  border: 1px solid red;
+  display: inline-block;
+  font-size: 34px;
+}
+
+li:nth-child(3)::after {
+  content: '>>>';
+}
+/* -------------- */
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* div{
+  display: inline;
+  position: relative;
+} */
+div {
+  width: 300px;
+  height: 300px;
+  /* object-fit: cover; */
+  position: relative;
+
+}
+
+div::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid green;
+  background-color: green;
 }
