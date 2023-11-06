@@ -1,0 +1,86 @@
+   0 date+'%T'
+   1 date + '%T' >> date.txt
+   2 date +'%T' >> date.txt
+   3 ls -l
+   4 date +'%T'
+   5 echo hello
+   6 echo "hello"
+   7 echo "hello" >> date.txt
+   8 clear
+   9 ls -l
+  10 cat date.txt
+  11 echo "hello" > readme.txt
+  12 >> file.txt
+  13 ls -l
+  14 cat /proc/cpuinfo
+  15 wc --help
+  16 ls -l
+  17 jhvjvk
+  18 cat readme.txt
+  19 cat readme.txt | wc
+  20 cat readme.txt | wc -m
+  21 cat readme.txt | wc -m >> date.txt
+  22 cat /etc/group
+  23 clear
+  24 cat /etc/group | wc
+  25 cat /etc/group | wc >> date.txt
+  26 cat /etc/group | wc -l
+  27 cat /etc/group | wc -l >> date.txt
+  28 cat /etc/group | head
+  29 cat /etc/group | head -3
+  30 cat /etc/group | tail
+  31 cat /etc/group | tail -3
+  32 cat /etc/group | tail -3 >> date.txt
+  33 cat /etc/group | head -5
+  34 cat /etc/group | head -5 >> date.txt
+  35 la -l
+  36 ls -l
+  37 df 
+  38 df -h
+  39 df -h | head -2 | tail -1
+  40 grep --help
+  41 df -h | grep %
+  42 df -h | grep /
+  43 df -h | grep G
+  44 df -h | grep -w /
+  45 df -h | grep -w G
+  46 df -h | head -2 | tail -1
+  47 df -h | grep G
+  48 df -h | grep G >> date.txt
+  49 df -h | grep G
+  50 aw --help
+  51 awk --help
+  52 df -h
+  53 df -h | awk '{print $4}'
+  54 df -h | awk '{print $5}'
+  55 df -h | awk '{print $5}' | grep 4
+  56 df -h | awk '{print $5}' | grep 4 >> date.txt
+  57 sed --help
+  58 clear
+  59 cat /etc/group
+  60 clear
+  61 cat /etc/group | tail -3
+  62 cat /etc/group | tail -3 | sed 's/user2/andrii/'
+  63 cat /etc/group | tail -3 | sed 's/user2/andrii/' >> date.txt
+  64 ls -l
+  65 df -h
+  66 df -h | awk '{print $5}'
+  67 df -h | awk '{print $5}' |grep 4
+  68 df -h | awk '{print $5}' | grep 4 | sed 's/$/*'
+  69 df -h | awk '{print $5}' | grep 4 | sed 's/$/*/'
+  70 df -h | awk '{print $5}' | grep 4 | sed 's/$/* /'
+  71 df -h | awk '{print $5}' | grep 4 | sed 's$$/* /'
+  72 df -h | awk '{print $5}' | grep 4 | sed 's/%/* /'
+  73 df -h | awk '{print $5}' | grep 4 | sed 's/*/* /'
+  74 df -h | awk '{print $5}' | grep 4 | sed 's/%/ /'
+  75 df -h | awk '{print $5}' | grep 4 | sed 's/%/ /' >> date.txt
+  76 grep --help
+  77 df -h | grep -o 47
+  78 df -h | grep -o /
+  79 vi
+  80 vi readme.txt
+  81 vi andrii.txt
+  82 vi readme.txt
+  83 vi andrii.txt
+  84 cat date.txt
+  85 history > history_05_11_2023.txt

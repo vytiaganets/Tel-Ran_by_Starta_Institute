@@ -1,0 +1,19 @@
+13:08:48
+hello
+6
+       52        52       759
+52
+user2:*:1000:
+user2:*:1000:
+user2:*:1000:
+root:x:0:root
+bin:x:1:root,bin,daemon
+daemon:x:2:root,bin,daemon
+sys:x:3:root,bin,adm
+adm:x:4:root,adm,daemon
+/dev/root                 4.9G      2.3G      2.6G  47% /
+47%
+andrii:*:1000:
+andrii:*:1000:
+andrii:*:1000:
+47 
