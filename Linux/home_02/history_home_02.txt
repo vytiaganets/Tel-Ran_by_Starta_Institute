@@ -1,4 +1,10 @@
-   0 mkdir -p /home/user
+1 уровень сложности: 1 Создать текстовый файл /home/user/start/1.txt , создав перед этим необходимую директорию.
+2 Добавьте слово Start в текстовый документ, созданный ранее.
+3 Дописать в конец документа текущую дату, использовав date (запуск командой date).
+4 Скопировать получившийся документ в /opt/task/start.txt (Предварительно создаем необходимую директорию)
+5 В документ /opt/task/start.txt дописать последние 4 строчки из списка ВСЕХ файлов и папок (в том числе скрытых) лежащих в /
+
+0 mkdir -p /home/user
    1 mkdir -p /home/user/start
    2 touch /home/user/start/1.txt
    3 cd /home/user/start
@@ -10,8 +16,5 @@
    9 cd
   10 mkdir /opt/task
   11 cp /home/user/start/1.txt /opt/task/start.txt
-  12 ls -al
-  13 cat / | tail -4 >> /opt/task/start.txt
-  14 cd /opt/task
-  15 cat / | tail -4 >> /opt/task/start.txt
-  16 history > history_home_02.txt
+  12 ls -al | tail -4 >> /opt/task/start.txt
+  13 history > history_home_02.txt
