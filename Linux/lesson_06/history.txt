@@ -1,0 +1,47 @@
+https://drive.google.com/drive/folders/1vCslMkyKeVgV-H4JLhJPbJibJm1eDNm3
+
+1 Создать текстовый файл /home/user/start/1.txt , создав перед этим необходимую директорию. 
+2 Добавьте слово Start в текстовый документ, созданный ранее. 
+3 Дописать в конец документа текущую дату, использовав date (запуск командой date). 
+4 Скопировать получившийся документ в /opt/task/start.txt (Предварительно создаем необходимую директорию) 
+5 В документ /opt/task/start.txt дописать последние 4 строчки из списка ВСЕХ (в том числе скрытых) файлов, лежащих в /    
+   
+   
+   0 df -h
+   1 ls -l
+   2 cat bench.py
+   3 touch bench.py
+   4 ls -l
+   5 df -h > file.txt
+   6 ls
+   7 ls -l
+   8 > file.txt
+   9 ls -l
+  10 >> bench.py
+  11 ls -l
+  12 >> file2.txt
+  13 ls -l
+  14 touch 1.txt
+  15 df -f > 1.txt
+  16 df -h > 1.txt
+  17 mkdir -p  /home/user/start
+  18 ls -l
+  19 ls -la
+  20 history
+  21 history | grep cat
+  22 ls -a
+  23 echo hello
+  24 echo "Start"
+  25 echo "Start" >> /home/user/start/1.txt
+  26 date
+  27 date +'%D'
+  28 date +'%D' >> /home/user/start/1.txt
+  29 mkdir -p /opt/task
+  30 ls -R /home/
+  31 tree /home/
+  32 cp /home/user/start/1.txt /opt/task/start.txt
+  33 ls -a /
+  34 ls -a / | tail -4
+  35 ls / | tail -4
+  36 ls -laF | tail -4
+  37 history > history.txt;export_file history.txt

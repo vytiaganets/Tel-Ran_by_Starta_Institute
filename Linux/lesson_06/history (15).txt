@@ -1,0 +1,63 @@
+   0 df -h
+   1 ls -l
+   2 cat bench.py 
+   3 ls -l
+   4 touch bench.py 
+   5 ls -l
+   6 df -h > file.txt
+   7 ls
+   8 ls -l
+   9 > file.txt
+  10 ls -l
+  11 >> bench.py 
+  12 ls -l
+  13 >> file2.txt
+  14 ls -l
+  15 ls
+  16 ls -l
+  17 touch 1.txt
+  18 df -h > 1.txt
+  19 touch /home/user/start/1.txt
+  20 mkdir -p /home/user/start/
+  21 ls -a
+  22 ls -l
+  23 ls -la
+  24 history
+  25 history | grep ls
+  26 history 
+  27 history | grep cat 
+  28 ls -al /opt/temu/
+  29 ls -al /tmp
+  30 ls -al /home
+  31 find --name .ash
+  32 ls -a /
+  33 nano .ash_history 
+  34 echo hello
+  35 echo "hello
+  36 efef
+  37 dfew
+  38 echo "hello'
+  39 echo "hello''
+  40 echo "Start"
+  41 echo "Start" >> /home/user/start/1.txt
+  42 date
+  43 date +'%D'
+  44 date +'%D' >> /home/user/start/1.txt 
+  45 mkdir /opt/task
+  46 mkdir -p /opt/task
+  47 ls -R /home/
+  48 tree /home/
+  49 cp /home/user/start/1.txt /opt/task/start.txt
+  50 ls 
+  51 ls -a / 
+  52 ls -a / | tail -4
+  53 ls / | tail -4
+  54 ls -la / | tail -4
+  55 ls -laF / | tail -4
+  56 ls --help
+  57 history > history.txt export_file history.txt
+  58 ls -l
+  59 history > history.txt | export_file history.txt
+  60 history > history.txt;export_file history.txt
+  61 env
+  62 history > history.txt;export_file history.txt
