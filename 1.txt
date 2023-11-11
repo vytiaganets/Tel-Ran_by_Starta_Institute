@@ -1,0 +1,7 @@
+ssh <USER>@<SERVER_ADDR>
+USER: ec2-user
+SERVER_ADDR: linux.telran-edu.de
+
+USERNAME: edu
+SERVER_ADDR: ssh.ab88.pro
+PASSWD: edu888passwd
