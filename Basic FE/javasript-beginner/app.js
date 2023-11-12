@@ -1,27 +1,43 @@
-// Number
-// const num = 42 // integer
-// const float = 42.42 // float
-// const pow = 10e3
-// console.log(pow) // 10000
-// Number.MAX_SAAFE_INTEGER
-// console.log(Number.MAX_SAFE_INTEGER) // 9007199254740991
-// console.log(Math.pow(2, 53)-1) // 9007199254740991
-// console.log(Number.MIN_SAFE_INTEGER) // -9007199254740991
-// const negative = -42
+// const person = {
+//   name: 'Andrii',
+//   age: 26,
+//   isProgrammer: true,
+//   languages: ['ru', 'en', 'de'],
+//   'complex key': 'Complex value',
+//   ['key_'+(1+3)]: 'Computed Key', //key_4
+//   // greet: function(){
+//   // }
+//   greet() {
+//     console.log('greet from person')
+//   }
+// }
+
+// console.log(person.name); //Andrii
+// const ageKey = 'age'
+// console.log(person['age']);//26
+// console.log(person[ageKey]);//26
+// console.log(person['complex key']);//Complex value
+
+// console.log(person);
+// person.greet()
+
+// person.age++
+// person.languages.push('by')
+// console.log(person);
+// person['key_4'] = undefined
+
+// delete person['key_4']
+// console.log(person['key_4']);//undefined
+
+//деструктуризация обьекта
+
+// const name = person.name
+// const age = person.age
+// const languages = person.languages
+// console.log(name, age, languages); //Andrii – 26 - ['ru', 'en', 'de']
+
+// const {name, age: personAge = 10, languages} = person
+// console.log(name, personAge, languages);
 
 
-// console.log('Number.MAX_VALUE: ', Number.MAX_VALUE) // 1.7976931348623157e+308
-// console.log('Number.MIN_VALUE: ', Number.MIN_VALUE) // 5e-324
-// console.log('POSITIVE_INFINITY: ', Number.POSITIVE_INFINITY) // // Infinity
-// console.log('NEGATIVE_INFINITY: ', Number.NEGATIVE_INFINITY) // -Infinity
-// console.log('2/0: ', 2 / 0) // Infinity
-// console.log(Number.NaN)
-// console.log(typeof NaN) // number
-// console.log(2 / undefined) // NaN
-// const weid = 2 / undefined
-// console.log(Number.isNaN(weid)) // true
-// console.log(Number.isNaN(42)) // false
-// console.log(Number.isFinite(Infinity)) // false
-// console.log(Number.isFinite(42)) // true
-
-// 1:58:24
+03:56:45
