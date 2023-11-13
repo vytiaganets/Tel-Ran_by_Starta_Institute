@@ -81,13 +81,28 @@
 // const [a, b, c, d] = arr
 // a = 0; b = 1; c = 2; d = 3
 //
-let id = Symbol("id")
-let secondId = Symbol("id")
-const user = {
-  id: 1,
-  [id]: 2,
-  [secondId]: 3
-}
+// let id = Symbol("id")
+// let secondId = Symbol("id")
+// const user = {
+//   id: 1,
+//   [id]: 2,
+//   [secondId]: 3
+// }
 
-console.log(user[id]) // 2
-console.log(user[secondId]) //3
+// console.log(user[id]) // 2
+// console.log(user[secondId]) //3
+
+//ссылочный тип
+
+//let obj = {a:1, b:2} //в переменной obj хранится адрес до этого обьекта || пр. 0x004aa0dgh
+//const secondObj = obj // в переменной secondObj тоже хранится адрес до этого обьекта || пр. 0x004aa0dgh
+//secondObj.a=5 // адресс не можем менят, но значение можно менять
+//obj = [1, 2, 3] // переопределение значения переменной obj || пр. || пр. 0x003SD54G
+//console.log(secondObj, obj) //{a:1, b:2} [1, 2, 3]
+
+//let thirdObj = {...secondObj} // клонирование обьекта с помощью оператора spread
+//console.log(thirdObj)//{a:1, b:2} 
+
+//let obj4 = structuredClone(secondObj) // клонирование обьекта с помощью  функции structuredClone
+//console.log(obj4);//{a:1, b:2} 
+//console.log(obj === secondObj) // false
