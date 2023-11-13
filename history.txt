@@ -1,0 +1,7 @@
+   0 nano
+   1 history>history.txt;export_file history.txt
+   2 mkdir -p /opt/171023_morning/chumak
+   3 cd /opt/171023_moning/
+   4 ls
+   5 cd /opt/171023_morning
+
