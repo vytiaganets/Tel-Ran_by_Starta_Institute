@@ -1,0 +1,169 @@
+1. Создайте объект, в котором используются Symbol в качестве свойств. Попробуйте получить доступ к этим свойствам.
+
+2. Напишите функцию, которая принимает объект и добавляет к нему новое свойство с использованием Symbol в качестве ключа.
+
+3. Создайте класс, в котором используются Symbol в качестве приватных свойств.
+
+4. Реализуйте функцию, которая принимает два значения и возвращает Symbol, если они равны, и undefined в противном случае.
+
+5. Напишите функцию, которая принимает массив и возвращает новый массив, содержащий только уникальные элементы с использованием Symbol.
+
+6.Создайте объект, который представляет собой словарь с поддержкой перевода на различные языки. Используйте Symbol в качестве ключей для каждого языка.
+
+7. Реализуйте функцию для сравнения двух объектов с использованием Symbol для предотвращения конфликта существующих свойств.
+
+8. Напишите функцию, которая принимает строку и возвращает объект, содержащий количество каждого символа, включая Symbol в качестве ключей для уникальных символов.
+
+9. Создайте объект, представляющий собой конфигурацию приложения, используя Symbol для определения различных настроек.
+
+10.Реализуйте функцию, которая генерирует уникальный идентификатор с использованием Symbol при каждом вызове.
+
+Symbol предоставляет уникальные значения, что полезно для создания "скрытых" свойств и предотвращения конфликтов имен.
+
+
+
+
+Решения:
+
+1. Создание объекта с использованием Symbol в качестве свойств:
+
+const myObject = {
+  [Symbol('property1')]: 'value1',
+  [Symbol('property2')]: 'value2'
+};
+
+
+2. console.log(myObject[Symbol('property1')]); // undefined, так как каждый символ уникален
+Добавление Symbol в качестве ключа к объекту:
+
+function addProperty(obj, value) {
+  const newSymbol = Symbol('newProperty');
+  obj[newSymbol] = value;
+}
+
+const myObject = {};
+addProperty(myObject, 'Hello, Symbol!');
+console.log(myObject[Object.getOwnPropertySymbols(myObject)[0]]); // Hello, Symbol!
+
+
+3. Использование Symbol в качестве приватных свойств класса:
+
+class MyClass {
+  #privateProperty = Symbol('private');
+
+  getPrivateProperty() {
+    return this[#privateProperty];
+  }
+}
+
+const instance = new MyClass();
+console.log(instance.getPrivateProperty()); // undefined
+
+Это работает только при использовании актуальной версии JavaScript, которая поддерживает приватные свойства класса.
+
+
+4. Реализация функции сравнения с использованием Symbol:
+
+function compareValues(value1, value2) {
+  const symbol = Symbol('isEqual');
+  if (value1 === value2) {
+    return symbol;
+  }
+}
+
+const result = compareValues(42, 42);
+console.log(result); // Symbol(isEqual)
+
+
+5. Функция для получения массива уникальных элементов с использованием Symbol:
+
+function getUniqueElements(arr) {
+  const uniqueArray = [];
+  const uniqueSymbol = Symbol('unique');
+
+  arr.forEach(item => {
+    if (!uniqueArray.includes(item)) {
+      uniqueArray.push(item);
+      uniqueArray[uniqueSymbol] = true;
+    }
+  });
+
+  return uniqueArray;
+}
+
+const originalArray = [1, 2, 2, 3, 4, 4, 5];
+const uniqueArray = getUniqueElements(originalArray);
+console.log(uniqueArray); // [1, 2, 3, 4, 5, Symbol(unique): true]
+
+
+6. Создание объекта-словаря с использованием Symbol для разных языков:
+
+const dictionary = {
+  [Symbol('en')]: 'Hello',
+  [Symbol('fr')]: 'Bonjour',
+  [Symbol('es')]: 'Hola'
+};
+
+console.log(dictionary[Symbol('en')]); // undefined
+console.log(dictionary[Object.getOwnPropertySymbols(dictionary)[0]]); // Hel
+
+
+7. Реализация функции сравнения объектов с использованием Symbol:
+
+function compareObjects(obj1, obj2) {
+  const symbol = Symbol('isEqual');
+  if (JSON.stringify(obj1) === JSON.stringify(obj2)) {
+    return symbol;
+  }
+}
+
+const object1 = { prop: 'value' };
+const object2 = { prop: 'value' };
+const result = compareObjects(object1, object2);
+console.log(result); // Symbol(isEqual)
+
+
+8. Функция, возвращающая объект с количеством символов в строке:
+
+function countCharacters(str) {
+  const charCount = {};
+
+  for (const char of str) {
+    charCount[char] = (charCount[char] || 0) + 1;
+  }
+
+  charCount[Symbol('uniqueCount')] = Object.keys(charCount).length;
+
+  return charCount;
+}
+
+const result = countCharacters('hello');
+console.log(result); // { h: 1, e: 1, l: 2, o: 1, Symbol(uniqueCount): 4 }
+
+
+9. Объект конфигурации приложения с использованием Symbol:
+
+const config = {
+  [Symbol('apiEndpoint')]: 'https://api.example.com',
+  [Symbol('timeout')]: 5000
+};
+
+console.log(config[Symbol('apiEndpoint')]); // undefined
+console.log(config[Object.getOwnPropertySymbols(config)[0]]); // https://api.example.com
+
+
+10. Функция генерации уникального идентификатора с использованием Symbol:
+
+function generateUniqueId() {
+  return Symbol('uniqueId');
+}
+
+const id = generateUniqueId();
+console.log(id); // Symbol(uniqueId)
+
+Эти примеры демонстрируют применение Symbol в различных сценариях в JavaScript.
+
+
+
+
+
