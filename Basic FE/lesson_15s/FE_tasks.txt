@@ -1,0 +1,20 @@
+https://chat.openai.com/ - Платформа для общения с искусственным интеллектом, что предоставляет отличную практику в общении с ИИ и изучении его возможностей.
+
+https://www.w3schools.com/ - Справочник по различным языкам программирования и веб-технологиям, включая HTML, CSS, JavaScript и многие другие.
+
+https://code.mu/ru/javascript/tasker/stager/ - Набор задач по JavaScript разной сложности, который поможет вам закрепить свои знания и навыки.
+
+https://code.mu/ru/markup/manual/html/ - Справочник по HTML, который поможет в изучении основ создания веб-страниц.
+
+https://code.mu/ru/markup/manual/css/ - Справочник по CSS, который позволит вам освоить каскадные таблицы стилей для визуального оформления веб-страниц.
+
+https://htmlbase.ru/exercises - Здесь представлены задачи по HTML и CSS для практики.
+
+http://www.itmathrepetitor.ru/zadachi-po-html-i-css/ - Еще один набор задач по HTML и CSS для практики.
+
+http://www.itmathrepetitor.ru/zadachi-po-javascript-iz-knigi-vyrazitelnyjj-javascript/ - Задачи по JS для интервью
+
+https://learn.javascript.ru/quiz - Тестирование знаний по JS
+
+https://www.w3resource.com/javascript-exercises/ - Набор задач по JavaScript разной сложности
+
