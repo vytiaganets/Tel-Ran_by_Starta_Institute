@@ -90,3 +90,15 @@
 // for (let i = 0; i < 5; i++) {
 //   imgElem[i].setAttribute("src", "https://www.dice.com/binaries/medium/content/gallery/dice/insights/2021/03/shutterstock_1536573389.jpg")
 // }
+
+// =================Задача 5=================
+
+// Написать скрипт, который находит все ссылки на странице и формирует массив со всеми адресами. В итоге этот массив необходимо вывести в консоль
+
+const aLinks = document.querySelectorAll("a")
+const hrefValues = []
+for(let i = 0; i < aLinks.length; i++){
+  const hrefValue = aLinks[i].href
+hrefValues.push(hrefValue)
+}
+console.log(hrefValues);
