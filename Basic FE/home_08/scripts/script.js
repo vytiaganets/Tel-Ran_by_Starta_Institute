@@ -59,8 +59,24 @@ for (let i = 0; i < person.length; i++) {
 //=======================Задача 4 дополнительно=======================
 //1 - Рассматривать кейс, в котором создается div с картинкой и ссылкой внутри.
 
+const blockDiv1 = document.querySelector("#img1")
+
+const imgElem = document.createElement("img") // <img>
+imgElem.src = '/Basic FE/home_08/media/lev.jpg'
+imgElem.alt = 'Lev'
+
+const aElem = document.createElement("a") // <a></a>
+
+aElem.innerText = 'Click me' // <a href = {aHref}>Click me</a>
+aElem.href = 'https://www.zoodvorec.cz/images/preview/1664970478.jpg'
+blockDiv1.append(imgElem, aElem)
 
 
+const a=document.createElement('a');
+a.href='http://www.google.com';
+const image = document.getElementById('myPicture').getElementsByTagName('img')[0];
+b=a.appendChild(image);
+document.getElementById('myPicture').appendChild(a);
 //=======================Задача 5 дополнительно=======================
 //2 - Создать функцию, которая получает ссылку на картинку и ссылку на сайт и возвращает элемент.
 
