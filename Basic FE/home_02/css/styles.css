@@ -22,8 +22,12 @@ th {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   border: 1px solid gray;
+  
 }
-
+/* td,
+tr {
+  text-align: center;
+} */
 ul{
   margin-top: 10px;
   padding-left: 30px;
@@ -31,4 +35,11 @@ ul{
 .list{
   font-size: 32px;
   margin-left: 20px;
+}
+
+img{
+  width: 48px;
+  height: 32px;
+  object-fit: cover;
+  object-position: bottom;
 }
