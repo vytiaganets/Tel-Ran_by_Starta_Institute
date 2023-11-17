@@ -1,6 +1,8 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+  font-size: 18px;
 }
 
 table {
@@ -25,4 +27,8 @@ th {
 ul{
   margin-top: 10px;
   padding-left: 30px;
+}
+.list{
+  font-size: 32px;
+  margin-left: 20px;
 }
