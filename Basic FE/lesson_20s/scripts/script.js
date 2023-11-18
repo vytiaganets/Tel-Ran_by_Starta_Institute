@@ -267,6 +267,47 @@
 // console.log(doubleTripleNumbers(array1)); // [9, 4, 12] (3)
 
 //========================Задача 13========================
-let str = 'Hello'
-str.length
-max = 
+// let str = 'Hello'
+// str.length
+// max = 
+
+// Колбек - это функция, которая используется как аргумент внутри другой функции
+// function handler(a, callback){
+//   let b = callback()
+//   console.log(a**b);
+
+// }
+// handler(2, () => 5)// 32
+// handler(2, () => 10)// 1024
+
+// Array.prototype.filter2 = function(callback) {
+// let newArray = []
+// for(let i= 0; i< this.length; i++){
+//   if(callback(this[i], i, this)){
+//     newArray.push(this[i])
+//   }
+// }
+// return newArray
+// }
+// let array = [1,2,3,4,5,6,7,8,9,10]
+
+// let result = array.filter((elem, ind) => elem > 9 && ind === 9)
+// let result2 = array.filter2((elem, ind) => elem > 9 && ind === 9)
+// let result = aray
+
+// прототипирование
+
+// console.log(result); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] (10)
+
+function filter2(array, callback){
+let newArrray = []
+for(let i=0; i<array.length; i++){
+  if(callback(array[i], i, array)){
+    newArrray.push(array[i])
+  }
+}
+return newArray
+}
+let array = [1,2,3,4,5,6,7,8,9,10]
+let result = filter2(array, (elem) => elem%2 ===0)
+console.log(result);
