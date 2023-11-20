@@ -225,22 +225,22 @@ const products = [
 <p>Unit prrice: 4500</p>
 <p>Count: 15</p> --> */
 
-const productDiv = document.querySelector(".products")
+const productsDiv = document.querySelector(".products")
 let totalPrice = 0
 let totalCount = 0
 for(let i=0; i<products.length; i++){
   const {title, unit_price, count} = products[i]
   const pTitle = document.createElement("p")
-  pTitle.innerText = 'Product name: ${title}'
+  pTitle.innerText = `Product name: ${title}`
   const pUnitPrice = document.createElement("p")
-  pUnitPrice.innerText = 'Product name: ${unit_price}'
+  pUnitPrice.innerText = `Product name: ${unit_price}`
   const pCount = document.createElement("p")
-  pCount.innerText = 'Count: ${count}'
+  pCount.innerText = `Count: ${count}`
 
   const product = document.createElement("div")
-  productDiv.append(pTitle, pUnitPrice, pCount)
+  product.append(pTitle, pUnitPrice, pCount)
 
-  productDiv.append(product)
+  productsDiv.append(product)
 
   totalPrice += unit_price * count
   totalCount += count
@@ -248,8 +248,11 @@ for(let i=0; i<products.length; i++){
 }
 
 const pTotalPrice = document.createElement("p")
-pTotalPrice.innerText = 'Total price: ${totalPrice}'
+pTotalPrice.innerText = `Total price: ${totalPrice}`
 const pTotalCount = document.createElement("p")
-pTotalCount.innerText = 'Total Count: ${totalCount}'
-
+pTotalCount.innerText = `Total Count: ${totalCount}`
+// after добавить элементы после узла
+// before добавить элементы до узла
 productsDiv.after(pTotalCount, pTotalPrice)
+
+// \n символ новой строки
