@@ -126,3 +126,130 @@ id name = #image
 //   divLinks.append(aElem, br)
 
 // }
+
+//===========Задача 6===========
+//Рассматриваем кейс, в котором создается div с картинкой и ссылкой внутри. 
+// const imgSrc = prompt("Введите ссылку на картинку")
+// const aHref = prompt("Введите ссылку на сайт")
+
+// const imgElem = document.createElement("img") // <img>
+// imgElem.src = imgSrc
+// imgElem.alt = 'Post image' // <img src={imgSrc} alt='Post image'>
+
+// const aElem = document.createElement("a") // <a></a>
+// aElem.href = aHref // <a href={aHref}></a>
+// aElem.innerText = 'Click me' // <a href={aHref}>Click me</a>
+
+// const divElem = document.createElement("div") // <div></div>
+// divElem.append(imgElem, aElem) 
+// //  <div>
+// //    <img src={imgSrc} alt='Post image'>
+// //    <a href={aHref}>Click me</a>
+// //  </div>
+
+// const divContainer = document.querySelector(".container")
+// divContainer.append(divElem)
+
+//===========Задача 7===========
+//Создаем функцию, которая получает ссылку на картинку и ссылку на сайт и возвращает элемент. 
+
+ 
+// function createPostElem(imgSrc, aHref) { 
+//   const imgElem = document.createElement("img") // <img> 
+//   imgElem.src = imgSrc 
+//   imgElem.alt = 'Post image' // <img src={imgSrc} alt='Post image'> 
+  
+//   const aElem = document.createElement("a") // <a></a> 
+//   aElem.href = aHref // <a href={aHref}></a> 
+//   aElem.innerText = 'Click me' // <a href={aHref}>Click me</a> 
+  
+//   const divElem = document.createElement("div") // <div></div> 
+//   divElem.append(imgElem, aElem)  
+//   //  <div> 
+//   //    <img src={imgSrc} alt='Post image'> 
+//   //    <a href={aHref}>Click me</a> 
+//   //  </div> 
+  
+//   return divElem 
+// } 
+  
+// const imgSrc = prompt("Введите ссылку на картинку") 
+// const aHref = prompt("Введите ссылку на сайт") 
+  
+// const divElem = createPostElem(imgSrc, aHref) 
+  
+// const divContainer = document.querySelector(".container") 
+// divContainer.append(divElem) 
+
+
+//===========Задача 8===========
+//Создать множество карточек с товарами (на основе массива с объектами. У объекта свойства title, unit_price, count)  
+//===========Задача 9===========
+//Написать скрипт, который выводит карточки с товарами в интерфейс (на основе массива с объектами. У объекта свойства title, unit_price, count), а внизу выводится итоговая сумма товаров и их количество.  
+ 
+
+const products = [
+  {
+      title: "bicycle",
+      unit_price: 45000,
+      discount: 10,
+      count: 15
+  },
+  {
+      title: "roller-skates",
+      unit_price: 15000,
+      discount: 5,
+      count: 4
+  },
+  {
+      title: "kick scooter",
+      unit_price: 10000,
+      discount: 30,
+      count: 5
+  },
+  {
+      title: "skis",
+      unit_price: 25000,
+      discount: 10,
+      count: 12
+  },
+  {
+      title: "skate",
+      unit_price: 10000,
+      discount: 0,
+      count: 1
+  }
+]
+
+/* <p>Product name: bicycle</p>
+<p>Unit prrice: 4500</p>
+<p>Count: 15</p> --> */
+
+const productDiv = document.querySelector(".products")
+let totalPrice = 0
+let totalCount = 0
+for(let i=0; i<products.length; i++){
+  const {title, unit_price, count} = products[i]
+  const pTitle = document.createElement("p")
+  pTitle.innerText = 'Product name: ${title}'
+  const pUnitPrice = document.createElement("p")
+  pUnitPrice.innerText = 'Product name: ${unit_price}'
+  const pCount = document.createElement("p")
+  pCount.innerText = 'Count: ${count}'
+
+  const product = document.createElement("div")
+  productDiv.append(pTitle, pUnitPrice, pCount)
+
+  productDiv.append(product)
+
+  totalPrice += unit_price * count
+  totalCount += count
+
+}
+
+const pTotalPrice = document.createElement("p")
+pTotalPrice.innerText = 'Total price: ${totalPrice}'
+const pTotalCount = document.createElement("p")
+pTotalCount.innerText = 'Total Count: ${totalCount}'
+
+productsDiv.after(pTotalCount, pTotalPrice)
