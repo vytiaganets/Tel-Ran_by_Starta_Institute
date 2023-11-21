@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  padding: 20px;
+}
+
+.nums_cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.nums_cards .card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  width: 150px;
+  height: 150px;
+  background-color: blueviolet;
+  cursor: pointer;
+  color: beige;
+  transition: all 0.5s 0s;
+}
+
+.nums_cards .card:hover{
+  box-shadow: 5px 5px 7px 9px black;
+}
+
+.nums_cards .active{
+  background-color: cyan;
+  color: blueviolet;
+}

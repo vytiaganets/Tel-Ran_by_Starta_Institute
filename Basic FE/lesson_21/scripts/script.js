@@ -116,31 +116,31 @@
 //   pCounter.innerText = counter
 // })
 // 2 способ
-const button1 = document.createElement('button');
-button1.setAttribute('type', 'button');
-button1.classList.add('btn1');
-button1.textContent = '+';
-const button2 = document.createElement('button');
-button2.setAttribute('type', 'button');
-button2.classList.add('btn2');
-button2.textContent = '-';
-document.body.append(button1, button2);
-// const printBtnPlus = document.querySelector(".btn1")
-// const printBtnMinus = document.querySelector(".btn2")
+// const button1 = document.createElement('button');
+// button1.setAttribute('type', 'button');
+// button1.classList.add('btn1');
+// button1.textContent = '+';
+// const button2 = document.createElement('button');
+// button2.setAttribute('type', 'button');
+// button2.classList.add('btn2');
+// button2.textContent = '-';
+// document.body.append(button1, button2);
+// // const printBtnPlus = document.querySelector(".btn1")
+// // const printBtnMinus = document.querySelector(".btn2")
 
-const pCounter = document.querySelector(".counter")
+// const pCounter = document.querySelector(".counter")
 
-let counter = 0
+// let counter = 0
 
-button1.addEventListener("click", function(){
-  counter++
-  pCounter.innerText = counter
-})
+// button1.addEventListener("click", function(){
+//   counter++
+//   pCounter.innerText = counter
+// })
 
-button2.addEventListener("click", function(){
-  counter--
-  pCounter.innerText = counter
-})
+// button2.addEventListener("click", function(){
+//   counter--
+//   pCounter.innerText = counter
+// })
 
 
 // 3 способ
@@ -159,5 +159,62 @@ button2.addEventListener("click", function(){
 //   pCounter--
 //  console.log(pCounter);
 // })
-// document.body. append(btnPlus, btnMinus)
+// document.body.append(btnPlus, btnMinus)
 
+//===================== event object ========================
+// представляет более подробную информацию про событие
+// const btnElem = document.createElement("buton")
+
+// btnElem.innerText = "Click"
+// btnElem.addEventListener("click", function (event){
+//   console.log('clicked');
+//   console.log(event);
+// })
+// document.body.appendChild(btnElem)
+
+// // keydown 
+// document.addEventListener("keydown", function () {
+//   console.log("key pressed");
+// })
+
+// document.addEventListener("keyup", function () {
+//   console.log("key up");
+// })
+
+//===================== Task 3 ====================
+// Повесить обработчик на нажатие клавиш клавиатуры и при вводе букв добавить их в параграф. Для решения этой задачи понадобится использование объекта event. 
+
+
+// const pElem = document.querySelector(".content")
+// document.addEventListener("keydown", function (e) {
+//   //   console.log("key pressed");
+//   console.log(e);
+//   pElem.innerText += e.key
+//   if (e.key === "Tab") {
+//     pElem.innerText += "   "
+//   } else if (e.key === 'Backspace') {
+//     //"hello" => ["h", "e", "l", "l", "o"]
+//     let letterArr = pElem.innerText.split("")
+//     letterArr.pop() // ["h", "e", "l", "l", "o"]
+//     pElem.innerText = letterArr.join("") // ["h", "e", "l", "l"] => "hell"
+//   } else {
+//     pElem.innerText += e.key
+//   }
+// })
+
+//===================== Task 4 ====================
+
+//Написать программу, которая формирует на основе массива строк множество параграфов и выводит их в интерфейс. 
+//При клике на параграф текст должен меняться на звездочки 
+const words = ["Lorem", "ipsum", "dolor", "sit", "amet", "consectetur,", "adipisicing", "elit."]
+
+for (let i = 0; i <= words.length; i++) {
+  //console.log(words[i]);
+  const pElem = document.createElement("p")
+  pElem.innerText = words[i]
+  document.body.append(pElem)
+
+  pElem.addEventListener("click", function () {
+    pElem.innerText = "*****"
+  })
+}
