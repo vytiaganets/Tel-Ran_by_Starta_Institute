@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+}
+
+/* https://www.figma.com/file/c8FlmkTHbSRyPgCeLEGdBF/Untitled-(Copy)?type=design&node-id=1-2&mode=design&t=Vt3SEu9ShTOnO2fM-0 */
+.product_form_container {
+  width: 100%;
+  padding: 140px 240px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#product_form {
+  background-color: #34495E;
+  padding: 77px 150px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  /*align-items: center; */
+}
+
+#product_form input {
+  background-color: #D9D9D9;
+  border: none;
+  padding: 10px 35px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+#product_form input::placeholder {
+  font-family: 'Inter', 'sans-serif';
+  color: black;
+}
+
+#product_form input:first-child {
+  margin-bottom: 36px;
+}
+
+#product_form .product_price_input {
+  margin-bottom: 122px;
+}
+
+#product_form button {
+  background-color: #27AE60;
+  color: white;
+  font-size: 25px;
+  font-family: 'Inter', 'sans-serif';
+  font-weight: 400;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.products_list_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+  gap: 30px
+
+}
+
+
+.products_list_container .product_card {
+  width: 70%;
+  background-color: #34495E;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 60px;
+  border-radius: 20px;
+  color: white;
+  font-size: 25px;
+  font-family: 'Inter', 'sans-serif';
+  font-weight: 400;
+  cursor: pointer;
+  transition:  all 0.2 0s linear;
+}
+
+.products_list_container .product_card:hover{
+  box-shadow: 8px 8px 20px 8px black;
+  transform: translate(-5px, -5px);
+}
