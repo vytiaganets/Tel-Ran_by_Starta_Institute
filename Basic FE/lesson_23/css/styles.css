@@ -11,7 +11,7 @@ body {
 /* https://www.figma.com/file/c8FlmkTHbSRyPgCeLEGdBF/Untitled-(Copy)?type=design&node-id=1-2&mode=design&t=Vt3SEu9ShTOnO2fM-0 */
 .product_form_container {
   width: 100%;
-  padding: 140px 240px 0;
+  /* padding: 140px 240px 0; */
   display: flex;
   justify-content: center;
   align-items: center;
