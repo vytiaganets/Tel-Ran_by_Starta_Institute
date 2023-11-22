@@ -37,7 +37,7 @@ formElem.addEventListener("submit", function (e) {
   // console.log(namePriceElem.value);
   const product = {
     title: productNameInput.value,
-    prrice: +productPriceInput.value
+    price: +productPriceInput.value
   }
   products.push(product)
   rerender() // вызов функции ререндеринга
