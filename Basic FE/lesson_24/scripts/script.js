@@ -30,18 +30,7 @@
 const formElem = document.querySelector("#product_form")
 const productNameInput = document.querySelector(".product_name_input")
 const productPriceInput = document.querySelector(".product_price_input")
-
-const products = [{
-    title: "Mac",
-    price: 1000
-  },
-  {
-    title: "Macbook",
-    price: 10000
-  }
-]
-rerender()
-//const products = []
+const products = []
 formElem.addEventListener("submit", function (e) {
   e.preventDefault()
   // console.log(nameNameElem.value);
@@ -109,25 +98,9 @@ function rerender() {
   for (let i = 0; i < products.length; i++) {
     //console.log(products[i])
     const productCardElem = createProductCard(products[i])
-    productCardElem.addEventListener("dblclick", function () { //*** 
+    productCardElem.addEventListener("dblclick", function(){ //*** 
       console.log(products[i].title);
-
     })
-    const btnRemove = createRemoveBtn() //06
-    productCardElem.append(btnRemove) //06
-
-
-    btnRemove.addEventListener("click", function () {
-      //splice(a, b ... c)
-      // a индекс начального элемента
-      // b кол-во элементов которые нужно удалить начания с индекса а
-      // c необязательный параметр если нужно заменить какими то другими значениями
-
-      products.splice(i, 1) // индекс продукта в массиве ptoducts
-      rerender()
-    })
-
-
     productsListDiv.append(productCardElem)
   }
 }
@@ -135,17 +108,3 @@ function rerender() {
 //============================= Задачал 05*** ==========================
 // Доработать rerender таким образом, чтобы при двойном клике по карточке в консоль выводилось название товара. 
 
-//============================= Задачал 06 ==========================
-// https://www.figma.com/file/c8FlmkTHbSRyPgCeLEGdBF/Untitled-(Copy)?type=design&node-id=1-2&mode=design&t=JeqhapMw7vdrGo1s-0 
-// Добавить функцию, которая возвращает кнопку в виде крестика в красном кружке. 
-// createRemoveBtn(){}
-/* <button class="remove_btn">X</button> */
-//============================= Задачал 06 ==========================
-// Добавить в rerender добавление крестика в верхнем правом углу карточки товара. 
-
-function createRemoveBtn() { //05
-  const button = document.createElement('button');
-  button.innerText = 'X'
-  button.classList.add('remove_btn');
-  return button
-}
