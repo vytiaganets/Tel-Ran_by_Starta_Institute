@@ -31,17 +31,17 @@ const formElem = document.querySelector("#product_form")
 const productNameInput = document.querySelector(".product_name_input")
 const productPriceInput = document.querySelector(".product_price_input")
 
-const products = [{
-    title: "Mac",
-    price: 1000
-  },
-  {
-    title: "Macbook",
-    price: 10000
-  }
-]
-rerender()
-//const products = []
+// const products = [{
+//     title: "Mac",
+//     price: 1000
+//   },
+//   {
+//     title: "Macbook",
+//     price: 10000
+//   }
+// ]
+// rerender()
+const products = []
 formElem.addEventListener("submit", function (e) {
   e.preventDefault()
   // console.log(nameNameElem.value);
@@ -102,10 +102,20 @@ function createProductCard({
 
 // Разработать функцию rerender. Эта функция очищает контейнер с карточками и создает множество карточек с товарами из массива. Настроить rerender при добавлении нового продукта. 
 
-const productsListDiv = document.querySelector(".products_list_container")
+
 
 function rerender() {
+  const productsListDiv = document.querySelector(".products_list_container")
   productsListDiv.innerHTML = "" // очищаем контейнер с карточками
+
+
+  if(products.length === 0){
+
+    const pElem = document.createElement('p')
+    pElem.innerText = "Товаров нет"
+    pElem.classList.add("empty_msg")
+    productsListDiv.append(pElem)
+  }
   for (let i = 0; i < products.length; i++) {
     //console.log(products[i])
     const productCardElem = createProductCard(products[i])
@@ -140,7 +150,7 @@ function rerender() {
 // Добавить функцию, которая возвращает кнопку в виде крестика в красном кружке. 
 // createRemoveBtn(){}
 /* <button class="remove_btn">X</button> */
-//============================= Задачал 06 ==========================
+//============================= Задачал 07 ==========================
 // Добавить в rerender добавление крестика в верхнем правом углу карточки товара. 
 
 function createRemoveBtn() { //05
@@ -149,3 +159,6 @@ function createRemoveBtn() { //05
   button.classList.add('remove_btn');
   return button
 }
+
+//============================= Задачал 08 ==========================
+rerender()
