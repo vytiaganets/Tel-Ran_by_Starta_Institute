@@ -1,0 +1,10 @@
+   0 mv readme.txt newreadme.txt
+   1 ls -l
+   2 touch bench.py
+   3 ls -l
+   4 cd /opt/Temu/
+   5 ls /bin
+   6 ls -l /
+   7 chmom 000 tm3
+   8 cd /tmp/
+   9 history > history_23_11_23.txt;export_file history_23_11_23.txt

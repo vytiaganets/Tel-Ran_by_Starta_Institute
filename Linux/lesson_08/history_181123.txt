@@ -1,0 +1,1000 @@
+    8  ls -al /
+    9  cd /root/
+   10  exit
+   11  pwd
+   12  sudo
+   13  pwd
+   14  cd
+   15  pwd
+   16  ls -al
+   17   exit
+   18  ls
+   19  cd /opt/220823_morning/Ashurov/
+   20  ls
+   21  mkdir tmp
+   22  ls
+   23  cd tmp/
+   24  top
+   25  exit
+   26  df -h
+   27  crontab -e
+   28  exit
+   29  top
+   30  cd .ssh
+   31  ls -al
+   32  cat id_rsa.pub
+   33  cd ssh
+   34  cd .ssh
+   35  ls -al
+   36  cat id_rsa.pub
+   37  cd /opt/190923_morning/KasprukE
+   38  cd /opt/220823_morning/
+   39  ls -l
+   40  cd Grigorchenko/
+   41  ls -l
+   42  cat script5.sh
+   43  cat taskALEX.sh 
+   44  cd /opt/220823_morning/litvinova
+   45  nano taskOLHA.sh
+   46  chmod 744 taskOLHA.sh
+   47  ./taskOLHA.sh
+   48  nano taskOLHA.sh
+   49  ./taskOLHA.sh
+   50  cd /opt/220823_morning/litvinova
+   51  ls -l
+   52  cd 
+   53  cd /opt/220823_morning/Grigorchenko
+   54  ls -l
+   55  cd hwarchive/
+   56  ls -l
+   57  cd /opt/220823_morning/litvinova
+   58  ls -l
+   59  cd hwarchive/
+   60  ls -l
+   61  cd /opt/220823_morning/litvinova
+   62  ./taskOLHA.sh 
+   63  cd hwarchive/
+   64  ls-l
+   65  ls -l
+   66  cd /opt/
+   67  ls
+   68  mkdir docker test
+   69  rm -rf dockertest/
+   70  mkdir dockertest
+   71  cd dockertest/
+   72  git clone https://github.com/aliaskov/docker-principles.git
+   73  ls -a
+   74  cd docker-principles/
+   75  ls -a
+   76  java -jar Main.jar
+   77  cat  HelloWorld/Main.class
+   78  rm -rf *
+   79  ls -a
+   80  rm -rf .git/
+   81  git clone  https://github.com/aliaskov/docker-principles.git
+   82  cd docker-principles/
+   83  ды -ф
+   84  ls -l
+   85  cat Dockerfile 
+   86  cat app/Dockerfile 
+   87  ss tuln
+   88  ss -tuln
+   89  cat app/Dockerfile 
+   90  ss -tul
+   91  cat app/Dockerfile 
+   92  docker build app
+   93  docker зы
+   94  docker ps
+   95  vi app/Dockerfile 
+   96  docker build app
+   97  vi app/Dockerfile 
+   98  docker tag ac992e392d04 helloworldfromcontainer
+   99  docker image list
+  100  docker run --name javatest -d helloworldfromcontainer
+  101  docker ps
+  102  cat /etc/os-release 
+  103  docker exec -it javatest
+  104  docker exec -it javatest bash
+  105  docker ps
+  106  docker log javatest
+  107  docker logs javatest
+  108  docker ps
+  109  docker exec -it javatest bash
+  110  htop
+  111  docker ps
+  112  docker stop 2a002e0087f0
+  113  docker ps
+  114  docker stop 0a4ec5cddb42
+  115  docker ps
+  116  docker stop 4012c5337d59
+  117  docker ps
+  118  docker run --name javatest -d helloworldfromcontainer
+  119  docker start javatest
+  120  docker exec -it javatest bash
+  121  docker logs javatest
+  122  docker restart javatest
+  123  docker ps
+  124  docker kill 4012c5337d59
+  125  docker start javatest
+  126  docker exec -it javatest bash
+  127  docker kill 4012c5337d59
+  128  cd ..
+  129  docker ps
+  130  cd ..
+  131  mkdir 06_11
+  132  cd 06_11/
+  133  exit
+  134  mkdir dock
+  135  cd dock/
+  136  git clone git@github.com:iohichu/docker-principles.git
+  137  cd docker-principles/
+  138  ls -la
+  139  cat Dockerfile 
+  140  ls app/
+  141  java -jar Main.jar 
+  142  cat HelloWorld/Main.class 
+  143  cat HelloWorld/Main.java 
+  144  nano HelloWorld/Main.java 
+  145  git push
+  146  cat app/Dockerfile 
+  147  ss -tul
+  148  docker ps
+  149  docker build app
+  150  docker ps
+  151  vi app/Dockerfile 
+  152  docker build app
+  153  docker image list
+  154  exit
+  155  pwd
+  156  docker ps
+  157  docker inage list
+  158  docker image list
+  159  exit
+  160  docker ps
+  161  exit
+  162  mkdir dock
+  163  cd dock
+  164  git clone https://github.com/iohichu/docker-principles
+  165  ls 
+  166  cd docker-principles/
+  167  ls -la
+  168  cat docker
+  169  cat Dockerfile 
+  170  ls app/
+  171  cat app/Main.jar 
+  172  cat HelloWorld/Main.class 
+  173  cat app/Dockerfile 
+  174  cat /etc/os-release 
+  175  cat /proc/cpuinfo 
+  176  cat app/Dockerfile 
+  177  netstat
+  178  ss -tul
+  179  ss --help
+  180  ss -tul
+  181  cat app/Dockerfile 
+  182  java -jar Main.jar
+  183  docker build app
+  184  docker image
+  185  docker images
+  186  vi app/Dockerfile 
+  187  docker build app
+  188  docker images
+  189  docker images -g
+  190  docker images -l
+  191  docker --help
+  192  docker run --name -d testjav ac992e392d04
+  193  docker run --name -d ac992e392d04 javates
+  194  docker run --name=testjava -d ac992e392d04  
+  195  docker images
+  196  docker ps
+  197  docker exec -it testjava bash
+  198  htop
+  199  cd /opt/190923_morning/
+  200  ls
+  201  exit
+  202  vi /opt/old_opt/chumak/tetris.sh
+  203  nano /opt/old_opt/chumak/tetris.sh
+  204  mc
+  205  exit
+  206  ls
+  207  cat /var/spool/mail/ec2-user | wc -l
+  208  vi /var/spool/mail/ec2-user
+  209  cd 180923_evening/MAKSYM_BONDARENKO
+  210  cd 180923_evening/Maksym_BONDARENKO/
+  211  cd 180923_evening/MAKSYM_Bondarenko
+  212  cd 180923_evening/MAKSYM_Bondarenko/
+  213  cd opt/180923_evening/MAKSYM_BONDARENKO
+  214  cd tmp/180923_evening/MAKSYM_BONDARENKO
+  215  java -version
+  216  ls
+  217  ls -l
+  218  cd /opt/280323_morning/ikar-zindo/
+  219  tree
+  220  exit
+  221  ls /opt/190923_morning/
+  222  mkdir /opt/190923_morning/andreev
+  223  exit
+  224  cd /opt/
+  225  ls -al
+  226  cd 190923_morning/
+  227  ls -al
+  228  exit 
+  229  exit
+  230  cd /opt/190923
+  231  cd /opt/190923/
+  232  cd /opt/190923_morning
+  233  cd kryvorotov
+  234  AddUser.sh
+  235  exit
+  236  cd /opt/190923_morning/harbuz/
+  237  ls -al
+  238  cat script3.sh 
+  239  ./script3.sh 
+  240  exit
+  241  cd /opt/
+  242  ls -al
+  243  cd 190923_morning/
+  244  ls -al
+  245  cd andrieichenko/
+  246  ls -al
+  247  cd /opt/280323_morning/ikar-zindo/
+  248  ls -l
+  249  java -jar ShowNumbers.jar 
+  250  java Main.java 
+  251  java -jar ShowNumbers.jar 
+  252  java -v
+  253  java --v
+  254  java -version
+  255  nana Main.java 
+  256  nano Main.java 
+  257  java -jar ShowNumbers.jar 
+  258  ls -l
+  259  cd ShowNumbers/
+  260  ./mvnw package
+  261  mvn clean install
+  262  java -version
+  263  sudo apt update
+  264  EXIT
+  265  exit
+  266  cd /opt/190923_morning/andreev/
+  267  ls -al
+  268  ./calc.sh 
+  269  cat calc.sh 
+  270  ls
+  271  nano /opt/190923_morning/harbuz/script3.sh
+  272  cd /opt/190923_morning/harbuz
+  273  ls
+  274  chmod u+x script3.sh
+  275  script3.sh
+  276  bash script3.sh
+  277  ls
+  278  cat file1.txt
+  279  nano /opt/190923_morning/harbuz/script3.sh
+  280  bash script3.sh
+  281  cat file1.txt
+  282  cat script3.sh
+  283  script3.sh
+  284  ./script3.sh
+  285  sudo ls -la /root
+  286  cd /root
+  287  cd /root/test
+  288  sudo cd /root/test
+  289  ls
+  290  cd /root/test
+  291  sudo ls -la /root
+  292  ls -la
+  293  sudo cat /root/.bash_history
+  294  ls
+  295  vim vlad_script3.sh.save
+  296  ls /etc
+  297  vim /etc/fstab
+  298  htop
+  299  cd /etc/
+  300  cd /tmp
+  301  less Main.jar
+  302  ls | grep Main
+  303  htop
+  304  ls *.jar
+  305  sudo ls *.jar
+  306  cat /etc/motd
+  307  exit
+  308  htop
+  309  nano /tmp/Main.jar
+  310  htop
+  311  cat /etc/motd
+  312  cat /tmp/Main.jar
+  313  cd /opt/280323_morning/ikar-zindo/
+  314  tree
+  315  ls -l
+  316  cd ShowNumbers/
+  317  ls
+  318  tree
+  319  cd out/artifacts/
+  320  ls
+  321  cd ShowNumbers_jar/
+  322  ls
+  323  java -jar ShowNumbers.jar 
+  324  htop
+  325  git update-git-for-windows
+  326  ls -l
+  327  uname -r
+  328  cd ..
+  329  ls -l
+  330  w
+  331  cat /etc/os-release
+  332  htop
+  333  df -h
+  334  ping google.de
+  335  exit
+  336  w
+  337  cat /etc/os-release
+  338  htop
+  339  df -h
+  340  ping google.de
+  341  USERNAME: edu
+  342  SERVER_ADDR: ssh.ab88.pro
+  343  vim ~/.ssh/authorized_keys
+  344  cat /etc/os-release
+  345  vim ~/.ssh/authorized_keys
+  346  cat /etc/os-releas
+  347  htop
+  348  df -h
+  349   ping google.de
+  350   ping amazon.de
+  351   ping google.de
+  352  vim /etc/motd
+  353  htop
+  354  w
+  355  clear
+  356  w
+  357  cat /etc/os-release
+  358  w
+  359  cat /etc/os-release
+  360  htop
+  361  discfree
+  362  disc free
+  363  df -h
+  364  ping
+  365  ping google.com
+  366  ping steam.com
+  367  bash
+  368  w
+  369  cat /etc/os-release
+  370  htop
+  371  df -h
+  372  -h
+  373  df -h
+  374  ping google.de
+  375  ping amazon.de
+  376  ls -l
+  377  cat ~/.ssh/id_rsa.pub
+  378  ls
+  379  rm -rf *.sh
+  380  ls
+  381  rm -rf *.sh.*
+  382  ls
+  383  rm -rf *.*
+  384  ls
+  385  nano .ssh/authorized_keys
+  386  exit
+  387  ps\
+  388  ps 
+  389  ls -la
+  390  cd
+  391  cd \
+  392  cd ./
+  393  ls
+  394  cd ../
+  395  ls
+  396  ls -la
+  397  cd ../
+  398  ls
+  399  mc
+  400  exit
+  401  whoami
+  402  nano .ssh/authorized_keys
+  403  mkdir -p /opt/171023_morning/chumak
+  404  cd /opt/171023_morning/
+  405  ls
+  406  exit
+  407  nano .ssh/authorized_keys
+  408  nano .ssh/authorized_keys
+  409  cd /opt/171023_morning/
+  410  mkdir /opt/171023_morning/Yakubovich
+  411  ls -la
+  412  cd /opt/171023_morning/
+  413  учше
+  414  exit
+  415  nano .ssh/authorized_keys
+  416  ls /opt/
+  417  ls /opt/171023_morning
+  418  mkdir /opt/171023_morning/yulia_vladimirov/
+  419  ls /opt/171023_morning
+  420  exit
+  421  cd /opt/171023_morning
+  422  ls
+  423  mkdir Rad
+  424  ls
+  425  ls -lA
+  426  ls -la
+  427  ls
+  428  ls -la
+  429  nano .ssh/authorized_keys
+  430  nano .ssh/authorized_keys
+  431  nano .ssh/authorized_keys
+  432  cd /opt/171023_morning
+  433  mkdir /Romanowska
+  434  mkdir Romanowska
+  435  ls
+  436  cd /opt/171023_morning
+  437  mkdir leva_leg
+  438  ls
+  439  nano ssh
+  440  nano .ssh/authorized_keys
+  441  w
+  442  cat /etc/os-release
+  443  htop
+  444  df -h
+  445  nano .ssh/authorized_keys
+  446  htop
+  447  nano .ssh/authorized_keys
+  448  w
+  449  cd /opt/171023_morning
+  450  ls
+  451  mkdir -p andrii
+  452  ls
+  453  cd /andrii
+  454  cd /opt/171023_morning/andrii
+  455  history>history_13_11_23.txt;export_file history_13_11_23
+  456  whoami
+  457  mkdir -p /opt/171023_morning/denis
+  458  cd /opt/171023_morning
+  459  ls
+  460  exit
+  461  docker images
+  462  docker rmi b273004037cc
+  463  docker rmi 0dac3dc27b1a
+  464  docker rmi 9c7a54a9a43c
+  465  docker rmi ac992e392d04
+  466  docker ps
+  467  docker rm ac992e392d04
+  468  docker rm testjava
+  469  docker stop testjava
+  470  docker rm testjava
+  471  docker images
+  472  docker rmi ac992e392d04
+  473  docker stop 4012c5337d59
+  474  docker rmi ac992e392d04
+  475  docker rm 4012c5337d59
+  476  docker rmi ac992e392d04
+  477  docker images
+  478  docker rmi b273004037cc 0dac3dc27b1a f37f9f678836 0ec8ab59a35f d688977ba8f6 c1aabb73d233 4937520ae206 946d6bda6c3d 
+  479  docker images
+  480  docker rmi fa48c47cf24b a3b6608898d6 e8726579aee0 f39ed42281b2 
+  481  docker images
+  482  docker rmi 77b52431c687 d2bd61d15e61 b9b301ab01c2 7e89539dd8bd 1e520810d5eb 41679aea2b46 f5c72a449e25
+  483  docker images
+  484  docker rmi d2bd61d15e61 6e1b71109ea3 9643d8ca5848 0ade0ff87927 3c0db6456e30 68637cddeac7 fa264baa7fdf 21a31912a4b6 8a4156c3bbd4 4ca572ae8e18 f37f9f678836 0dac3dc27b1a b273004037cc 
+  485  docker images
+  486  docker rmi d2bd61d15e61
+  487  docker stop 7cb4ae07b6ff
+  488  docker rm 7cb4ae07b6ff
+  489  docker rmi d2bd61d15e61
+  490  docker images
+  491  docker rmi f37f9f678836
+  492  docker stop dcdf4ff6275c
+  493  docker rm dcdf4ff6275c
+  494  docker rmi f37f9f678836
+  495  docker images
+  496  docker ps
+  497  docker images
+  498  mkdir alpine
+  499  cd alpine/
+  500  docker pull alpine
+  501  docker images
+  502  docker run -it --name my_alpine alpine
+  503  nano Dockerfile
+  504   mkdir -p /opt/171023_morning/Ion
+  505  ls -la
+  506   mkdir -p /opt/171023_morning/Anghelus_ion
+  507  ls -la
+  508  cd /opt/171023_morning/Anghelus_ion
+  509  ls -la
+  510  nano .ssh/authorized_keys
+  511  mkdir -p /opt/171023_morning/vovchenko
+  512  cd /opt/171023_morning/
+  513  ls
+  514  nano .ssh/authorized_keys
+  515  exit
+  516  cd /opt/190923_morning
+  517  ls
+  518  cd smolnikova
+  519  ls
+  520  -ls
+  521  ls -a
+  522  cd ../
+  523  ls
+  524  cd harbuz
+  525  ls
+  526  cd ../
+  527  ls
+  528  cd voitenko
+  529  ls
+  530  cat file.txt
+  531  "Hello World" >> file.txt
+  532  Hello World >> file.txt
+  533  >> myfirstbashscript.sh
+  534  ls
+  535  chmod +x myfirstbashscript.sh
+  536  ls
+  537  USER="Yura"
+  538  ls
+  539  nano myfirstbashscript.sh
+  540  ls
+  541  myfirstbashscript.sh
+  542  /myfirstbashscript.sh
+  543  ./myfirstbashscript.sh
+  544  ls
+  545  ./myfirstbashscript.sh
+  546  cd /opt/171023_morning
+  547  mkdir /Tsygunenko
+  548  mkdir Tsygunenko
+  549  ls
+  550  nano .ssh/autorized_key
+  551  nano .ssh/authorized_key
+  552  nano .ssh/authorized_keys
+  553  mkdir -p /opt/171023_m/yevhenii
+  554  mkdir -p /opt/171023_morning/yevhenii_demchenko
+  555  ls
+  556  cd /opt/171023_morning/
+  557  ls
+  558  cd /opt/
+  559  ls
+  560  rm /opt/101723_m
+  561  rm /opt/171023_m
+  562  rmdir /opt/171023_m
+  563  rmdir -p /opt/171023_m
+  564  rmdir -p /opt/171023_m/
+  565  rmdir -p /opt/171023_m/demchenko
+  566  cd /opt/171023_m
+  567  ls
+  568  rmdir yevhenii
+  569  ls
+  570  cd ..
+  571  ls
+  572  rmdir /opt/171023_m
+  573  exit
+  574  nano .ssh/authorized_keys
+  575  mkdir -p /opt/171023_morning/Serhii_Horb
+  576  ls -a
+  577  ls
+  578  ls -la
+  579  cd /opt/171023_morning/
+  580  ls -la
+  581  exit
+  582   pwd
+  583  ls -la
+  584  pwd
+  585  ls -la
+  586  df -h
+  587  whoami
+  588  pwd
+  589  ls
+  590  ls -la
+  591  cd turmnastya
+  592  cd turmNastya
+  593  ls
+  594  cd /
+  595  ls
+  596  cd root
+  597  cd home
+  598  ls
+  599  cd ec2-user
+  600  ls
+  601  top
+  602  whoami
+  603  ls
+  604  cd opt
+  605  cd /opt
+  606  ls
+  607  cd 171023_morning
+  608  ls
+  609  whoami
+  610  cd
+  611  pwd
+  612  ls
+  613  exit
+  614  pwd
+  615  ls -la
+  616  whoami
+  617  ls
+  618  cd /ot/171023_morning/
+  619  cd /opt/171023_morning/
+  620  mkdir -p /opt/171023_morning/Georgeta
+  621  ls
+  622  pwd
+  623  exit
+  624  tree
+  625  ps -a
+  626  ?
+  627  exit
+  628  ls -la
+  629  tree /
+  630  tree 
+  631  sed
+  632  mc
+  633  exit
+  634  ls -l
+  635  ls
+  636  ls -l
+  637  whoami
+  638  pwd
+  639  whoami
+  640  pwd
+  641  cd /opt/171023_morning
+  642  pwd
+  643  cat /var/spool/mail/ec2-user | wc -l
+  644  nano /var/spool/mail/ec2-user
+  645  cd
+  646  date
+  647  top
+  648  exit
+  649  pwd
+  650  ls -la
+  651  df -h
+  652  ls -l
+  653  top
+  654  whoami
+  655  pwd
+  656  cd /opt/171023_morning
+  657  ls -l
+  658  mkdir /Daniil
+  659  mkdir Daniil
+  660  ls -l
+  661  cd
+  662  top
+  663  ps
+  664  ps -ef
+  665  htop
+  666  exit
+  667  pwd
+  668  ls -la
+  669  df -h
+  670  whoami
+  671  cd /opt/171023_morning
+  672  ls -1
+  673  pwd
+  674  w
+  675  cat /var/spool/mail/ec2-user | wc -l
+  676  nano /var/spool/mail/ec2-user
+  677  ls -h /var/spool/mail/
+  678  date
+  679  top
+  680  ps
+  681  ps -ef
+  682  htop
+  683  clear
+  684  exit
+  685  top
+  686  ps
+  687  ps -ef
+  688  ls -la
+  689  df -h
+  690  top
+  691  cd /opt/171023_morning/
+  692  ls
+  693  pwd
+  694  cd
+  695  top
+  696  ps
+  697  ps -ef
+  698  top
+  699  exit
+  700  pwd
+  701  ls -la
+  702  df -h
+  703  ls -la
+  704  top
+  705  date
+  706  top
+  707  ps
+  708  ps -ef
+  709  htop
+  710  exit
+  711  htop
+  712  ./11-dhclient
+  713  mc
+  714  exit
+  715  ps -ef | grep ssh
+  716  kill
+  717  ps -ef | grep ssh
+  718  kill 14407
+  719  top
+  720  exit
+  721  htop
+  722  ps -ef | grep ssh
+  723  kill 15567
+  724  kill 21532
+  725  kill 11873
+  726  ps -ef
+  727  exit
+  728  ps -ef || ssh
+  729  ps -ef | grep ssh
+  730  kill 22712
+  731  kill 21532
+  732  pwd
+  733  ls -la
+  734  df -h
+  735  ls -l
+  736  rm -rf ????????????????
+  737  ls -l
+  738  rm -rf Загрузки
+  739  ls -l
+  740  rm -rf загрузки
+  741  top
+  742  whoami
+  743  ls
+  744  cd /opt/171023_morning/
+  745  ls
+  746  ls 1
+  747  ls -1
+  748  whoami
+  749  pwd
+  750  cd
+  751  cat /var/spool/mail/ec2-user | wc -l
+  752  nano /var/spool/mail/ec2-user
+  753  ls -l /var/spool/mail/
+  754  ls -h /var/spool/mail/
+  755  date
+  756  top
+  757  ps
+  758  ps -ef'
+  759  ps -ef
+  760  htop\
+  761  htop
+  762  ps -ef | grep ssh
+  763  kill 13959
+  764  kill 21206
+  765  kill 11873
+  766  kill 21534
+  767  ps -ef | grep Adobe
+  768  exit
+  769  ps -ef | grep ssh
+  770  ps -ef | grep Adobe
+  771  w
+  772  exit
+  773  ls -la
+  774  cd /opt/171023_m/demchenko
+  775  cd /opt/171023_m
+  776  cd ./opt/171023_m
+  777  cdls -la
+  778  cd /
+  779  cd \
+  780  cd ..\
+  781  cd ..
+  782  ls
+  783  ls -la
+  784  cd home
+  785  ls -lA
+  786  cd ec2-user
+  787  ls -la
+  788  cd Ivan
+  789  ls
+  790  cd ..
+  791  ls
+  792  df =h
+  793  df -h
+  794  ls -la
+  795  cd /opt/
+  796  ls
+  797  cd /171023_morning
+  798  ls
+  799  cd 171023_morning
+  800  ls -la /p
+  801  ls -lap
+  802  top
+  803  ls -la
+  804  whoim
+  805  whoiam
+  806  whoami
+  807  pwd
+  808  ps /?
+  809  ps --help
+  810  ps 
+  811  ps -slo
+  812  ps -sl
+  813  ps -s
+  814  ps -l
+  815  ps -o
+  816  ps -a
+  817  ps -l
+  818  ps -o
+  819  mail
+  820  nano /var/spool/mail/ec2-user
+  821  ls -lah
+  822  top
+  823  startX
+  824  X
+  825  top
+  826  ps -a
+  827  ps 
+  828  ps --help
+  829  ps -s
+  830  ps(1) -s
+  831  ps -s
+  832  ps --help
+  833  ps -o
+  834  ps -m
+  835  ps -ef
+  836  htop
+  837   �B#�B R<#R<ajDajDajD`jD`jD`jD`jD`jD`jD qB#qBaYNaYNaYNaYNaYNaYN
+  838  ps --help"]D#^D t>#t>
+  839   kA#kA
+  840  htop
+  841  ps -ef
+  842  ps -ef|ssh
+  843  ps -ef|grep ssh
+  844  mc &
+  845  kill 22277
+  846  mc &
+  847  ps -ef|grep mc
+  848  kill 22970
+  849  ps -ef|grep mc
+  850  kill 22967
+  851  ps -ef|grep mc
+  852  ps -ef|grep ssh
+  853  ps -ef|grep mc
+  854  ps -aux
+  855  ps -ef
+  856  top
+  857  w
+  858  w ?
+  859  w -?
+  860  w -f
+  861  w -ip-addr
+  862  w -i
+  863  man w
+  864  exit
+  865  ps -ef | grep Adobe
+  866  w
+  867  exit
+  868  pwd/home/ec2-user
+  869  pwd
+  870  la
+  871  df -h
+  872  rm -rf загрузки
+  873  whoami
+  874  rmdir /opt/171023_m
+  875  whoami
+  876  cat /var/spool/mail/ec2-user | wc-1
+  877  pwd
+  878  ls -la
+  879  cd /opt/171023_morning/
+  880  ls -1
+  881  top
+  882  ps -ef
+  883  pwd
+  884  ls-la
+  885  ls- la
+  886  ls - a
+  887  ls- al
+  888  la- a
+  889  ls- a
+  890  pwd
+  891  ls-l
+  892  ls- l
+  893   ls- l
+  894  ls-la
+  895   la - la
+  896  ls - la
+  897  ls - la 
+  898  ls
+  899  ls -l
+  900  ls- la
+  901  ls - la
+  902  ls- l
+  903  ls - la
+  904  ls--la
+  905  ls -l
+  906  whoami
+  907  cd/ opt/171023_morning
+  908  cd/opt/171023_morning/
+  909   cd /opt/171023_morning/
+  910  ls
+  911  pwd
+  912  cd
+  913  date
+  914  top
+  915  ps
+  916  ps -ef
+  917  ps -ef grep ssh
+  918  ps -ef |grep ssh
+  919  pwd
+  920  ls -la
+  921  whoami
+  922  cd /opt/171023_morning
+  923  ls
+  924  ls -1
+  925  pwd
+  926  date
+  927  ps
+  928  ps -ef
+  929  pc -ef | grep ssh
+  930  ps -ef | grep ssh
+  931  kill 13959
+  932  ls
+  933  cd
+  934  /cd
+  935  /
+  936  cd..
+  937  cd.
+  938  .cd
+  939  cd/
+  940  cd 190923m
+  941  pwd
+  942  cd /home
+  943  ls
+  944  cd
+  945  /
+  946  cd:
+  947  ls -a
+  948  cd 
+  949  cd /bin
+  950  ls -a
+  951  cd
+  952  ls -a
+  953  nano /opt/old_opt/chumak/tetris.sh
+  954  ./opt/old_opt/chumak/tetris.sh
+  955  bash /opt/old_opt/chumak/tetris.sh
+  956  scp /opt/old_opt/chumak/tetris.sh /
+  957  export_file /opt/old_opt/chumak/tetris.sh /
+  958  pwd
+  959  scp /opt/old_opt/chumak/tetris.sh /opt/190923_morning/harbuz
+  960  cd /opt/190923_morning/harbuz
+  961  ls
+  962  scp /opt/190923_morning/harbuz/tetris.sh c:
+  963  nano /opt/190923_morning/harbuz/tetris.sh
+  964  s
+  965  clear
+  966  ls
+  967  cat tetris.sh |wc -l
+  968  exit
+  969  pwd
+  970  tree
+  971  cd elvira/
+  972  tree
+  973  cd ..
+  974  cd ivan/
+  975  tree
+  976  cd ivan/
+  977  cd anannn/
+  978  pwd
+  979  tree
+  980  nano files 
+  981  nano script.sh 
+  982  cd ...
+  983  cd ..
+  984  cd .. 
+  985  pwd
+  986  cd bin
+  987  cd .. 
+  988  cd old_linux_volume/
+  989  tree
+  990  pwd
+  991  cd ..
+  992  cd media/
+  993  trre
+  994  tree
+  995  exit
+  996  w
+  997  cat /etc/os-release
+  998  htop
+  999  clear
+ 1000  df -h
+ 1001  ping google.de
+ 1002  id 
+ 1003  df -h
+ 1004  ls
+ 1005  cd /opt/171023_morning
+ 1006  cd
+ 1007  history > /opt/171023_morning/andrii/history_181123.txt

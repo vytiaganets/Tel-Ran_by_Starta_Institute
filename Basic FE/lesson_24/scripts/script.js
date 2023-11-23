@@ -31,17 +31,21 @@ const formElem = document.querySelector("#product_form")
 const productNameInput = document.querySelector(".product_name_input")
 const productPriceInput = document.querySelector(".product_price_input")
 
-// const products = [{
-//     title: "Mac",
-//     price: 1000
-//   },
-//   {
-//     title: "Macbook",
-//     price: 10000
-//   }
-// ]
+let products = [{
+    title: "Mac",
+    price: 100
+  },
+  {
+    title: "Macbook",
+    price: 1000
+  },
+  {
+    title: "aPhone",
+    price: 10000
+  }
+]
 // rerender()
-const products = []
+//const products = []
 formElem.addEventListener("submit", function (e) {
   e.preventDefault()
   // console.log(nameNameElem.value);
@@ -109,13 +113,18 @@ function rerender() {
   productsListDiv.innerHTML = "" // очищаем контейнер с карточками
 
 
-  if(products.length === 0){
+  if (products.length === 0) {
 
     const pElem = document.createElement('p')
     pElem.innerText = "Товаров нет"
     pElem.classList.add("empty_msg")
     productsListDiv.append(pElem)
   }
+
+
+  products = products.sort(function (a, b) {
+    return a.title.localeCompare(b.title)
+  })
   for (let i = 0; i < products.length; i++) {
     //console.log(products[i])
     const productCardElem = createProductCard(products[i])
@@ -135,8 +144,8 @@ function rerender() {
 
       products.splice(i, 1) // индекс продукта в массиве ptoducts
       rerender()
-    })
 
+    })
 
     productsListDiv.append(productCardElem)
   }
@@ -165,16 +174,49 @@ function createRemoveBtn() { //05
 
 
 //============================= Задачал 09 ==========================
- 
+
 //Добавить форму в HTML с полем ввода и кнопкой для поиска по товарам. Реализовать скрипт, который получает из формы строку при submit и выводит в консоль. 
 
-const filterForm = document.querySelector("#product_filter_form")
+const filterForm = document.querySelector("#product_filters_form")
 const searchTextInp = document.querySelector(".search_text")
-
-filterForm.addEventListener("submit", function(){
+// change срабатывает тогда когда меняется значение какого то элемента внутри формы
+const sortFieldElem = document.querySelector("#sort_field")
+filterForm.addEventListener("change", function (e) {
   e.preventDefault()
   console.log(searchTextInp.value);
+  // console.log(sortFieldElem.value);
+  if (sortFieldElem.value === 'title') {
+    products = products.sort(function (a, b) {
+      //return 0 - a.title.localeCompare(b.title) //обратная сортировка
+      return a.title.localeCompare(b.title)
+    })
+  } else if (sortFieldElem.value === 'price') {
+    products = products.sort(function (a, b) {
+      return b.price - a.price
+    })
+  }
+
+  if (searchTextInp.value !== "") {
+    products = products.filter(function (product) {
+      //return product.title.startsWith(searchTextInp.value)
+      // startsWith если начало строки совпадает с нашей строкой то true, в противном случае false 
+      // includes если строка содержит заданную подстроку то true в противном случае false
+      return product.title.toLowerCase().includes(searchTextInp.value.toLowerCase())
+    })
+  }
+
+  rerender()
 })
 
 
+//============================= Задачал 10 ==========================
+// Меняем вызов обработчика формы с submit на change и убираем кнопку из формы. 
+//============================= Задачал 11 ==========================
+// Сделать сотрировку товаров по названию при change
+//============================= Задачал 12 ==========================
+// Сделать сортировку товарров по цене при change
+
+
+
 rerender()
+// вызываем прорисовку продуктов при открытии страницы
