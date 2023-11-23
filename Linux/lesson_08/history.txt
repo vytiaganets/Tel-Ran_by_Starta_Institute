@@ -1,0 +1,69 @@
+   0 echo "hello"
+   1 env
+   2 cd
+   3 pwd
+   4 cd /opt/\
+   5 cd /opt/
+   6 cd
+   7 env
+   8 ls
+   9 hihoih
+  10 whereis nano
+  11 whereis tree
+  12 ls
+  13 tree
+  14 export NAME=andrii
+  15 env
+  16 $NAME
+  17 export EDITOR=vi
+  18 $EDITOR
+  19 echo $VAR $NAME
+  20 export VAR2=/root/readme.txt
+  21 $VAR2
+  22 clear
+  23 env
+  24 whereis nano
+  25 export EDITOR=vi VAR3=nano VAR4=berlin
+  26 export VAR6="nano
+  27 saw
+  28 s
+  29 ls
+  30 ""
+  31 Z
+  32 CCCVVV
+  33 unset PATH
+  34 ls
+  35 mkdir -p /opt
+  36 touch 1.txt
+  37 /bin/ls 
+  38 cd /bin
+  39 ls /opt/
+  40 mkdir /root/folder
+  41 export PATH=/bin
+  42 cd
+  43 ls
+  44 nano
+  45 vi
+  46 tree
+  47 export VAR=""
+  48 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+  49 export VAR=""
+  50 env
+  51 echo $VAR
+  52 ls -l
+  53 ls
+  54 chmod ugo+x readme.txt
+  55 ls -l
+  56 sudo mv /opt/1.txt /tmp
+  57 ls -l
+  58 chmod ugo-rwx readme.txt
+  59 ls -l
+  60 cat readme.txt
+  61 nano readme.txt
+  62 clear
+  63 chmod a+w readme.txt
+  64 ls =l
+  65 ls -l
+  66 chmod u+r readme.txt
+  67 ls -l
+  68 history > history.txt;export_file history.txt

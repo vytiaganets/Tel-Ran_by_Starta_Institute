@@ -1,6 +1,6 @@
-   0 vi /tmp/test.txt
-   1 df -h | head -3 >> /tmp/test.txt
+   0 vi /tmp/file.txt
+   1 df -h | head -3 >> /tmp/file.txt
    2 cd /tmp
-   3 chmod g+w test.txt
-   4 chmod u-r test.txt
-   5 chmod o+x test.txt
+   3 chmod g+w file.txt
+   4 chmod u-r file.txt
+   5 chmod o+x file.txt
