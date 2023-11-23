@@ -161,4 +161,20 @@ function createRemoveBtn() { //05
 }
 
 //============================= Задачал 08 ==========================
+//Добавить отображение фразы “товаров нет”, когда товаров нет. 
+
+
+//============================= Задачал 09 ==========================
+ 
+//Добавить форму в HTML с полем ввода и кнопкой для поиска по товарам. Реализовать скрипт, который получает из формы строку при submit и выводит в консоль. 
+
+const filterForm = document.querySelector("#product_filter_form")
+const searchTextInp = document.querySelector(".search_text")
+
+filterForm.addEventListener("submit", function(){
+  e.preventDefault()
+  console.log(searchTextInp.value);
+})
+
+
 rerender()

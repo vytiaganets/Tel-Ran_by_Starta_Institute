@@ -27,7 +27,8 @@ body {
   /*align-items: center; */
 }
 
-#product_form input {
+#product_form input .products_filters form input,
+.products_filters form select {
   background-color: #D9D9D9;
   border: none;
   padding: 10px 35px;
@@ -35,7 +36,7 @@ body {
   font-weight: 400;
 }
 
-#product_form input::placeholder {
+#product_form input::placeholder .products_filters form input::placeholder {
   font-family: 'Inter', 'sans-serif';
   color: black;
 }
@@ -116,4 +117,35 @@ body {
   font-size: 25px;
   font-family: 'Inter', 'sans-serif';
   font-weight: 400;
+}
+
+
+.products_filters {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.products_filters form {
+  background-color: #34495E;
+  padding: 35px 63px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-top: 60px;
+}
+
+
+.products_filters form label {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: white;
+  margin-right: 30px;
+}
+
+.products_filters form div {
+  margin-top: 36px;
 }
