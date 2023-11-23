@@ -21,7 +21,7 @@ let users = [
   {
     name: "Andre",
     surname: "Kar",
-    price: 90
+    age: 90
   }
 ]
 
