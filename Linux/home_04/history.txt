@@ -1,1 +1,6 @@
-git
+   0 vi /tmp/test.txt
+   1 df -h | head -3 >> /tmp/test.txt
+   2 cd /tmp
+   3 chmod g+w test.txt
+   4 chmod u-r test.txt
+   5 chmod o+x test.txt
