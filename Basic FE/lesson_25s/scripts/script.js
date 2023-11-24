@@ -97,3 +97,39 @@
 //   array.push(findA)
 // }
 // console.log(array);
+
+//======================= Задача 05 ==============================
+//5.	Написать цикл, который создает множество div-ов c цветами от rgb(255, 0, 255) до rgb(255, 255, 255). У дивов цвет должен меняться с шагом 10. 
+
+// for (var i = 0; i < 255; i += 10) {
+//   const divElem = document.createElement("div")
+//   divElem.style.width = "100%"
+//   divElem.style.height = "2vh"
+//   divElem.style.backgroundColor = `rgb(255, ${i}, 255)`
+//   document.body.appendChild(divElem)
+// }
+
+//======================= Задача 07 ==============================
+// 7.	Создайте новый элемент <div>, добавьте ему класс "box" и добавьте его перед элементом с классом "box-container". 
+
+// const pDiv =  document.createElement("div")
+// pDiv.classList.add('.box')
+
+// const newDiv = document.querySelector('.box-container')
+// newDiv.before(pDiv)
+
+//======================= Задача 08 ==============================
+// 9. Удалите элемент с классом "removeMe"
+// let removed = document.querySelector('.removeMe')
+// removed.remove()
+
+//======================= Задача 09 ==============================
+
+let btnElem = document.querySelector('.btn')
+let pElem = document.querySelector('.num')
+// btnElem.addEventListener('click', click)
+// function click() {
+//  pElem.innerText = Number(pElem.innerText) ** 2
+// }
+
+btnElem.addEventListener('click', () => {pElem.innerText = Number(pElem.innerText) ** 2})
