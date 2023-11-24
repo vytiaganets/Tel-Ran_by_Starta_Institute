@@ -51,9 +51,15 @@
 16. С позиции тестировщика, в контексте web-тестирования, на какой http статус код
 нужно обращать внимание в первую очередь как потенциальный баг?
 
+Заявки на трудоустройство IT
+https://airtable.com/apprdK6RSuHRwWXO9/shr2h0UnN8iYaEjGi
+https://airtable.com/apprBJ9l2CVkioJ8I/shr1aPoPcWthHqCxB/tblQmdd7z9lk2rqnz/viwwvVTwrcNLjBNXt
+https://airtable.com/appQWRUJA8s7JBJHn/shrMHsqzD0ZqyPEk1/tblvIBp9Y86Xae4k5/viwpcGOZ7CoxupF7B
+
 https://github.com/schemchuk
 https://github.com/SergSch
 https://github.com/ikar-zindo
+https://github.com/fr13n8/lessons_171023-m
 
 https://airtable.com/appQWRUJA8s7JBJHn/shrMHsqzD0ZqyPEk1/tblvIBp9Y86Xae4k5/viwpcGOZ7CoxupF7B
 https://airtable.com/apprBJ9l2CVkioJ8I/shr1aPoPcWthHqCxB/tblk3YFaWOqtMnb7R/viwA0vLlAS21vkGv0
