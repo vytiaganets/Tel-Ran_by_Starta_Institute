@@ -123,7 +123,7 @@ function createRemoveBtn() {
 // запретить добавления пользователя с пустыми значениями
 // сделать ограничение количества символов для имени и фамилии
 // Пример: мин - 2 символа, макс - 16
-
+// maxlenght minlenght
 // function length(){
 //   if(document.getElementById("hi").innerHTML.length < 16 && document.getElementById("hi").innerHTML.length>2 ){
 //   }
