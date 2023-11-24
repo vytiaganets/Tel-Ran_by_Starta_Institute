@@ -124,6 +124,7 @@
 // removed.remove()
 
 //======================= Задача 09 ==============================
+// 12.	Дан абзац с числом и кнопка. По нажатию на кнопку возведите текст абзаца(число) в квадрат. 
 
 let btnElem = document.querySelector('.btn')
 let pElem = document.querySelector('.num')
@@ -133,3 +134,5 @@ let pElem = document.querySelector('.num')
 // }
 
 btnElem.addEventListener('click', () => {pElem.innerText = Number(pElem.innerText) ** 2})
+
+
