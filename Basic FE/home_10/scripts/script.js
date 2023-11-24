@@ -81,7 +81,7 @@ function rerender() {
     pElem.classList.add("empty_msg")
     usersListDiv.append(pElem)
   }
-
+ 
 
   for(let i = 0; i < users.length; i++) {
     const userCardElem = createUserCard(users[i])
@@ -91,6 +91,13 @@ function rerender() {
       // console.log(users[i].age)
 
     })
+
+    const remove = userCardElem // удаление
+    remove.addEventListener("dblclick", function() {
+      users.splice(i, 1)
+      rerender()
+    })
+
     const btnRemove = createRemoveBtn()
     userCardElem.append(btnRemove)
 
@@ -116,6 +123,12 @@ function createRemoveBtn() {
 // запретить добавления пользователя с пустыми значениями
 // сделать ограничение количества символов для имени и фамилии
 // Пример: мин - 2 символа, макс - 16
+
+// function length(){
+//   if(document.getElementById("hi").innerHTML.length < 16 && document.getElementById("hi").innerHTML.length>2 ){
+//   }
+// }
+
 //================================ Задача 06 ================================
 // 2 - если данные не проходят валидацию сообщения показать в виде красного текста внутри формы либо под формой добавления пользователя, если всё нормально убрать красный текст
 //================================ Задача 07 ================================
