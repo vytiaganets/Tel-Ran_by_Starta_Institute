@@ -143,14 +143,15 @@ const sortFieldElem = document.querySelector("#sort_field")
 
 filterForm.addEventListener("change", function (e) {
   e.preventDefault()
-  console.log(searchTextInp.value)
+  console.log(sortTextInp.value)
 
   if (sortFieldElem.value === 'title') {
     products = products.sort(function(a, b) {
       return a.title.localeCompare(b.title)
     })
   } else if (sortFieldElem.value === 'price') {
-    products = products.sort(function(a, b) {
+   // products = products.sort(function(a, b) {
+      products.sort(function(a, b){
       return b.price - a.price
     })
   }
@@ -162,8 +163,9 @@ filterForm.addEventListener("change", function (e) {
       // startsWith если начало строки совпадает с нашей строкой то true, в противном случае false
       // includes если строка содержит заданную подстроку то true, в противном случае false
     })
+  
   }
-
+  // console.log(products);
   rerender()
 })
 

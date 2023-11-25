@@ -43,7 +43,7 @@ formElem.addEventListener("submit", function(e) {
   
   console.log(users);
   //[{name: "Bob", surname: "Dilon", age: 25}, {name: "Mari", surname: "Huston", age: 45}, {name: "Andre", surname: "Kar", price: 90}, {name: "Bob", surname: "Boa", age: 1}] (4)
-  //rerender()
+  rerender()
 
   formElem.reset() // очищает значение инпутов которые находятся внутри формы formElem
 })
@@ -82,6 +82,9 @@ function rerender() {
     usersListDiv.append(pElem)
   }
  
+  users = users.sort(function(a, b) {
+    return a.name.localeCompare(b.name)
+  })
 
   for(let i = 0; i < users.length; i++) {
     const userCardElem = createUserCard(users[i])
@@ -126,8 +129,43 @@ function createRemoveBtn() {
 
 //================================ Задача 06 ================================
 // 2 - если данные не проходят валидацию сообщения показать в виде красного текста внутри формы либо под формой добавления пользователя, если всё нормально убрать красный текст
+
 //================================ Задача 07 ================================
 // 3 - добавить сортировку по имени, фамилии, возрасту и сделать так чтобы можно было выбрать либо по убыванию либо по возрастанию
+
+const filterForm = document.querySelector("#user_filters_form")
+const searchTextInp = document.querySelector(".search_text")
+const sortFieldElem = document.querySelector("#sort_field")
+
+filterForm.addEventListener("change", function (e) {
+  e.preventDefault()
+  console.log(searchTextInp.value)
+
+  if (sortFieldElem.value === 'name') {
+    users = users.sort(function(a, b) {
+      return a.name.localeCompare(b.name)
+    })
+  }else if (sortFieldElem.value === 'surname'){
+    users = users.sort(function(a, b) {
+      return a.surname.localeCompare(b.surname)
+    })
+  } else if (sortFieldElem.value === 'price') {
+    users = users.sort(function(a, b) {
+      return a.age - b.age
+    })
+  } 
+
+  if (searchTextInp.value !== "") {
+    // filter возвращает новый массив с элементами которые прошли проверку в callback функции
+    users = users.filter(function(user) {
+      return userr.title.toLowerCase().includes(searchTextInp.value.toLowerCase())
+      // startsWith если начало строки совпадает с нашей строкой то true, в противном случае false
+      // includes если строка содержит заданную подстроку то true, в противном случае false
+    })
+  }
+
+  rerender()
+})
 
 
 rerender() // вызываем прорисовку продуктов при открытии страницы
