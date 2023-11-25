@@ -19,9 +19,25 @@
       <input type="text" class="age_input" placeholder="Возраст" required>
       <button>Добавить</button>
   </div>
-  <div class="users_list_container">
 
-  </div>
+
+
+    <div class="users_filters">
+      <form id="user_filters_form">
+        <input type="text" placeholder="Название" class="search_text">
+        <div>
+          <label for="sort_field">Отсортировать по:</label>
+          <select id="sort_field">
+            <option value="name">Имени</option>
+            <option value="surname">Фамилии</option>
+            <option value="age">Возрасту</option>
+          </select>
+        </div>
+      </form>
+    </div>
+
+    <div class="users_list_container">
+    </div>
 </body>
 <script src="./scripts/script.js"></script>
 

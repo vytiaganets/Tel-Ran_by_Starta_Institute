@@ -26,7 +26,9 @@ body {
   width: 70%;
 }
 
-#user_form input {
+#user_form input,
+.users_filters form input,
+.users_filters form select{
   background-color: #D9D9D9;
   border: none;
   padding: 10px 35px;
@@ -34,7 +36,8 @@ body {
   font-weight: 400;
 }
 
-#user_form input::placeholder {
+#user_form input::placeholder,
+.users_filters form input::placeholder {
   font-family: 'Inter', sans-serif;
   color: black;
 }
@@ -117,4 +120,35 @@ body {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 64px;
+}
+
+
+
+.users_filters {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.users_filters form {
+  background-color: #34495E;
+  padding: 35px 63px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-top: 60px;
+}
+
+.users_filters form label {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: white;
+  margin-right: 30px;
+}
+
+.users_filters form div {
+  margin-top: 36px;
 }
