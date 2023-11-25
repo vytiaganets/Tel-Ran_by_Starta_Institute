@@ -14,31 +14,32 @@
 <body>
   <div class="user_form_container">
     <form id="user_form">
-      <input type="text" class="name_input" placeholder="Имя" minlength="2" maxlength="16" required>
-      <input type="text" class="surname_input" placeholder="Фамилия" minlength="2" maxlength="16" required>
-      <input type="text" class="age_input" placeholder="Возраст" required>
+       <input type="text" class="name_input" placeholder="Имя" minlength="2" maxlength="16" required>
+       <input type="text" class="surname_input" placeholder="Фамилия" minlength="2" maxlength="16" required>
+       <input type="text" class="age_input" placeholder="Возраст" required>
       <button>Добавить</button>
+    </form>
+  </div>
+  <div class="users_filters">
+    <form id="user_filters_form">
+      <div>
+        <label for="sort_field">Отсортировать по:</label>
+        <select id="sort_field">
+          <option value="name">Имени A-Я</option>
+          <option value="rname">Имени Я-А</option>
+          <option value="surname">Фамилии А-Я</option>
+          <option value="rsurname">Фамилии Я-А</option>
+          <option value="age">Возрасту 0-100</option>
+          <option value="rage">Возрасту 100-0</option>
+        </select>
+      </div>
+    </form>
   </div>
 
-
-
-    <div class="users_filters">
-      <form id="user_filters_form">
-        <input type="text" placeholder="Название" class="search_text">
-        <div>
-          <label for="sort_field">Отсортировать по:</label>
-          <select id="sort_field">
-            <option value="name">Имени</option>
-            <option value="surname">Фамилии</option>
-            <option value="age">Возрасту</option>
-          </select>
-        </div>
-      </form>
-    </div>
-
-    <div class="users_list_container">
-    </div>
+  <div class="users_list_container">
+  </div>
+  <script src="./scripts/script.js"></script>
 </body>
-<script src="./scripts/script.js"></script>
+
 
 </html>

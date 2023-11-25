@@ -33,6 +33,7 @@ formElem.addEventListener("submit", function(e) {
 // [Log] Имя: Bob (script.js, line 30)
 //[Log] Фамилия: Boa (script.js, line 31)
 //[Log] Возраст: 11 (script.js, line 32)
+
   const user = {
     name: nameInput.value,
     surname: surnameInput.value,
@@ -42,10 +43,12 @@ formElem.addEventListener("submit", function(e) {
   users.push(user)
   
   console.log(users);
+
   //[{name: "Bob", surname: "Dilon", age: 25}, {name: "Mari", surname: "Huston", age: 45}, {name: "Andre", surname: "Kar", age: 90}, {name: "Bob", surname: "Boa", age: 1}] (4)
   rerender()
 
   formElem.reset() // очищает значение инпутов которые находятся внутри формы formElem
+
 })
 //================================ Задача 02 ================================
 // Доработать процесс таким образом, чтобы при отправке формы данные из нее добавлялись в массив users в виде объекта.
@@ -82,9 +85,9 @@ function rerender() {
     usersListDiv.append(pElem)
   }
  
-  users = users.sort(function(a, b) {
-    return a.name.localeCompare(b.name)
-  })
+  // users = users.sort(function(a, b) {
+  //   return a.name.localeCompare(b.name)
+  // })
 
   for(let i = 0; i < users.length; i++) {
     const userCardElem = createUserCard(users[i])
@@ -131,40 +134,41 @@ function createRemoveBtn() {
 // 2 - если данные не проходят валидацию сообщения показать в виде красного текста внутри формы либо под формой добавления пользователя, если всё нормально убрать красный текст
 
 //================================ Задача 07 ================================
-// 3 - добавить сортировку по имени, фамилии, возрасту и сделать так чтобы можно было выбрать либо по убыванию либо по возрастанию
+// 3 - добавить сортировку по имени, фамилии, возрасту и сделать так чтобы можно было выбрать либо по убыванию, либо по возрастанию
 
-//const filterForm = document.querySelector("#user_filters_form")
 const filterForm = document.querySelector("#user_filters_form")
 const searchTextInp = document.querySelector(".search_text")
 const sortFieldElem = document.querySelector("#sort_field")
-console.log(filterForm)
 
 filterForm.addEventListener("change", function (e) {
   e.preventDefault()
-  console.log(searchTextInp.value)
+  console.log(filterForm.value)
 
   if (sortFieldElem.value === 'name') {
     users = users.sort(function(a, b) {
       return a.name.localeCompare(b.name)
     })
-  }else if (sortFieldElem.value === 'surname'){
+  } else if (sortFieldElem.value === 'rname') {
+    users = users.sort(function(a, b) {
+      return b.name.localeCompare(a.name)
+    })
+  } else if (sortFieldElem.value === 'surname'){
     users = users.sort(function(a, b) {
       return a.surname.localeCompare(b.surname)
+    })
+  } else if (sortFieldElem.value === 'rsurname'){
+    users = users.sort(function(a, b) {
+      return b.surname.localeCompare(a.surname)
     })
   } else if (sortFieldElem.value === 'age') {
     users = users.sort(function(a, b) {
       return a.age - b.age
     })
-  } 
-
-  if (searchTextInp.value !== "") {
-    // filter возвращает новый массив с элементами которые прошли проверку в callback функции
-    users = users.filter(function(user) {
-      return user.name.toLowerCase().includes(searchTextInp.value.toLowerCase())
-      // startsWith если начало строки совпадает с нашей строкой то true, в противном случае false
-      // includes если строка содержит заданную подстроку то true, в противном случае false
+  } else if (sortFieldElem.value === 'rage') {
+    users = users.sort(function(a, b) {
+      return b.age - a.age
     })
-  }
+  } 
 
   rerender()
 })
