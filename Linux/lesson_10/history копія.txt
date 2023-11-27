@@ -1,0 +1,68 @@
+   0 df -h
+   1 df -h > file.txt
+   2 ls -l
+   3 chmod u+x
+   4 chmod u+x file1.txt
+   5 chmod u+x file.txt
+   6 ls -l
+   7 chmod ugo-rwx file.txt
+   8 ls -l
+   9 chmod u+r,g+w,o+x file.txt
+  10 ls -l
+  11 chmod 7 file.txt
+  12 ls -l
+  13 chmod 777 file.txt
+  14 ls -l
+  15 chmod 744 file.txt
+  16 ls -l
+  17 chmod 764 file.txt
+  18 ls -l
+  19 chmod 44 file.txt
+  20 ls -l
+  21 chmod 744 file.txt
+  22 nano script.sh
+  23 cat /etc/os-release
+  24 nano script.sh
+  25 ls -l
+  26 cat script.sh
+  27 ./script.sh
+  28 ./file.txt
+  29 chmod 744 script.sh
+  30 ls -l
+  31 ./script.sh
+  32 cd /opt/
+  33 ./script.sh
+  34 /root/script.sh
+  35 cd
+  36 bash script.sh
+  37 env
+  38 cat script.sh
+  39 nano script.sh
+  40 ./script.sh
+  41 cat script.sh
+  42 bash script.sh
+  43 ash script.sh
+  44 sh script.sh
+  45 /root/script.sh
+  46 nano script.sh
+  47 /root/script.sh
+  48 env
+  49 mv script.sh /bin/andrii
+  50 ./script.sh
+  51 andrii
+  52 cd /opt/
+  53 andrii
+  54 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/
+  55 tree
+  56 nano script.sh
+  57 script.sh
+  58 nano script.sh
+  59 script.sh
+  60 ls -l
+  61 chmod 744 script.sh
+  62 script.sh
+  63 export NAME=andrii
+  64 env
+  65 $NAME
+  66 history > history.txt
+  67 history > history.txt;export_file history.txt 
