@@ -60,6 +60,9 @@ https://github.com/ArtemSG/171023-m
 https://github.com/schemchuk
 https://github.com/SergSch
 https://github.com/ikar-zindo
+https://github.com/anghelusion/homeleson
+https://github.com/WEST100/homeworks/tree/main/homework3.1
+https://github.com/JuliaVladimirov/FrontEnd-Homework/tree/main/Maket
 https://github.com/fr13n8/lessons_171023-m
 
 https://airtable.com/appQWRUJA8s7JBJHn/shrMHsqzD0ZqyPEk1/tblvIBp9Y86Xae4k5/viwpcGOZ7CoxupF7B

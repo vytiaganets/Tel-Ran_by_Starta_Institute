@@ -1,0 +1,23 @@
+1 Создайте файл myfirstbashscript.sh где угодно.
+2 Сделайте его исполняемым.
+3 Заведите новую переменную USER и присвойте ей ваше имя в качестве значения
+4 Добавьте в скрипт все необходимое, чтобы он :
+5 Написал дату
+6 Поприветствовал Вас по имени ( hello $USER!)
+7 Написал, из какой директории он работает   
+   
+   
+   0 touch myfirstbashscript.sh
+   1 chmod u+x myfirstbashscript.sh
+   2 export USER=andrii
+   3 mv myfirstbashscript.sh /bin/andrii
+   4 cd /bin
+   5 nano andrii
+            #!/bin/bash
+
+            date +'%D'
+            echo "hello $USER"
+            whereis andrii
+
+   6 ./andrii
+   7. history > history_28_11_23.txt; export_file history_28_11_23.txt
