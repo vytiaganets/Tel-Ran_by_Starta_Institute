@@ -56,6 +56,7 @@ https://airtable.com/apprdK6RSuHRwWXO9/shr2h0UnN8iYaEjGi
 https://airtable.com/apprBJ9l2CVkioJ8I/shr1aPoPcWthHqCxB/tblQmdd7z9lk2rqnz/viwwvVTwrcNLjBNXt
 https://airtable.com/appQWRUJA8s7JBJHn/shrMHsqzD0ZqyPEk1/tblvIBp9Y86Xae4k5/viwpcGOZ7CoxupF7B
 
+https://github.com/ArtemSG/171023-m
 https://github.com/schemchuk
 https://github.com/SergSch
 https://github.com/ikar-zindo
@@ -64,3 +65,62 @@ https://github.com/fr13n8/lessons_171023-m
 https://airtable.com/appQWRUJA8s7JBJHn/shrMHsqzD0ZqyPEk1/tblvIBp9Y86Xae4k5/viwpcGOZ7CoxupF7B
 https://airtable.com/apprBJ9l2CVkioJ8I/shr1aPoPcWthHqCxB/tblk3YFaWOqtMnb7R/viwA0vLlAS21vkGv0
 https://www.notion.so/templates 
+
+Сайты для поиска работы в Германии
+
+https://arbeitsagentur.de/jobsuche - Arbeitsagentur Jobbörse – федеральная биржа труда. Все возможные вакансии, более миллиона из них.
+https://indeed.com - Indeed – большой агрегатор вакансий. Пытаются автоматически выбирать позиции под профиль пользователя.
+https://jobware.de - Jobware – фокус на управленцах и высококвалифицированных специалистах. Гарантируют ответ на каждое резюме.
+https://monster.de - Monster – старейший проект в немецком интернете. Ориентация не является интернациональным поиском работы.
+https://stepstone.de – Stepstone – еще один солидный проект с фокусом на специалистах. Также много международных вакансий.
+
+Важные:
+https://backinjob.de - BackInJob
+https://jobbörse.de - Jobbörse
+https://kalaydo.de - Kalaydo
+https://karrieresprung.de/jobs — Karrieresprung
+https://stellenanzeigen.de - Stellenanzeigen
+https://xing.com/jobs - Xing Jobs
+
+Менее важные
+https://1a-stellenmarkt.de - 1A-Stellenmarkt
+https://aktuellejobs.de - AktuelleJobs
+https://finest-jobs.com - FinestJobs
+https://jobsintown.de - JobsInTown
+https://jobs.de - JobS
+https://jobstairs.de - JobStairs
+https://mapmeo.com - MapMeo
+https://jobs.meinestadt.de - MeineStadt
+https://stellenanbieter.de - Stellenanbieter
+https://yourfirm.de - Yourfirm
+
+Агрегаторы
+https://careers.google.com/jobs — Google Careers
+https://kimeta.de - Kimeta
+https://metajob.de/jobsuche - MetaJob
+
+Для поиска работы в определенном секторе
+https://bankjob.de - BankJob – банки и финансы.
+https://chemie.de/jobs - Chemie – химическая промышленность.
+https://handwerkerjobs.de - Handwerkerjobs – ремесленники, ремонтники, строительные специальности.
+https://hotelcareer.de - Hotelcareer – гостиничный бизнес, туризм, гастрономия.
+https://ibusiness.de/jobs – iBusiness – IT-шники.
+https://ingenieurcenter.de - INGENIEURCENTER – инженерные вакансии.
+https://pharmajobs.com - Pharmajobs – фармацевтика.
+
+Для выпускников вузов без опыта
+https://akademiker.jobs - Akademiker.Jobs
+https://akademiker-online.de - Akademiker Online
+https://absolventa.de - Absolventa
+https://berufsstart.de - Berufsstart
+https://connecticum.de - Connecticum
+https://academics.com Academics
+https://stellenwerk.de - Stellenwerk
+https://trainee.de - Trainee.de
+https://trainee-gefluester.de - Trainee-Gefluester
+https://karriere.unicum.de - Unicum
+
+Подработка для студентов
+https://campusanzeigen.net - Campusanzeigen
+https://jobmensa.de - Jobmensa
+https://unistellenmarkt.de - UNIstellenmarkt
