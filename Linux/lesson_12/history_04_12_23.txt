@@ -1,0 +1,57 @@
+   0 nano script.sh
+   1 chmod u+x script.sh
+   2 ls -l
+   3 ./script.sh
+   4 nano script.sh
+   5 ./script.sh
+   6 nano test.sh
+   7 df -h
+   8 df -h | grep -o /dev/root
+   9 nano test.sh
+  10 df -h
+  11 df -h | grep /
+  12 df -h | grep -w /
+  13 df -h | grep -o /
+  14 nano test.sh
+  15 chmod u+x test.sh
+  16 ./test.sh
+  17 cat test.sh | wc -m
+  18 tree /opt/
+  19 cat test.sh
+  20 ./test.sh
+  21 clear
+  22 nano work.sh
+  23 ls -l
+  24 chmod u+x work.sh
+  25 ls
+  26 cp work.sh /bin/supertest
+  27 .supertest
+  28 supertest
+  29 ls -l
+  30 ls -l /tmp
+  31 tree /tmp
+  32 cat /tmp/andrii/
+  33 cat /tmp/andrii/test.txt
+  34 nano work.sh
+  35 supertest
+  36 cat /tmp/andrii/test.txt
+  37 tree /tmp
+  38 clear
+  39 tree /tmp
+  40 cat /tmp/andrii/test.txt
+  41 supertest
+  42 nano work.sh
+  43 clear
+  44 nano /bin/supertest
+  45 supertest
+  46 tree /tmp
+  47 clear
+  48 echo '#!/bin/basc\n date\n echo "hello"'
+  49 echo -e '#!/bin/bash\n date\n echo "hello"'
+  50 ls -l
+  51 echo -e '#!/bin/bash\n date\n echo "hello"' > script2.sh
+  52 ls -l
+  53 cat script2.sh
+  54 clear
+  55  
+  56 history > history_04_12_23.txt; export_file history_04_12_23.txt
