@@ -65,6 +65,9 @@ https://github.com/WEST100/homeworks/tree/main/homework3.1
 https://github.com/JuliaVladimirov/FrontEnd-Homework/tree/main/Maket
 https://github.com/fr13n8/lessons_171023-m
 https://github.com/aliaskov/bashscripts/blob/master/.zshrc 
+https://github.com/Tiupina-Liubov
+https://github.com/dj-hoos?tab=repositories
+https://github.com/tel-ran-de/17102023-m-java-base
 
 https://airtable.com/appQWRUJA8s7JBJHn/shrMHsqzD0ZqyPEk1/tblvIBp9Y86Xae4k5/viwpcGOZ7CoxupF7B
 https://airtable.com/apprBJ9l2CVkioJ8I/shr1aPoPcWthHqCxB/tblk3YFaWOqtMnb7R/viwA0vLlAS21vkGv0
