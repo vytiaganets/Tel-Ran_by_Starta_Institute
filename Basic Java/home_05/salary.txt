@@ -1,0 +1,1 @@
+salary: 42,00 hours:  70  result: 2940,00

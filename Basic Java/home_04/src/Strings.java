@@ -28,5 +28,22 @@ public class Strings {
                     (str2.substring(str2.length() / 2, str2.length()));
             System.out.println(str3);//pama
     }
+//2
+// public static void concatTwoHalvesOfWord(String wordOne, String wordTwo) {
+// if (checkWordLength (wordOne)){
+// return; 
+// }
+// if (checkWordLength(wordTwo)) {
+//     return;
+// }
+// System.out.printin(wordOne.substring(e, wordOne. Length() / 2)
+// + wordTwo. substring( beginindex: wordTwo. Length() / 2));
 
+// private static boolean checklordLength(String word) {
+// if (word. Length() % 2 != 0) {
+// System.out .printlA("The word is wrong length, read the rules!");
+// return true;
+// }
+// return false;
+// }
 }
