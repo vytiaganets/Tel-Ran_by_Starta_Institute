@@ -15,7 +15,7 @@ public class Numbers {
         String str1 = sc.nextLine();
         int num1 = Integer.parseInt(str1);
         Scanner scr = new Scanner(System.in);
-        System.out.println("Введите первое число");//2
+        System.out.println("Введите второе число");//2
         String str2 = scr.nextLine();
         int num2 = Integer.parseInt(str2);
         addition(num1, num2);
