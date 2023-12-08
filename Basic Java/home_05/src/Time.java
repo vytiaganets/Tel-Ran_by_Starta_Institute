@@ -15,19 +15,21 @@ public class Time {//            №2
         int sec = (int)(Math.random() * TOTAL_SEC);
         int hour = (sec / SEC_PER_MIN) / MIN_PER_HOUR;
 
-        System.out.println(sec);
+        System.out.println(sec + " секунд");//13855 секунд
 
-        if(hour == 0)
+        if(hour == 0) {
             System.out.println("Осталось менее часа");
-        else if(hour == 1)
+        } else if(hour == 1) {
             System.out.println("Остался " + hour + " час");
-        else if(hour >= 2 && hour <= 4)
-            System.out.println("Осталось " + hour + " часа");
-        else
+
+        } else if(hour >= 2 && hour <= 4) {
+            System.out.println("Осталось " + hour + " часа"); //Осталось 3 часа
+        } else {
             System.out.println("Осталось " + hour + " часов");
+        }
     }
 
 
 }
 
-}
+
