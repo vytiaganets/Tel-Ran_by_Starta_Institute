@@ -1,0 +1,31 @@
+   0 env
+   1 ls -l
+   2 ls -la
+   3 pwd
+   4 whereis ls
+   5 whereis vi
+   6 whereis nano
+   7 whereis cd
+   8 ls -l
+   9 nano тест.txt
+  10 ls -l
+  11 ls -la
+  12 ls
+  13 ls -R
+  14 ls -l
+  15 sudo ls
+  16 nano fullscript.sh
+  17 bash fullscript.sh
+  18 nano fullscript.sh
+  19 bash fullscript.sh
+  20 nano fullscript.sh
+  21 chmod u+x fullscript.sh
+  22 ls -l
+  23 ./fullscript.sh
+  24 nano fullscript.sh
+  25 ./fullscript.sh
+  26 ls -l /opt/
+  27 ls -l /opt/mydate/
+  28 cat /opt/mydate/newmydate.txt
+  29 nano fullscript.sh
+  30 history > history_07_12_23.txt; export_file history_07_12_23.txt

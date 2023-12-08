@@ -1,0 +1,79 @@
+   0 echo "hello"
+   1 env
+   2 cd
+   3 pwd
+   4 cd /opt/\
+   5 cd /opt/
+   6 cd
+   7 env
+   8 ls
+   9 hbfjfb
+  10 dfgfdgfd
+  11 ls -l /bin
+  12 env
+  13 whereis nano
+  14 whereis tree
+  15 ls
+  16 tree
+  17 export VAR=hello
+  18 env
+  19 export NAME=ivan
+  20 env
+  21 $NAME
+  22 export EDITOR=vi
+  23 $EDITOR
+  24 echo $VAR $NAME
+  25 export VAR2=/root/readme.txt
+  26 $VAR2
+  27 export VAR2=/root/readme.txt
+  28 env
+  29 whereis nano
+  30 export EDITOR=vi VAR3=nano VAR4=berlin
+  31 env
+  32 export VAR6="nano"
+  33 $VAR6
+  34 env
+  35 unset VAR VAR2 VAR3 VAR4 VAR6
+  36 env
+  37 unset PATH
+  38 ls
+  39 mkdir -p /opt
+  40 touch 1.txt
+  41 /bin/touch /opt/1.txt
+  42 ls - /opt
+  43 ls -l /opt
+  44 /bin/ls -l /opt
+  45 cd /bin
+  46 ls /opt/
+  47 mkdir /root/folder
+  48 export PATH=/bin
+  49 cd
+  50 ls
+  51 nano
+  52 vi
+  53 tree
+  54 export VAR=""
+  55 env
+  56 history
+  57 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+  58 export VAR=""
+  59 env
+  60 echo $VAR
+  61 ls -l
+  62 ls
+  63 chmod ugo+x 
+  64 ls
+  65 chmod ugo+x readme.txt 
+  66 ls -l
+  67 cat /etc/passwd
+  68 ls -l
+  69 chmod ugo-rwx readme.txt 
+  70 ls -l
+  71 cat readme.txt 
+  72 nano readme.txt 
+  73 ls -l
+  74 chmod a+w readme.txt 
+  75 ls -l
+  76 chmod u+r readme.txt 
+  77 ls -l
+  78 history > history_path_chmod
