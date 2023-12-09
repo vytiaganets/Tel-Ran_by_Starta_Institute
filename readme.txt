@@ -57,7 +57,9 @@ https://airtable.com/apprdK6RSuHRwWXO9/shr2h0UnN8iYaEjGi
 https://airtable.com/apprBJ9l2CVkioJ8I/shr1aPoPcWthHqCxB/tblQmdd7z9lk2rqnz/viwwvVTwrcNLjBNXt
 https://airtable.com/appQWRUJA8s7JBJHn/shrMHsqzD0ZqyPEk1/tblvIBp9Y86Xae4k5/viwpcGOZ7CoxupF7B
 
-https://github.com/ArtemSG/171023-m
+https://github.com/Crystaldw
+https://github.com/ghibnerelvira
+https://github.com/ArtemSG/
 https://github.com/schemchuk
 https://github.com/SergSch
 https://github.com/ikar-zindo
@@ -69,6 +71,7 @@ https://github.com/aliaskov/bashscripts/blob/master/.zshrc
 https://github.com/Tiupina-Liubov
 https://github.com/dj-hoos?tab=repositories
 https://github.com/tel-ran-de/17102023-m-java-base
+https://github.com/Vedenin
 
 https://airtable.com/appQWRUJA8s7JBJHn/shrMHsqzD0ZqyPEk1/tblvIBp9Y86Xae4k5/viwpcGOZ7CoxupF7B
 https://airtable.com/apprBJ9l2CVkioJ8I/shr1aPoPcWthHqCxB/tblk3YFaWOqtMnb7R/viwA0vLlAS21vkGv0
