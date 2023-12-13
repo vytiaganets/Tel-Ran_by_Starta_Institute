@@ -6,13 +6,13 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionListener;
 
 class HelloComponent2 extends JComponent
-        implements MouseMotionListener {
+        implements MouseMotionListener { //интерфейс
     String theMessage;
     int messageX = 125, messageY = 95; //Координаты сообщения
 
     public HelloComponent2(String message) {
         theMessage = message;
-        addMouseMotionListener(this);
+        addMouseMotionListener(this);//HelloComponent2 обьект
     }
 
     public void paintComponent(Graphics g) {
@@ -26,7 +26,7 @@ class HelloComponent2 extends JComponent
         repaint();
     }
 
-    public void mouseMoved(MouseEvent e) {
+    public void mouseMoved(MouseEvent e) {//обязательно, требует MouseMotionListener
 
     }
 }

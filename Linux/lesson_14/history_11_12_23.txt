@@ -1,0 +1,52 @@
+   0 echo "hello"
+   1 export NAME=andrii
+   2 tar --help
+   3 cd /tmp
+   4 df -h > 1.txt
+   5 ps -ef > 2.txt
+   6 ls -l
+   7 tar -czf /opt/archive.tar.gz *.txt
+   8 ls -l/opt/
+   9 ls -l /opt/
+  10 df -h
+  11 ps -pe
+  12 ps -ef
+  13 tar --help
+  14 tar -xjf /opt/archive.tar.gz -C /home
+  15 tar -xJf /opt/archive.tar.gz -C /home
+  16 tar -xzf /opt/archive.tar.gz -C /home
+  17 ls -l /home?
+  18 ls -l /home/
+  19 tar --help
+  20 history > history_07_12_23.txt; export_file history_07_12_23.txt
+crontab --help
+df -h
+env
+crontab -l
+crontab -r
+cd /opt/171023_morning/ andrii
+ls -l
+ls -la
+echo '#!/bin/bash\n date'
+echo -e '#!/bin/bash\n date \n echo "it works!"'
+echo -e '#!/bin/bash\n date \n echo "it works!"' > cron.sh
+ls -l
+chmod u+x cron.sh
+crontab -e
+
+Chrome:
+https://crontab.guru
+
+cron.sh:
+* * * * * /opt/171023_morning/andrii/cron.sh >> /opt/171023_morning/andrii/log.log
+
+log.log:
+Mon Dec 11 13:14:01 UTC 2023
+it works!
+
+
+
+
+
+
+
