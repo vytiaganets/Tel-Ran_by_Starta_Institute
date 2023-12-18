@@ -51,7 +51,7 @@ https://discordapp.com/channels/1081271040497434785/1121818984497565696
 15. Какую главную цель преследует регрессионное тестирование?
 16. С позиции тестировщика, в контексте web-тестирования, на какой http статус код
 нужно обращать внимание в первую очередь как потенциальный баг?
-
+https://airtable.com/apprdK6RSuHRwWXO9/shrnMJjRvEkeZnCJe
 Заявки на трудоустройство IT
 https://airtable.com/apprdK6RSuHRwWXO9/shr2h0UnN8iYaEjGi
 https://airtable.com/apprBJ9l2CVkioJ8I/shr1aPoPcWthHqCxB/tblQmdd7z9lk2rqnz/viwwvVTwrcNLjBNXt
