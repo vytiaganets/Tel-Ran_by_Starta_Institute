@@ -1,0 +1,18 @@
+   0 ls -l
+   1 history
+   2 nano test
+   3 history | tail -3
+   4 nano test
+   5 cat /etc/issue
+   6 cat /etc/issue | sed 's/on/to/'
+   7 nano test
+   8 ls -l
+   9 chmod u+x test
+  10 ./test
+  11 nano test
+  12 chmod u+x test
+  13 ./test
+  14 tree /home
+  15 ls -l /home/testfolder/123/1/history.txt
+  16 nano test
+  17 history > history_12_12_23.txt; export_file history_12_12_23.txt
