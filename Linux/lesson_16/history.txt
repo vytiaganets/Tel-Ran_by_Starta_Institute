@@ -1,0 +1,6 @@
+chmod 744 script0.sh
+./script0.sh
+
+https://drive.google.com/drive/folders/1vCslMkyKeVgV-H4JLhJPbJibJm1eDNm3?usp=sharing
+
+history > history_12_12_23.txt; export_file history_12_12_23.txt
