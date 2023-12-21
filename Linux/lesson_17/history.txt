@@ -1,0 +1,11 @@
+cd
+ls -la
+cat .ssh/id_rsa.pub
+
+
+brew install git
+https://developer.apple.com/xcode/
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+history > history_12_12_23.txt; export_file history_12_12_23.txt
