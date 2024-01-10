@@ -1,0 +1,67 @@
+scp VAndreev@linux.telran-edu.de:~File10.txt File10.txt 
+
+scp VAndreev@linux.telran-edu.de:/home/VAndreev/File10.txt File10.txt 
+
+
+scp ./File2.txt VAndreev@linux.telran-edu.de:/home/VAndreev/File2.txt
+
+scp VAndreev@linux.telran-edu.de:/home/VAndreev/Filelo.txt admin@aws:/home/admin/Filelo.txt
+
+man ls
+Очень детальная інфо о командах
+====================Задача_01===================
+Создайть папку ВАШЕ_ИМЯ по полному пути:
+/opt/test/ВАШЕ_ИМЯ
+Зайти в новую папку
+Создать файл с именем file.txt
+Выйти в домашнюю директорию
+Скопировать файл file.txt в папку /tmp с переименованием file2.txt
+Удалить файл file.txt
+Проверить наличие нового файла file2.txt
+====================Задача_02===================
+https://habr.com/ru/articles/481398/
+Создать скрипт который выполнит следующие команды:
+Создать файл test2.txt любым способом по пути /tmp/ВАШЕ_ИМЯ
+Дописать в него содержимое файла readme.txt из домашней директории
+Дописать в этот файл дату
+Переместить файл в папку /var/temp (предварительно ее создать)
+
+#!/bin/bash
+mkdir -p /tmp/andrii
+cat /root/readme.txt >> /tmp/andrii/test2.txt 
+date >> /tmp/andrii/test2.txt 
+mkdir -p /var/temp 
+mv /tmp/andrii/test2.txt /var/temp
+
+#!/bin/bash
+ 
+mkdir -p /tmp/Radomyr
+cat /root/readme.txt >> /tmp/Radomyr/test2.txt
+date >> /tmp/Radomyr/test2.txt
+mkdir -p /var/temp
+mv /tmp/Radomyr/test2.txt /var/temp
+====================Задача_03===================
+Создать скрипт который выполнит следующие команды:
+Создать файл test2.txt любым способом по пути /tmp/ВАШЕ_ИМЯ
+Дописать в него содержимое файла readme.txt из домашней директории
+Дописать в этот файл дату
+Переместить файл в папку /var/temp (предварительно ее создать)
+
+====================Задача_04===================
+https://habr.com/ru/company/ruvds/blog/325522/
+Создайте файл скрипта myscript.sh в домашней дериктории
+Файл скрипта должен выполнить:
+создать файл по пути /var/ВАШЕ_ИМЯ.txt
+записать в него дату
+дописать в файл три последние строчки из файла /etc/group с заменой слова user на ваше имя
+Сделать скрипт исполняемым из любого места в системе.
+
+
+#!/bin/bash
+ 
+date >> /var/andrii.txt
+cat /etc/group | tail -3 | sed 's/user/andrii/g' >> /var/andrii.txt
+
+chmod u+x myscript.sh
+
+

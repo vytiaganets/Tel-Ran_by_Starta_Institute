@@ -1,0 +1,39 @@
+   0 env
+   1 echo $PATH
+   2 ls
+   3 export PATH=$PATH:/root
+   4 echo $PATH
+   5 pwd
+   6 cd /var/log
+   7 cd
+   8 ls -al
+   9 cd /var/log
+  10 cd ~/.cache/
+  11 pwd
+  12 cd
+  13 ls -al
+  14 ps -af
+  15 scp
+  16 man ls
+  17 mkdir /opt/test/andrii
+  18 mkdir -p /opt/test/andrii
+  19 cd /opt/test/andrii
+  20 /opt/test/andrii# echo "TEXT" >> file.txt
+  21 cd /opt/test/andrii/
+  22 /opt/test/andrii# echo "TEXT" >> file.txt
+  23 echo "TEXT" >> file.txt
+  24 ls -al
+  25 cd
+  26 cp /opt/te
+  27 cp /opt/test/andrii/file.txt /tmp/file2.txt
+  28 rm /opt/test/andrii/file.txt
+  29 cd /opt/test
+  30 nano 1.sh
+  31 nano myscript.sh
+  32 chmod u+x myscript.sh
+  33 ls -la /var/
+  34 ./myscript.sh
+  35 cat /var/andrii.txt
+  36 cat /etc/group | tail -3
+  37 cat myscript.sh
+  38 history >> history_2024-01-08.txt
