@@ -1,0 +1,27 @@
+==================11_01_2024================
+1 создаст папку trigger по пути /opt/home/123
+2 создаст 10 файлов с названием 0-9 по пути /tmp/drive/ 
+3 перенесет папку drive в папку trigger с переименованием в nodrive
+4 в файл 0 добавьте ваше имя
+5 в файл 3 добавьте вывод из команды процессов
+6 в файл 5 добавьте содержимое из файла readme.txt (полный путь к файлу /root/readme.txt)
+7 в файл 7 добавьте список всех файлов и папок из папки /env
+
+#!/bin/bash
+set -e
+mkdir -p /opt/home/123/trigger /tmp/drive
+for i in {0..9}
+do
+ 
+touch /tmp/drive/$i
+done
+mv /tmp/drive /opt/home/123/trigger/nodrive
+echo "andrii" >> /opt/home/123/trigger/nodrive/0
+ps -f >> /opt/home/123/trigger/nodrive/3
+cat /root/readme.txt >> /opt/home/123/trigger/nodrive/5
+ls -la /env >> /opt/home/123/trigger/7
+
+
+
+
+history > history_11_01_24.txt; export_file history_11_01_24.txt
