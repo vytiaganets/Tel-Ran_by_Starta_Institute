@@ -1,0 +1,60 @@
+--1. Вывести имена и фамилии клиента
+--SELECT first_name, last_name FROM customers;
+--2. Вывести все поля из таблицы клиенты
+--SELECT 
+--* 
+--FROM customers;
+-- 3. Вывести все имя, фамилию и возраст только тех клиентов, чей возраст равен 22
+--select
+--first_name, last_name, age 
+--from customers
+--where age = 22;
+--4. 3. Вывести все имя, фамилию и возраст только тех клиентов, чьи имя John
+--select
+--first_name, last_name, age - 2 as new_age
+--from customers
+--where first_name = 'John';
+--5. Вывести всех клиентов чей возраст находится в диапазоне от 25 до 30 включительно
+--select 
+--first_name, last_name, age
+--from customers
+--where age not between 25 and 30;
+--6. Вывести всех клиентов (имя, фамилия, возраст) чей возраст = 22, 23, 25
+--select 
+--first_name, last_name, age
+--from customers
+--where age not in (22, 23 , 25);
+-- 7. Вывести всех клиентов (имя, фамилия, возраст), чья фамилия начинает на букву R
+--LIKE
+--% - любое множество любых символов (0 - Infinity)
+--select first_name, last_name, age 
+--from customers
+--where last_name like 'R%';
+--8. Вывести всех клиентов (имя, фамилия, возраст), чья фамилия заканчивается/содержит на букву e/o
+--select first_name, last_name, age 
+--from customers
+--where last_name like '%o%';
+--9. Вывести всех клиентов, у которых отсутсвтует значение в поле age
+--update customers
+--set age = null
+
+--select *
+--from customers
+--where age is null;
+--10. Вывести клиентов (имя, фамилия) у которых вторая и третья буква имени с конца (предпоследняя) имени tt
+--select first_name, last_name, age 
+--from customers
+--where first_name like '%tt_';
+--11.
+--update customers
+--set last_name = "0'Doe"
+
+--select first_name, last_name, age 
+--from customers
+--where first_name like '_\'%';
+--12. Вывести клиентов (имя фамилия) у которых фамилия начинается на букву R и возраст больше или равен 25
+--select first_name, last_name, age 
+--from customers
+--where last_name like "r%" or age >= 25;
+
+
