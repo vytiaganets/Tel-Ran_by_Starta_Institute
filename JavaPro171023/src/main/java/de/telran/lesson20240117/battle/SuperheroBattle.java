@@ -16,6 +16,8 @@ package de.telran.lesson20240117.battle;
 //    1. Создать 3 класса Superhero, Weapon, Protection
 //    2. Создать несколько персонажей SuperheroBattle main()
 //    3. Реализовать методы generateRandomSuperHero(), fight()
+//fight(Superhero another)
+//fight(Superhero one, Superhero two)
 //    4. Продемонстрировать сражение
 public class SuperheroBattle {
     public static void main(String[] args) {
@@ -29,5 +31,8 @@ public class SuperheroBattle {
 
         System.out.println(spiderman);
         System.out.println(batman);
+
+        Protection randomProtection = Protection.generateRandomProtection();
+        System.out.println(randomProtection);
     }
 }
