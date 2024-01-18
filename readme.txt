@@ -88,6 +88,8 @@ https://github.com/KorolovaJana
 https://github.com/WEST100
 https://github.com/Alenushka1988
 https://github.com/iohichu
+https://github.com/IliaIliukovich/practice-171023
+https://github.com/alex2808pl/JavaPro171023
 
 https://airtable.com/appQWRUJA8s7JBJHn/shrMHsqzD0ZqyPEk1/tblvIBp9Y86Xae4k5/viwpcGOZ7CoxupF7B
 https://airtable.com/apprBJ9l2CVkioJ8I/shr1aPoPcWthHqCxB/tblk3YFaWOqtMnb7R/viwA0vLlAS21vkGv0
