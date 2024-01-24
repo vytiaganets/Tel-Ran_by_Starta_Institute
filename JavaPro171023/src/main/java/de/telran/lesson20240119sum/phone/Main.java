@@ -1,8 +1,4 @@
-package de.telran.lesson20240119.phone;
-import de.telran.lesson20240119.phone.Iphone;
-import de.telran.lesson20240119.phone.AndroidPhone;
-
-import java.util.Arrays;
+package de.telran.lesson20240119sum.phone;
 
 import java.util.Arrays;
 

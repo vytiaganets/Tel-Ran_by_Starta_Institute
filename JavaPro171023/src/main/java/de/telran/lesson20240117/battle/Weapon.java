@@ -3,6 +3,7 @@ package de.telran.lesson20240117.battle;
 public class Weapon {
     private String name;
     private int force;
+    //private static Weapon;
 
     public Weapon(String name, int force) {
         this.name = name;
