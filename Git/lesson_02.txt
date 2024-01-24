@@ -1,0 +1,13 @@
+https://gitforwindows.org
+git config --global user.name
+git config --global user.email
+IdentityFile
+~/.ssh/ 
+scp ec2-user@linux.telran-edu.de:/opt/old-opt/chumak/tetris.sh
+git rm --cashed
+
+.gitignore
+#packages_file
+*.zip
+*.tar.gz
+https://github.com/iohichu/test_scripts
