@@ -1,4 +1,4 @@
-package de.telran.lesson20240119.phone;
+package de.telran.lesson20240119sum.phone;
 
 public abstract class Phone {
     String model;

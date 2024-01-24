@@ -1,4 +1,4 @@
-package de.telran.lesson20240119;
+package de.telran.lesson20240119sum;
 
 public class Person {
     String name;
