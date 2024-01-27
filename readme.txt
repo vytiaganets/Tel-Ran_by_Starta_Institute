@@ -62,15 +62,15 @@ https://github.com/Crystaldw
 https://github.com/ghibnerelvira
 https://github.com/ArtemSG/
 https://github.com/schemchuk
-https://github.com/SergSch
-https://github.com/ikar-zindo
-https://github.com/fr13n8/lessons_171023-m
-https://github.com/aliaskov/bashscripts/blob/master/.zshrc 
+https://github.com/SergSch Serg Schevchuck
+https://github.com/ikar-zindo Ivan Bukrieiev
+https://github.com/fr13n8/lessons_171023-m Erik Hovsepyan
+https://github.com/aliaskov/bashscripts/blob/master/.zshrc andrewliaskovski
 https://github.com/Tiupina-Liubov
-https://github.com/dj-hoos?tab=repositories
+https://github.com/dj-hoos?tab=repositories Said-Khusein Iandarbiev
 https://github.com/tel-ran-de/17102023-m-java-base
 https://github.com/Vedenin
-https://github.com/Anastasiamus
+https://github.com/Anastasiamus Anastasia Sobyanina
 https://github.com/FilippKuznetsov
 https://github.com/OlenaVovchenko
 https://github.com/Olgayakubovich81
