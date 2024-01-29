@@ -89,7 +89,7 @@ https://github.com/KorolovaJana
 https://github.com/WEST100
 https://github.com/Alenushka1988
 https://github.com/iohichu
-https://github.com/IliaIliukovich/practice-171023 Java-summay
+https://github.com/IliaIliukovich/practice-171023 Java-summary
 https://github.com/alex2808pl/JavaPro171023
 https://github.com/tel-ran-de/summary-171023
 https://github.com/NelliEfr/Group_171023_GenTech SQL-summary
