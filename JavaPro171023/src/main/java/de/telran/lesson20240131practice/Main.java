@@ -1,4 +1,4 @@
-package de.telran.lesson20240131sum;
+package de.telran.lesson20240131practice;
 
 public class Main {
     static final String DATABASE_URL = "http://mysql:localhost:8080";
