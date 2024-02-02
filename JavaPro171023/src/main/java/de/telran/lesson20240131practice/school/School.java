@@ -7,7 +7,7 @@
 //3. Реализовать логику методов teach() у учителя с данными перечислениями,
 //чтобы после выполнения teach(Student student) у соответствующих учеников добавлялась информация о пройденном предмете.
 //4. Продемонстрировать работу нового функционала в классе School
-package de.telran.lesson20240131sum.school;
+package de.telran.lesson20240131practice.school;
 
 public class School {
     public static void main(String[] args) {

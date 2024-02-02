@@ -1,4 +1,4 @@
-package de.telran.lesson20240131sum.school;
+package de.telran.lesson20240131practice.school;
 
 public class Teacher {
     private String name;
