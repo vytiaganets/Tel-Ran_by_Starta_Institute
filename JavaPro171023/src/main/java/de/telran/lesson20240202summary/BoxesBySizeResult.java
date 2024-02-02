@@ -9,7 +9,6 @@ public class BoxesBySizeResult {
     private final Box[] sizeS;
     private final Box[] sizeM;
     private final Box[] sizeL;
-
     public BoxesBySizeResult(double averagePriceS, double averagePriceM, double averagePiceL, Box[] sizeS, Box[] sizeM, Box[] sizeL) {
         this.averagePriceS = averagePriceS;
         this.averagePriceM = averagePriceM;
