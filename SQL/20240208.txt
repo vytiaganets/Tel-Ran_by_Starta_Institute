@@ -1,0 +1,85 @@
+jdbc:mysql://localhost:3306/mysql
+
+-- 1. Необходимо создать таблицу goods с полями 
+-- id целое число первичный ключ автоинкремент 
+-- title строка 128 байт (не null) 
+-- description строка 128 байт  (не null) 
+-- price (от 0 до 100) - два знака после точки 
+-- in_stock varchar(128) (или “Y” или “N”) 
+-- 2. Заполнить таблицу 5 строками
+
+create table goods( 
+id integer primary key auto_increment, 
+title varchar(128) not null, 
+descr varchar(128) not null, 
+price numeric(5, 2) check(price between 0 to 100),
+int_stock varchar(128) check(int_stock in ('Y', 'N'))); 
+
+insert into goods(title, descr, price, int_stock) 
+values ('Apple', 'good apple', 33.87, 'Y'),
+values ('Orange', 'good orange', 46.89, 'N');
+
+create table goods( 
+id integer primary key, 
+title varchar(128) not null, 
+descr varchar(128) not null, 
+price numeric(5, 2) check(price between 0 AND 100),
+int_stock varchar(128) check(int_stock in ('Y', 'N'))); 
+
+insert into goods(id, title, descr, price, int_stock) 
+values (1, 'Apple', 'good apple', 33.87, 'Y'),
+(2, 'Orange', 'good orange', 46.89, 'N'),
+(3, 'Kiwi', 'good kiwi', 46.89, 'N'),
+(4, 'Banana', 'good banana', 46.89, 'N'),
+(5, 'Lemon', 'good lemon', 46.89, 'N');
+
+--3. удалить с id = 5;
+delete from goods
+where id = 5;
+
+--4. Удалить все строки с таблицы
+delete from goods;
+
+--5. Отключить safe update mode
+set sql_safe_update = 0;
+
+--6.  Bключить safe update mode
+set sql_safe_update = 1;
+
+--7. Сбросить таблицу до изначального состояния
+truncate goods;
+
+-- 8. У поля in_stock поменять тип данных на char(1) 
+
+alter table goods;
+modify column in_stock char(1);
+
+-- 8. У поля in_stock поменять тип данных на char(1) 
+alter table goods 
+
+modify column in_stock char(1); 
+
+-- 9. Добавить новое поле country со значением по умолчанию Germany 
+alter table goods 
+add column country varchar(128) default 'Germany';
+
+insert into goods(id, title, descr, price, int_stock,country) 
+values (1, 'Apple', 'good apple', 33.87, 'Y', 'Germany'),
+(2, 'Orange', 'good orange', 46.89, 'N', 'Germany'),
+(3, 'Kiwi', 'good kiwi', 46.89, 'N', 'Germany'),
+(4, 'Banana', 'good banana', 46.89, 'N', 'Germany'),
+(5, 'Lemon', 'good lemon', 46.89, 'N', 'Germany');
+
+-- 10. Переименовать поле descr в info (без изменения типа данных)  
+alter table goods 
+rename column descr to info;
+
+alter table goods 
+change dear info varchar(128);
+-- 11. Удалить поле country 
+alter table goods 
+
+drop column country; 
+
+--12. Переименовать table
+Rename table goods to products;
