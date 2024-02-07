@@ -1,0 +1,25 @@
+git remote -v 
+git pull 
+git status 
+git add . 
+git rm 00cached –r 
+git commit -m “added new hw” 
+git branch 
+git remote remove origin 
+git remote add origin 
+git push -u origin main 
+git push --set-upstream origin main 
+git branch 
+git checkout -b new 
+origin new 
+git branch main 
+git checkout main 
+fork_and_pull_test 
+https://github.com/iohichu/fork_and_pull_test 
+git clone 
+git remote -v
+git log
+git reset --soft HEAD^
+git log
+git revert b32fc8856 поиск коммита
+
