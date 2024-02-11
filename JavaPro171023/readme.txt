@@ -1,3 +1,15 @@
+LINKS:
+https://javarush.com/groups/posts/1985-raznica-mezhdu-abstraktnihmi-klassami-i-interfeysami
+https://javarush.com/quests/lectures/questcore.level03.lecture03
+https://vertex-academy.com/tutorials/ru/abstraktnyj-klass-java/
+https://javarush.com/groups/posts/1967-otnoshenija-mezhdu-klassami-nasledovanie-kompozicija-i-agregirovanie-
+https://javarush.com/groups/posts/2025-polimorfizm-i-ego-druzjhja
+https://vertex-academy.com/tutorials/ru/chto-takoe-polimorfizm-java/
+https://javarush.com/groups/posts/polimorfizm-v-java
+https://javarush.com/groups/posts/1963-kak-ispoljhzovatjh-klass-enum
+https://vertex-academy.com/tutorials/ru/pattern-singleton-realizacii/
+https://javarush.com/groups/posts/2004-teorija-dzhenerikov-v-java-ili-gde-na-praktike-stavitjh-skobki
+
 ВОПРОСЫ
 1.
 Определение инкапсуляции, наследования, полиморфизма, раннего и позднего связывания.
