@@ -78,7 +78,6 @@ https://github.com/Olgayakubovich81
 https://github.com/234mph
 https://github.com/4rad95
 https://github.com/romanowskaelena
-https://github.com/maratgmk
 https://github.com/Parasolkasweet
 https://github.com/Serhii-Horb
 https://github.com/JuliaVladimirov
