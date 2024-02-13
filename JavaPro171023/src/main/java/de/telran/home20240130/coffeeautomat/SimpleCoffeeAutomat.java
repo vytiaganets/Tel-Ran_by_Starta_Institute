@@ -13,5 +13,16 @@ public class SimpleCoffeeAutomat {
         //0 - latte, 1 - espresso, 2 - americano
         //0
         //Ready LATTE
+
+        //System.out.println(test(1));
     }
+//    public static int test (int v)
+//    {
+//        int[] a = {0, 2, 3, 4};
+//        for (int i = 0; 1 < a.length; i++) {
+//            if (a[i] == 1)
+//                return 1;
+//        }
+//            return -1;
+//        }
 }
