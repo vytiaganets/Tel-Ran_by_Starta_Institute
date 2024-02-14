@@ -1,4 +1,34 @@
+Algorithms and Data Structures Course
+Стили
+1. Роберт Седжвик, Кевин Уэйн - Алгоритмы на Java (2015)
+2. Роберт Седжвик, Кевин Уэйн - Computer Science. Основы программирования на Java, ООП, алгоритмы и структуры данных
+3. Лакман Макдауэлл, Г. Карьера программиста: прохождение собеседования, разработка программного обеспечения, структуры данных и алгоритмы.
+Java Professional Course
+1. Эрих Гамма, Ричард Хелм, Ральф Джонсон, Джон Влиссидес - Приемы объектно-ориентированного программирования (2000)
+2. Марк Гранд - Шаблоны проектирования в Java (2004)
+3. Роберт Мартин - Чистый код (2010)
+4. Майкл К. Физерс - Эффективная работа с унаследованным кодом
+(2016)
+5. Книги из серии OCP Oracle Certified Professional Java
+https://ru.wikipedia.org/wiki/Design Patterns
+https://github.com/iluwatar/java-design-patterns
+
+Core Java for the Impatient, Third Edition
+Cay S. Horstmann
+
+Java Professional Course
+1.	Эрих Гамма, Ричард Хелм, Ральф Джонсон, Джон Влиссидес - Приемы объектно-ориентированного программирования (2000)
+2.	Марк Гранд - Шаблоны проектирования в Java (2004)
+3.	Роберт Мартин - Чистый код (2010)
+4.	Майкл К. Физерс - Эффективная работа с унаследованным кодом (2016)
+5.	Книги из серии OCP Oracle Certified Professional Java
+
 LINKS:
+https://ru.wikipedia.org/wiki/Design_Patterns
+https://github.com/iluwatar/java-design-patterns
+https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/package-summary.html
+https://docs.oracle.com/en/java/javase/19/
+https://docs.oracle.com/en/java/javase/19/
 https://javarush.com/groups/posts/1985-raznica-mezhdu-abstraktnihmi-klassami-i-interfeysami
 https://javarush.com/quests/lectures/questcore.level03.lecture03
 https://vertex-academy.com/tutorials/ru/abstraktnyj-klass-java/
