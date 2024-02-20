@@ -39,6 +39,10 @@ https://javarush.com/groups/posts/polimorfizm-v-java
 https://javarush.com/groups/posts/1963-kak-ispoljhzovatjh-klass-enum
 https://vertex-academy.com/tutorials/ru/pattern-singleton-realizacii/
 https://javarush.com/groups/posts/2004-teorija-dzhenerikov-v-java-ili-gde-na-praktike-stavitjh-skobki
+https://metanit.com/java/tutorial/5.5.php
+https://javarush.com/groups/posts/2147-hashset-v-java
+https://proglang.su/java/linkedhashset-class
+https://dzen.ru/a/ZJbYoc4z6HfMA-Nt
 
 ВОПРОСЫ
 1.
