@@ -70,7 +70,7 @@ public class SimpleGasStation {
 
 //      3. queue during natural disasters: cars - standard, technological transport - priority, ambulance - out of turn.
 
-        LinkedList transportLinkedList3 = new LinkedList<>(new NaturalDisasters());
+        LinkedList<Transport> transportLinkedList3 = new LinkedList<>();
         transportLinkedList3.add(new Transport(TypeOfTransport.AUTO));
         transportLinkedList3.add(new Transport(TypeOfTransport.AMBULANCE));
         transportLinkedList3.add(new Transport(TypeOfTransport.PUBLIC_BUS));
