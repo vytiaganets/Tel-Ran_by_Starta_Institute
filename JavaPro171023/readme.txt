@@ -43,6 +43,13 @@ https://metanit.com/java/tutorial/5.5.php
 https://javarush.com/groups/posts/2147-hashset-v-java
 https://proglang.su/java/linkedhashset-class
 https://dzen.ru/a/ZJbYoc4z6HfMA-Nt
+https://leetcode.com
+https://acmp.ru
+https://javarush.com/groups/posts/2866-funkcionaljhnihe-interfeysih-v-java
+https://metanit.com/java/tutorial/9.3.php
+https://skillbox.ru/media/base/funktsionalnye_interfeysy_i_lyambda_vyrazheniya_v_java/
+https://javarush.com/groups/posts/2542-otvetih-na-samihe-populjarnihe-voprosih-ob-interfeyse-map
+https://habr.com/ru/articles/128017/
 
 ВОПРОСЫ
 1.
