@@ -1,13 +1,13 @@
 package de.telran.home20240220.task2;
 
 public class Node {
-    private int item;// для хранения данных
-    private Node nextNode;// для хранения ссылки на следующий объект хранения
+    private int item;// int item; (для хранения данных)
+    private Node next;// Node next; (для хранения ссылки на следующий объект хранения)
 
     public Node(int item) {
 
         this.item = item;
-        this.nextNode = null;
+        this.next = null;
     }
     public Node() {
     }
@@ -17,11 +17,11 @@ public class Node {
     public void setItem(int item) {
         this.item = item;
     }
-    public Node getNextNode() {
-        return nextNode;
+    public Node getNext() {
+        return next;
     }
-    public void setNextNode(Node nextNode) {
-        this.nextNode = nextNode;
+    public void setNext(Node next) {
+        this.next = next;
     }
 
     @Override

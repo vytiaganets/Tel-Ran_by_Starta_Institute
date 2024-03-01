@@ -1,11 +1,11 @@
 package de.telran.home20240220.task2;
 
-public class OneDirectionIntLinkedList {
+public class UnidirectionIntLinkedList {
     private int listSize = 0;// текущий размер списка
 
     private Node firstNode;// структура для хранения первого элемента списка
 
-    public OneDirectionIntLinkedList() {
+    public UnidirectionIntLinkedList() {
         this.firstNode = null;
     }
 
@@ -28,13 +28,13 @@ public class OneDirectionIntLinkedList {
     @Override
     public String toString() {
         String text;
-        text = "OneDirectionIntLinkedList: { " +
+        text = "UnidirectionIntLinkedList: { " +
                 "listSize: " + listSize +
                 ", nodes: [ ";
         Node nodeN = firstNode;
         for (int i = 0; i < listSize; i++) {
             text += nodeN.getItem() + ", ";
-            nodeN = nodeN.getNextNode();
+            nodeN = nodeN.getNext();
         }
         text += "] }";
         return text;
@@ -47,10 +47,10 @@ public class OneDirectionIntLinkedList {
             firstNode = temp;
         } else {
             Node nodeForIterating = firstNode;
-            while (nodeForIterating.getNextNode() != null) {
-                nodeForIterating = nodeForIterating.getNextNode();
+            while (nodeForIterating.getNext() != null) {
+                nodeForIterating = nodeForIterating.getNext();
             }
-            nodeForIterating.setNextNode(temp);
+            nodeForIterating.setNext(temp);
         }
         this.listSize++;
     }
@@ -63,17 +63,17 @@ public class OneDirectionIntLinkedList {
 
         } else if (index == 0) {
             firstNode = new Node(item);
-            firstNode.setNextNode(temp);
+            firstNode.setNext(temp);
 
         } else {
             Node prev = new Node(0);
             while (index > 0) {
                 prev = temp;
-                temp = temp.getNextNode();
+                temp = temp.getNext();
                 index--;
             }
-            prev.setNextNode(new Node(item));
-            prev.getNextNode().setNextNode(temp);
+            prev.setNext(new Node(item));
+            prev.getNext().setNext(temp);
 
         }
         listSize++;
@@ -88,7 +88,7 @@ public class OneDirectionIntLinkedList {
         } else {
             Node temp = firstNode;
             firstNode = new Node(item);
-            firstNode.setNextNode(temp);
+            firstNode.setNext(temp);
 
         }
         listSize++;
@@ -103,10 +103,10 @@ public class OneDirectionIntLinkedList {
             firstNode = temp;
         } else {
             Node nodeForIterating = firstNode;
-            while (nodeForIterating.getNextNode() != null) {
-                nodeForIterating = nodeForIterating.getNextNode();
+            while (nodeForIterating.getNext() != null) {
+                nodeForIterating = nodeForIterating.getNext();
             }
-            nodeForIterating.setNextNode(temp);
+            nodeForIterating.setNext(temp);
         }
         this.listSize++;
     }
@@ -123,7 +123,7 @@ public class OneDirectionIntLinkedList {
         }
         Node nodeForIterating = firstNode;
         for (int i = 0; i < index; i++) {
-            nodeForIterating = nodeForIterating.getNextNode();
+            nodeForIterating = nodeForIterating.getNext();
 
         }
         return nodeForIterating.getItem();
@@ -141,7 +141,7 @@ public class OneDirectionIntLinkedList {
         } else {
             Node nodeForIterating = firstNode;
             for (int i = 0; i < index; i++) {
-                nodeForIterating = nodeForIterating.getNextNode();
+                nodeForIterating = nodeForIterating.getNext();
 
             }
             nodeForIterating.setItem(item);
@@ -157,16 +157,16 @@ public class OneDirectionIntLinkedList {
         }
         if (index == 0) {
             int temp = firstNode.getItem();
-            firstNode = firstNode.getNextNode();
+            firstNode = firstNode.getNext();
             listSize--;
             return temp;
         }
         Node currentNode = firstNode;
         for (int i = 0; i < index - 1; i++) {
-            currentNode = currentNode.getNextNode();
+            currentNode = currentNode.getNext();
         }
-        int temp = currentNode.getNextNode().getItem();
-        currentNode.setNextNode(currentNode.getNextNode().getNextNode());
+        int temp = currentNode.getNext().getItem();
+        currentNode.setNext(currentNode.getNext().getNext());
         listSize--;
         return temp;
 
@@ -175,7 +175,7 @@ public class OneDirectionIntLinkedList {
 
     //        removeFirst(): удалить элемент с начала списка.
     public void removeFirst() {
-        firstNode = firstNode.getNextNode();
+        firstNode = firstNode.getNext();
         listSize--;
     }
 
@@ -183,9 +183,9 @@ public class OneDirectionIntLinkedList {
     public void removeLast(){
         Node currentNode = firstNode;
         for (int i = 0; i < listSize - 2; i++) {
-            currentNode = currentNode.getNextNode();
+            currentNode = currentNode.getNext();
         }
-        currentNode.setNextNode(null);
+        currentNode.setNext(null);
         listSize--;
     }
 
@@ -199,7 +199,7 @@ public class OneDirectionIntLinkedList {
                 count = i;
                 break;
             }
-            currentNode = currentNode.getNextNode();
+            currentNode = currentNode.getNext();
         }
         if (count == -1){
             System.out.println("The element is not present in the list.");
@@ -216,7 +216,7 @@ public class OneDirectionIntLinkedList {
                 contains = true;
                 break;
             }
-            currentNode = currentNode.getNextNode();
+            currentNode = currentNode.getNext();
         }
         return contains;
     }
