@@ -19,77 +19,117 @@
 //Simulate the operation of a bank branch.
 package de.telran.home20240220.task2;
 
-public class RunOneDirectionIntLinkedList {
+public class SimpleUnidirectionIntLinkedList {
     public static void main(String[] args) {
 
-        OneDirectionIntLinkedList oneDirectionIntLinkedList = new OneDirectionIntLinkedList();
+        UnidirectionIntLinkedList unidirectionIntLinkedList = new UnidirectionIntLinkedList();
 
-        oneDirectionIntLinkedList.add(5);
-        oneDirectionIntLinkedList.add(4);
-        oneDirectionIntLinkedList.add(7);
-        oneDirectionIntLinkedList.add(2);
-        oneDirectionIntLinkedList.add(6);
+        unidirectionIntLinkedList.add(5);
+        unidirectionIntLinkedList.add(4);
+        unidirectionIntLinkedList.add(7);
+        unidirectionIntLinkedList.add(2);
+        unidirectionIntLinkedList.add(6);
         System.out.println("add(item)");
-        System.out.println(oneDirectionIntLinkedList);
+        System.out.println(unidirectionIntLinkedList);
         System.out.println();
 
-        oneDirectionIntLinkedList.add(1,8);
+        unidirectionIntLinkedList.add(1,8);
         System.out.println("add(index, item)");
-        System.out.println(oneDirectionIntLinkedList);
+        System.out.println(unidirectionIntLinkedList);
         System.out.println();
 
-        oneDirectionIntLinkedList.addFirst(10);
+        unidirectionIntLinkedList.addFirst(3);
         System.out.println("addFirst(item)");
-        System.out.println(oneDirectionIntLinkedList);
+        System.out.println(unidirectionIntLinkedList);
         System.out.println();
 
-        oneDirectionIntLinkedList.addLast(3);
+        unidirectionIntLinkedList.addLast(3);
         System.out.println("addLast(item)");
-        System.out.println(oneDirectionIntLinkedList);
+        System.out.println(unidirectionIntLinkedList);
         System.out.println();
 
         System.out.println("get(index)");
-        System.out.println(oneDirectionIntLinkedList.get(2));
+        System.out.println(unidirectionIntLinkedList.get(3));
         System.out.println();
 
-        oneDirectionIntLinkedList.set(3, 9);
+        unidirectionIntLinkedList.set(1, 7);
         System.out.println("set(index, item)");
-        System.out.println(oneDirectionIntLinkedList);
+        System.out.println(unidirectionIntLinkedList);
         System.out.println();
 
         System.out.println("remove(index)");
-        System.out.println(oneDirectionIntLinkedList.remove(0));
-        System.out.println(oneDirectionIntLinkedList);
+        System.out.println(unidirectionIntLinkedList.remove(0));
+        System.out.println(unidirectionIntLinkedList);
         System.out.println();
 
         System.out.println("removeFirst()");
-        oneDirectionIntLinkedList.removeFirst();
-        System.out.println(oneDirectionIntLinkedList);
+        unidirectionIntLinkedList.removeFirst();
+        System.out.println(unidirectionIntLinkedList);
         System.out.println();
 
         System.out.println("removeLast()");
-        oneDirectionIntLinkedList.removeLast();
-        System.out.println(oneDirectionIntLinkedList);
+        unidirectionIntLinkedList.removeLast();
+        System.out.println(unidirectionIntLinkedList);
         System.out.println();
 
         System.out.println("int indexOf(int item)");
-        System.out.println(oneDirectionIntLinkedList.indexOf(7));
-        System.out.println(oneDirectionIntLinkedList.indexOf(5));
+        System.out.println(unidirectionIntLinkedList.indexOf(5));
+        System.out.println(unidirectionIntLinkedList.indexOf(7));
         System.out.println();
 
         System.out.println("boolean contains(int item)");
-        System.out.println(oneDirectionIntLinkedList.contains(5));
-        System.out.println(oneDirectionIntLinkedList.contains(7));
+        System.out.println(unidirectionIntLinkedList.contains(7));
+        System.out.println(unidirectionIntLinkedList.contains(6));
         System.out.println();
 
         System.out.println("clear()");
-        oneDirectionIntLinkedList.clear();
-        System.out.println(oneDirectionIntLinkedList);
+        unidirectionIntLinkedList.clear();
+        System.out.println(unidirectionIntLinkedList);
         System.out.println();
 
         System.out.println("boolean isEmpty()");
-        System.out.println(oneDirectionIntLinkedList.isEmpty());
-
-
+        System.out.println(unidirectionIntLinkedList.isEmpty());
+//add(item)
+//UnidirectionIntLinkedList: { listSize: 5, nodes: [ 5, 4, 7, 2, 6, ] }
+//
+//add(index, item)
+//UnidirectionIntLinkedList: { listSize: 6, nodes: [ 5, 8, 4, 7, 2, 6, ] }
+//
+//addFirst(item)
+//UnidirectionIntLinkedList: { listSize: 7, nodes: [ 3, 5, 8, 4, 7, 2, 6, ] }
+//
+//addLast(item)
+//UnidirectionIntLinkedList: { listSize: 8, nodes: [ 3, 5, 8, 4, 7, 2, 6, 3, ] }
+//
+//get(index)
+//4
+//
+//set(index, item)
+//UnidirectionIntLinkedList: { listSize: 8, nodes: [ 3, 7, 8, 4, 7, 2, 6, 3, ] }
+//
+//remove(index)
+//3
+//UnidirectionIntLinkedList: { listSize: 7, nodes: [ 7, 8, 4, 7, 2, 6, 3, ] }
+//
+//removeFirst()
+//UnidirectionIntLinkedList: { listSize: 6, nodes: [ 8, 4, 7, 2, 6, 3, ] }
+//
+//removeLast()
+//UnidirectionIntLinkedList: { listSize: 5, nodes: [ 8, 4, 7, 2, 6, ] }
+//
+//int indexOf(int item)
+//The element is not present in the list.
+//-1
+//2
+//
+//boolean contains(int item)
+//true
+//false
+//
+//clear()
+//UnidirectionIntLinkedList: { listSize: 0, nodes: [ ] }
+//
+//boolean isEmpty()
+//true
     }
 }

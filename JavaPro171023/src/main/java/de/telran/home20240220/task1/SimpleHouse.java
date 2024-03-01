@@ -40,14 +40,16 @@ import java.util.List;
 
 public class SimpleHouse {
     public static void main(String[] args) {
-        House house1 = new House(98, 500000,"Stuttgart", false);
-        House house2 = new House(75, 550000,"Berlin", true);
-        House house3 = new House(69, 420000,"Rostock", true);
-        House house4 = new House(110, 650000,"München", false);
-        House house5 = new House(87, 480000,"Stuttgart", true);
-        House house6 = new House(120, 700000,"Dresden", false);
-        House house7 = new House(90, 520000,"Stuttgart", true);
-        House house8 = new House(130, 800000,"Stuttgart", false);
+        House house1 = new House(23, 346254, "Lviv", true);
+        House house2 = new House(12, 657575, "Chernivtsi", true);
+        House house3 = new House(32, 575753, "Poltava", false);
+        House house4 = new House(24, 241234, "Kharkiv", false);
+        House house5 = new House(67, 535515, "Sevastopol", true);
+        House house6 = new House(68, 462462, "Simpferopol", false);
+        House house7 = new House(45, 646266, "Kiev", true);
+        House house8 = new House(55, 477657, "Dnipro", false);
+        House house9 = new House(89, 743747, "Mykolaiv", true);
+        House house10 = new House(21, 45747, "Kherson", false);
 
         List<House> housesList = new ArrayList<>();
         housesList.add(house1);
@@ -58,22 +60,24 @@ public class SimpleHouse {
         housesList.add(house6);
         housesList.add(house7);
         housesList.add(house8);
-        System.out.println("Not sorted:");
+        housesList.add(house9);
+        housesList.add(house10);
+        System.out.println("Не отсортировано:");
         System.out.println(housesList);
         System.out.println();
 
-        System.out.println("Sorted by price:");
-        Collections.sort(housesList); //сортируются по цене
+        System.out.println("Сортировано по цене:");
+        Collections.sort(housesList);
         System.out.println(housesList);
         System.out.println();
 
-        System.out.println("Sorted by city and price:");
-        Collections.sort(housesList, new CityPriceComparator());//сортируются по городам и по цене
+        System.out.println("Сортировано по городу и цене:");
+        Collections.sort(housesList, new CityPriceComparator());
         System.out.println(housesList);
         System.out.println();
 
-        System.out.println("Sorted by city and area:");
-        Collections.sort(housesList, new CityAreaComparator());//сортируются по городам и по площади
+        System.out.println("Сортировка по городу и району:");
+        Collections.sort(housesList, new CityAreaComparator());
         System.out.println(housesList);
         System.out.println();
     }

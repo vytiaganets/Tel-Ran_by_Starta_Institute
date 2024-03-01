@@ -1,5 +1,7 @@
 package de.telran.home20240220.task1;
+
 import java.util.Comparator;
+
 public class CityPriceComparator implements Comparator<House> {
 
     @Override
