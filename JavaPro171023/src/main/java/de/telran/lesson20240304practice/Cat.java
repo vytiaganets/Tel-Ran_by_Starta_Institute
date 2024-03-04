@@ -1,15 +1,15 @@
-package de.telran.home20240227.task2;
+package de.telran.lesson20240304practice;
 
 public class Cat {
     private String name;
     private int age;
-    private int weight;
+    private double weight;
     private String sort;
 
     public Cat() {
     }
 
-    public Cat(String name, int age, int weight, String sort) {
+    public Cat(String name, int age, double weight, String sort) {
         this.name = name;
         this.age = age;
         this.weight = weight;
@@ -32,11 +32,11 @@ public class Cat {
         this.age = age;
     }
 
-    public int getWeight() {
+    public double getWeight() {
         return weight;
     }
 
-    public void setWeight(int weight) {
+    public void setWeight(double weight) {
         this.weight = weight;
     }
 
