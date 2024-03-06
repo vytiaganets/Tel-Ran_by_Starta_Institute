@@ -50,6 +50,7 @@ https://metanit.com/java/tutorial/9.3.php
 https://skillbox.ru/media/base/funktsionalnye_interfeysy_i_lyambda_vyrazheniya_v_java/
 https://javarush.com/groups/posts/2542-otvetih-na-samihe-populjarnihe-voprosih-ob-interfeyse-map
 https://habr.com/ru/articles/128017/
+https://annimon.com/article/2778
 
 ВОПРОСЫ
 1.
