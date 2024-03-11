@@ -1,0 +1,159 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dineug/erd-editor/main/json-schema/schema.json",
+  "version": "3.0.0",
+  "settings": {
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": 0,
+    "scrollLeft": 0,
+    "zoomLevel": 1,
+    "show": 431,
+    "database": 4,
+    "databaseName": "",
+    "canvasType": "@dineug/erd-editor/builtin-schema-sql",
+    "language": 1,
+    "tableNameCase": 4,
+    "columnNameCase": 2,
+    "bracketType": 1,
+    "relationshipDataTypeSync": true,
+    "relationshipOptimization": false,
+    "columnOrder": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "maxWidthComment": -1
+  },
+  "doc": {
+    "tableIds": [
+      "n12ha124nSSZMUa83YdI1"
+    ],
+    "relationshipIds": [],
+    "indexIds": [],
+    "memoIds": []
+  },
+  "collections": {
+    "tableEntities": {
+      "n12ha124nSSZMUa83YdI1": {
+        "id": "n12ha124nSSZMUa83YdI1",
+        "name": "mytable",
+        "comment": "",
+        "columnIds": [
+          "OH-wrrhrod-Ug2Dmg75Ep",
+          "NWS9M5T09y0PahPBLd12-",
+          "Al2gEd51773G1yGA0cPnQ",
+          "j3f0CB_IQmzDF7OWkOqR4"
+        ],
+        "seqColumnIds": [
+          "OH-wrrhrod-Ug2Dmg75Ep",
+          "NWS9M5T09y0PahPBLd12-",
+          "Al2gEd51773G1yGA0cPnQ",
+          "j3f0CB_IQmzDF7OWkOqR4"
+        ],
+        "ui": {
+          "x": 50,
+          "y": 50,
+          "zIndex": 2,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1710157704256,
+          "createAt": 1710157704172
+        }
+      }
+    },
+    "tableColumnEntities": {
+      "OH-wrrhrod-Ug2Dmg75Ep": {
+        "id": "OH-wrrhrod-Ug2Dmg75Ep",
+        "tableId": "n12ha124nSSZMUa83YdI1",
+        "name": "online catalog",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 81,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1710157704256,
+          "createAt": 1710157704173
+        }
+      },
+      "NWS9M5T09y0PahPBLd12-": {
+        "id": "NWS9M5T09y0PahPBLd12-",
+        "tableId": "n12ha124nSSZMUa83YdI1",
+        "name": "catalog of computer hardware, software, and office equipment",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 355,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1710157704256,
+          "createAt": 1710157704175
+        }
+      },
+      "Al2gEd51773G1yGA0cPnQ": {
+        "id": "Al2gEd51773G1yGA0cPnQ",
+        "tableId": "n12ha124nSSZMUa83YdI1",
+        "name": "90",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1710157704256,
+          "createAt": 1710157704175
+        }
+      },
+      "j3f0CB_IQmzDF7OWkOqR4": {
+        "id": "j3f0CB_IQmzDF7OWkOqR4",
+        "tableId": "n12ha124nSSZMUa83YdI1",
+        "name": "-",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1710157704256,
+          "createAt": 1710157704175
+        }
+      }
+    },
+    "relationshipEntities": {},
+    "indexEntities": {},
+    "indexColumnEntities": {},
+    "memoEntities": {}
+  },
+  "lww": {}
+}
