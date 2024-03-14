@@ -20,7 +20,7 @@ public class Task1 {
                 new Person("Mark"))));
         //[1, 2, 3, 6, 1, 1]
         //TwoLists{uniqueElement=[Hello, World, Java, System], duplicates=[World]}
-        //TwoLists{uniqueElement=[Person{name='Alex'}, Person{name='Eva'}, Person{name='Ivan'}, Person{name='Mark'}], duplicates=[Person{name='Mark'}]}
+        //TwoLists{uniqueElement=[Teachers{name='Alex'}, Teachers{name='Eva'}, Teachers{name='Ivan'}, Teachers{name='Mark'}], duplicates=[Teachers{name='Mark'}]}
 
     }
     public static <T> TwoLists<T> getLists(List<T> list){
@@ -65,7 +65,7 @@ class Person{
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "Teachers{" +
                 "name='" + name + '\'' +
                 '}';
     }

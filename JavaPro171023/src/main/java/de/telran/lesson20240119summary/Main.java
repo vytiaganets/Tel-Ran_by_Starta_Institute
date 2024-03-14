@@ -13,13 +13,13 @@ public class Main {
 //        List<Integer> list1 = new ArrayList<>();
 //        List<Integer> list2 = new ArrayList<>();
 //
-//        Person anton = new Person();
+//        Teachers anton = new Teachers();
 //        anton.name = "Anton";
 //        anton.age = 35;
-//        Person ivan = new Person();
+//        Teachers ivan = new Teachers();
 //        ivan.name = "Ivan";
 //        ivan.age = 31;
-//        Person vasya = new Person();
+//        Teachers vasya = new Teachers();
 //        System.out.println(anton.name);
 //        System.out.println(ivan.name);
 //        System.out.println(vasya.name);
