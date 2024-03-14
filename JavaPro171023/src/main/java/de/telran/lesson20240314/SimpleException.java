@@ -98,5 +98,4 @@ public class SimpleException {
         }
         return arg1 / arg2;
     }
-
 }
