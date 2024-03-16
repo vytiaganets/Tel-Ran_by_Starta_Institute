@@ -30,42 +30,44 @@
 //The method returns true if the values are true or false otherwise.
 //Exception handling is carried out in the calling method.
 package de.telran.home20240314;
-import static java.lang.System.exit;
 public class SimpleExceptions {
     public static void main(String[] args) {
-        String login = "Tel_-";
+        String login = "Tel_";
         String password = "ran";
 
         String confirmPassword = "ran";
-        //String password = "_ran";
-        //String confirmPassword = "_ran";
-        //Пароль не соответствует требованиям.
-        boolean result = false;
+        boolean resultLogin = false;
+        boolean resultPassword = false;
         try {
-            result = error(login, password, confirmPassword);
-        } catch (WrongLoginException e) {
-            System.out.println(result);
+            resultLogin = checkLogin(login);
+            resultPassword = checkPassword(password, confirmPassword);
+        } catch (
+                WrongLoginException |
+                WrongPasswordException e) {
+            System.out.println("resultLogin: " + resultLogin);
+            System.out.println("resultPassword: " + resultPassword);
             System.out.println(e.getMessage());
-            exit(1);
+            resultLogin = false;
+            resultPassword = false;
         }
-        try {
-            result = error(login, password, confirmPassword);
-        } catch (WrongPasswordException e) {
-            System.out.println(result);
-            System.out.println(e.getMessage());
-            exit(1);
-        }
-        System.out.println(result);//true
+        System.out.println("resultLogin: " + resultLogin);
+        System.out.println("resultPassword: " + resultPassword);
+        //resultLogin: true
+        //resultPassword: true
     }
 
-    public static boolean error(String login, String password, String confirmPassword) {
+    public static boolean checkLogin(String login) {
         if (!login.matches("^[a-zA-Z0-9_]{0,19}$")) {
             throw new WrongLoginException("Логин не соответствует требованиям.");
         }
-        if (!password.matches("^[a-zA-Z0-9]{0,19}$")){
+        return true;
+    }
+
+    public static boolean checkPassword(String password, String confirmPassword) {
+        if (!password.matches("^[a-zA-Z0-9]{0,19}$")) {
             throw new WrongPasswordException("Пароль не соответствует требованиям.");
         }
-        if (!password.equals(confirmPassword)){
+        if (!password.equals(confirmPassword)) {
             throw new WrongPasswordException("Подтвердите пароль.");
         }
         return true;
