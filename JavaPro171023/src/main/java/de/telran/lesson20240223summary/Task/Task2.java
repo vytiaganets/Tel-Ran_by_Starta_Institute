@@ -48,7 +48,7 @@ public class Task2 {
         }
 
 //    public static boolean isBalanced(String str) {
-//        Stack<Character> openStack = new Stack<>();
+//        Dictionary<Character> openStack = new Dictionary<>();
 //        Map<Character, Character> bracers = new HashMap<>();
 //        bracers.put(')', '(');
 //        bracers.put('}', '{');

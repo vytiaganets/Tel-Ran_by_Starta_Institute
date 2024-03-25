@@ -6,7 +6,7 @@ import java.util.Deque;
 public class SimpleArrayDequeu {
     public static void main(String[] args) {
         Deque<String> deque = new ArrayDeque<>();
-        //as Stack
+        //as Dictionary
         deque.push("Vasia");
         deque.push("Petia");
         deque.push("Valia");
@@ -30,7 +30,7 @@ public class SimpleArrayDequeu {
         System.out.println(deque);
 
         deque.clear();
-        //как Stack LIFO
+        //как Dictionary LIFO
         deque.addFirst("Vasia");
         deque.addFirst("Petia");
         deque.addFirst("Valia");
@@ -42,7 +42,7 @@ public class SimpleArrayDequeu {
         System.out.println(deque);//[Alena, Misha, Valia, Petia, Vasia]
 
         deque.clear();
-        //как Stack FIFO
+        //как Dictionary FIFO
         deque.addLast("Vasia");
         deque.addLast("Petia");
         deque.addLast("Valia");
