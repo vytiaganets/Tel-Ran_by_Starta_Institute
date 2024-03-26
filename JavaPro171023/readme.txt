@@ -1,3 +1,58 @@
+Java Professional Program
+1. OOP (Object-Oriented Programming)
+Classes, objects, fields and methods of an object. Fields and methods of a Class Encapsulation. Modifier 'static' and 'final.*
+Inheritance. Abstract classes.
+Polvmorohism. Reterence Data Tvnes in Java
+5. Enums in Java. Practice
+2. JCF. Java Collections Framework
+Working with Arravs in Java. Binary search. sort.
+Data structures detinition. Intertaces. Data structure "List. ArravsList
+плете
+106 0000006 09
+Tieriors anc eranlearoreacu sunrax
+Lists implementations. LinkedList.
+ака sermnnienngtonanasuseniexere sesa
+Comparina obiects in lava. Comparator. Comparable. Method sort.
+Data structures Queue , 'Stack'. Custom ArrayDeque implementation.
+Data structure 'Map'. Obiect.hashCode, HashMap implementation Trees, Binary Trees, Tree Map.
+Graphs. Practice.
+5. General and repetition
+• 2.
+Java Regular expressions. Basics
+Generics, PECS.
+Excedtions.
+Unit testing. JUnit. Mockito tests.
+LocalDate, LocalDatelime, ZonedDatelime, exercises
+6.
+3. Lambdas & Stream API
+Lambdas, Functional Interfaces, Method references.
+Practice. Functions and Supplier interfaces.
+Stream API: Stream, primitive streams. Intermediate and Terminal operations.
+ava stroams. pracrico ear man. co ecrors
+4. Input and Output in Java.
+Introduction to Inout and Outout in Java
+Try-catch, Reading/Writing streams of bytes, streams of strings
+Multithreading
+General introduction to Java multithreading, main problems.
+Thread, Runnable, Daemon threads, Interrupted Exception
+svnchronization. Mutex, Monitor. AtomIc types
+Obiect.wait. Obiect.ioin. One-element blocking queue (Messenger).
+JavaUtiConcurrent. Concurrent Collections
+Threads Executors.
+Spring & Spring Boot
+Apache Maven. сборка проектов.
+Принципы программирования: DRY. YAGNI, KISS, SOLID.
+Reflections. Annotations..
+sorina Framework Introduction. context and Beans
+Spring Framework: Beans contiguration
+Spring Boot: Onion (Hexagonal) architecture
+Spring Boot: Implementing Rest controllers
+Java JUBCAPL. работа с оазами панных
+Soring Boot: JPA and databases
+10. Soring Boot: validation and error handling
+Soring Boot: logging and AOP basics
+Spring Boot: scheduled jobs
+
 Algorithms and Data Structures Course
 Стили
 1. Роберт Седжвик, Кевин Уэйн - Алгоритмы на Java (2015)

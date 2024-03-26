@@ -19,3 +19,12 @@ private int booklount;
 }
 Save them to a file. Read from file.
 3. Write a program that would find all text files with the .txt extension in a given folder and its subfolders and output their contents to the console. The solution can be based on the class ListFileTree.java
+
+Регулярное выражение для фильтрации файлов без расширения в Java:
+String regex = "^[^.]+(?:\\.[^.]+)?$";
+Объяснение:
+
+^: начало строки.
+[^.]+: один или несколько символов, кроме точки.
+(?:\\.[^.]+): необязательная группа, соответствующая точке и одному или нескольким символам, кроме точки.
+$: конец строки.
