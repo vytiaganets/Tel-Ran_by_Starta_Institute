@@ -1,92 +1,121 @@
-//package de.telran.algorithms20240320;
-//
-//public class DynamicArray {
-//    private int count;
-//    private int size; // size will with size of array[]
-//    private int[] array; // variable array[] is an array private int count; // count will deal with no of element add by you private int size; // size will with size of array[]
-//
-//    public DynamicArray() {
-//        array = new int[1];
-//        count = 0;
-//        size = 1;
-//    }
-//
-//    // function add an element at the end of array
-//    public void add(int data) {
-//        // check no of element is equal to size of array
-//        if (count == size) {
-//            growSize(); // make array size double
-//        }
-//        count++;
-//        array[count] = data; // insert element at end of array
-//// function makes size double of array
-//        public void growSize
-//        () {
-//            int[] temp = new int[0];
-//            if (count == size) {
-//// temp is a double size array of array
-//// and store array elements
-//                temp = new int[size * 2];
-//                {
-//                    for (int i = 0; i < size; i++) {
-//                        temp[i] = array[i]; // copy all array value into temp
-//                        array = temp;
-//                        size = size * 2;
-//                    }
-//// the function reduces the size of the array, removes empty cells
-//                    public void shrinkSize
-//                    ()
-//                    {
-//                        int[] temp = new int[0];
-//                        if (count > 0) {
-//                            temp = new int[count]; // temp is a count size array and store array
-//                            for (int i = 0; i < count; i++) {
-//                                temp[i] = array[i]; // copy all array value into temp
-//                                size = count;
-//                                array = temp;
-//                            }
-//
-//
-//                        }
-//
-//                        // function add an element at given index
-//                        public void addAt
-//                        (
-//                        int index,
-//                        int data)
-//                        {
-//                            if (count == size) {// if size is not enough make size double
-//                                growSize();
-//                            }
-//                            for (int i = count - 1; i >= index; i--) {
-//                                array[i + 1] = array[i]; // shift all element right from given index
-//                            }
-//                            array [index] = data; // insert data at given index
-//                            count++;
-//// function remove last element or put zero at last index
-//                            public void remove)
-//                            {
-//                                if (count > 0) {
-//                                    array[count - 1] = 0;
-//                                    count--;
-//
-//                                }
-//                            }
-//// function remove last element or put zero at last index
-//                            public void remove) {
-//                            if (count > 0) {
-//                                I
-//                                array [count - 1] = 0;
-//                                count - -
-//                                        7
-//// function shift all element of right side from given index in left
-//                                public void removeAt (int index) {
-//                                    if (count > 0) §
-//                                    for (int i = index; i < count - 1; i++) {
-//                                        array [i] = array[i + 1]; // shift all element of right side from given
-//                                        7
-//                                        array [count - 1] = 0;
-//                                        count-
-//                                                7
-//                                        public int[] getArray() {
-//                        }
+package de.telran.algorithms20240320;
+
+public class DynamicArray {
+
+    private int length;
+
+    private int capacity;
+
+    private int[] arr;
+
+    public static final int DEFAULT_CAPACITY = 1;
+    private final int PERCENT_CHANGE = 50;
+
+    public DynamicArray() {
+        this.arr = new int[DEFAULT_CAPACITY];
+        this.capacity = DEFAULT_CAPACITY;
+        this.length = DEFAULT_CAPACITY;
+    }
+
+    public DynamicArray(int capacity) {
+        this.arr = new int[capacity];
+        this.capacity = capacity;
+        this.length = capacity;
+    }
+
+    public int[] getArr() {
+        return arr;
+    }
+
+    public void fillInRow() {
+        int inc = 1;
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = inc;
+            inc++;
+        }
+    }
+
+    public void fillOdd() {
+        int inc = 1;
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = inc;
+            inc += 2;
+        }
+    }
+
+    public void fillEven() {
+        int inc = 2;
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = inc;
+            inc += 2;
+        }
+    }
+
+    public void addArray(int[] arrAdd) {
+        int[] arr1;
+
+        if (length + arrAdd.length >= capacity) {
+            arr1 = new int[capacity + arrAdd.length + (capacity * PERCENT_CHANGE / 100)];
+        } else {
+            arr1 = new int[capacity];
+        }
+
+        for (int i = 0; i < length; i++) {
+            arr1[i] = arr[i];
+        }
+        for (int i = 0; i < arrAdd.length; i++) {
+            arr1[length + i] = arrAdd[i];
+        }
+        arr = arr1;
+        capacity = arr.length;
+        length += arrAdd.length;
+    }
+    public void addAtArray(int index, int[] arrAdd) {
+        int[] arr1;
+
+        if (length + arrAdd.length >= capacity) {
+            arr1 = new int[capacity + arrAdd.length + (capacity * PERCENT_CHANGE / 100)];
+        } else {
+            arr1 = new int[capacity];
+        }
+
+        for (int i = 0; i < index; i++) {
+            arr1[i] = arr[i];
+        }
+        for (int i = 0; i < arrAdd.length; i++) {
+            arr1[index + i] = arrAdd[i];
+        }
+        for (int i = 0; i < arr.length - index; i++) {
+            arr1[index + arrAdd.length + i] = arr[index + i];
+        }
+        arr = arr1;
+        capacity = arr.length;
+        length += arrAdd.length;
+    }
+
+
+    public boolean removeValue(int value) {
+        boolean result = false;
+        int[] arr1 = new int[capacity - 1];
+        int index = 0;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == value) {
+                index = i;
+                result = true;
+            }
+        }
+        if (!result)
+            return false;
+
+        for (int i = 0; i < index; i++) {
+            arr1[i] = arr[i];
+        }
+        for (int i = index + 1; i < capacity; i++) {
+            arr1[i - 1] = arr[i];
+        }
+        arr = arr1;
+        capacity = arr.length;
+        length--;
+        return true;
+    }
+}
