@@ -106,6 +106,11 @@ https://skillbox.ru/media/base/funktsionalnye_interfeysy_i_lyambda_vyrazheniya_v
 https://javarush.com/groups/posts/2542-otvetih-na-samihe-populjarnihe-voprosih-ob-interfeyse-map
 https://habr.com/ru/articles/128017/
 https://annimon.com/article/2778
+https://javarush.com/quests/lectures/questsyntaxpro.level16.lecture03
+https://javarush.com/groups/posts/1941-kak-ne-poterjatjhsja-vo-vremeni--datetime-i-calendar
+https://javarush.com/groups/posts/136-reguljarnihe-vihrazhenija-v-java-chastjh-1
+https://javarush.com/groups/posts/regulyarnye-vyrazheniya-v-java
+
 
 ВОПРОСЫ
 1.
