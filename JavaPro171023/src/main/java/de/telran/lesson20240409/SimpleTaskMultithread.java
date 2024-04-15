@@ -4,11 +4,11 @@ public class SimpleTaskMultithread {
     public static void main(String[] args) throws InterruptedException {
         System.out.println("--start--");
         long startTime = System.currentTimeMillis();
-        ThreadTask task1 = new ThreadTask (2, 200000);
-        ThreadTask task2 = new ThreadTask (200001, 400000);
-        ThreadTask task3 = new ThreadTask (400001, 600000);
-        ThreadTask task4 = new ThreadTask (600001, 8000000);
-        ThreadTask task5 = new ThreadTask (800001, 1_000_000);
+        ThreadTask task1 = new ThreadTask(2, 200000);
+        ThreadTask task2 = new ThreadTask(200001, 400000);
+        ThreadTask task3 = new ThreadTask(400001, 600000);
+        ThreadTask task4 = new ThreadTask(600001, 8000000);
+        ThreadTask task5 = new ThreadTask(800001, 1_000_000);
         task5.start();
         task4.start();
         task3.start();
@@ -19,10 +19,11 @@ public class SimpleTaskMultithread {
         task3.join();
         task4.join();
         task5.join();
-        System.out.println(Thread.currentThread().getName()+"- > Main Time = "+(System.currentTimeMillis()-startTime));
+        System.out.println(Thread.currentThread().getName() + "- > Main Time = " + (System.currentTimeMillis() - startTime));
         System.out.println("-end--");
     }
 }
+
 class ThreadTask extends Thread {
     private int start;
     private int end;
@@ -47,7 +48,7 @@ class ThreadTask extends Thread {
                 count++;
                 System.out.println("1");
                 System.out.println(Thread.currentThread().getName());
-                        System.out.println(Thread. currentThread () . getName ()+"› Count = "+count+"--"+start+"...);Time = "+ (System.currentTimeMillis() -startTime));
+                System.out.println(Thread.currentThread().getName() + "› Count = " + count + "--" + start + "...);Time = " + (System.currentTimeMillis() - startTime));
             }
         }
     }

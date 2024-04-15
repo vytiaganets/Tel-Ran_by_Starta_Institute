@@ -110,7 +110,13 @@ https://javarush.com/quests/lectures/questsyntaxpro.level16.lecture03
 https://javarush.com/groups/posts/1941-kak-ne-poterjatjhsja-vo-vremeni--datetime-i-calendar
 https://javarush.com/groups/posts/136-reguljarnihe-vihrazhenija-v-java-chastjh-1
 https://javarush.com/groups/posts/regulyarnye-vyrazheniya-v-java
-
+https://javarush.com/groups/posts/1992-mnogopotochnostjh-v-java-sutjh-pljusih-i-chastihe-lovushki-
+https://habr.com/ru/articles/745910/
+https://metanit.com/sql/mysql/1.1.php
+https://javarush.com/groups/posts/2047-threadom-java-ne-isportishjh--chastjh-i---potoki
+https://sky.pro/media/demon-potoki-v-java/
+https://habr.com/ru/articles/164487/
+http://visualvm.github.io/download.html (visual threads)
 
 ВОПРОСЫ
 1.
