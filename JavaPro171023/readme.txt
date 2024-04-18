@@ -1,4 +1,12 @@
 Java Professional Program
+Отвечаю на вопрос по поводу литературы: 
+По многопоточности в рамках курса достаточно посмотреть соотв. раздел из любой книги по Java,
+например: Core Java for the Impatient, Cay S. Horstmann
+Для более глубокого понимания темы можно брать
+Дуг Ли, Брайан Готц - Java - concurrency in practice
+Грегори Р. Эндрюс - Основы многопоточного параллельного и распределенного программирования 
+
+
 1. OOP (Object-Oriented Programming)
 Classes, objects, fields and methods of an object. Fields and methods of a Class Encapsulation. Modifier 'static' and 'final.*
 Inheritance. Abstract classes.
@@ -117,6 +125,11 @@ https://javarush.com/groups/posts/2047-threadom-java-ne-isportishjh--chastjh-i--
 https://sky.pro/media/demon-potoki-v-java/
 https://habr.com/ru/articles/164487/
 http://visualvm.github.io/download.html (visual threads)
+https://javarush.com/groups/posts/1422-vzaimnaja-blokirovkadeadlock-v-java-i-metodih-borjhbih-s-ney
+https://sky.pro/media/razlichiya-mezhdu-atomic-volatile-i-synchronized-v-java/
+https://www.examclouds.com/ru/java/java-core-russian/thread-syncronization#google_vignette
+https://htmlacademy.ru/blog/js/greedy-algo
+https://habr.com/ru/articles/120343/
 
 ВОПРОСЫ
 1.
