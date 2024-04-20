@@ -33,7 +33,7 @@ public class SimpleStream {
 //        doSomething.doSomething();
 
         //(void) --> Data Supplier
-        //(data) --> (void) Consumer
+        //(data) --> (void) Loader
         //(data) --> (data) Function, UnaryOperator, Predicate
         //(data1, data2) --> (data3) BiFunction, BiOperator
 
