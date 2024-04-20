@@ -13,8 +13,8 @@ public class PECSExample {
         list = integers;
         list = doubles;
 
-        //PECS Producer extends - Consumer super
-        //Producer extends
+        //PECS Unloader extends - Loader super
+        //Unloader extends
         List<? extends Number> numberList;
         numberList = integers;//possible
         //numberList = doubles;//possible
