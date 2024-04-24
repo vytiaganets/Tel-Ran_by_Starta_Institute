@@ -130,7 +130,12 @@ https://sky.pro/media/razlichiya-mezhdu-atomic-volatile-i-synchronized-v-java/
 https://www.examclouds.com/ru/java/java-core-russian/thread-syncronization#google_vignette
 https://htmlacademy.ru/blog/js/greedy-algo
 https://habr.com/ru/articles/120343/
-
+https://sky.pro/media/obnaruzhenie-cziklov-v-svyaznom-spiske-v-java/ Algorithms 22.04.2024
+https://javarush.com/quests/lectures/questmultithreading.level07.lecture07
+https://dzen.ru/list/gadgets/prostoi-primer-java-wait-notify
+https://proselyte.net/tutorials/java-core/multithreading/threads-interaction/
+https://habr.com/ru/articles/120343/   Алгоритмы
+https://htmlacademy.ru/blog/js/greedy-algo  Алгоритмы
 ВОПРОСЫ
 1.
 Определение инкапсуляции, наследования, полиморфизма, раннего и позднего связывания.

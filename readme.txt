@@ -95,7 +95,7 @@ https://github.com/alex2808pl/JavaPro171023
 https://github.com/tel-ran-de/summary-171023
 https://github.com/NelliEfr/Group_171023_GenTech SQL-summary
 https://github.com/annykh/genTech
-
+https://airtable.com/apprdK6RSuHRwWXO9/shrnMJjRvEkeZnCJe Вопросы на консультации
 https://airtable.com/appQWRUJA8s7JBJHn/shrMHsqzD0ZqyPEk1/tblvIBp9Y86Xae4k5/viwpcGOZ7CoxupF7B
 https://airtable.com/apprBJ9l2CVkioJ8I/shr1aPoPcWthHqCxB/tblk3YFaWOqtMnb7R/viwA0vLlAS21vkGv0
 https://www.notion.so/templates 

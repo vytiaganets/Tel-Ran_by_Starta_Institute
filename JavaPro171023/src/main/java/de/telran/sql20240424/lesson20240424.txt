@@ -1,0 +1,123 @@
+
+// MongoDB
+//{
+//    "name": "Tom",
+//    "surname": "Smith",
+//    "age": "37",
+//    "company": {
+//        "name": "Microsoft",
+//        "salary": "100"
+//    },
+//    "skills": ['Wirting code', "team-working',  'creativity']
+//}
+
+GT171023
+test
+create database
+//inset document 2
+// use - команда для создания БД или для того чтоб переключиться между бд
+db.createCollection('user')
+// cls - Очищает скрипт/консоль
+// show databases - Показывает все бд
+// show collections - Показывает коллекции
+
+// db.user.insertOne() - Вставляет один объект в коллекцию
+// db.user.insertMany - Вставляет несколько объектов в коллекцию. Добавляем через массив из объектов.
+
+db.user.insertOne({
+name: 'John',
+lastName: 'Smith',
+age: 18,
+address: {
+		building: 1,
+		street: 'Burbank 12/34'
+	}
+})
+
+
+db.user.insertMany([
+  {
+			name: 'Bob',
+			lastName: 'Brown',
+			age: 20,
+			address: {
+					building: 2,
+					street: 'Burbank 12/35'
+				}
+	},
+  {
+			name: 'Lily',
+			lastName: 'Hardy',
+			age: 34
+	},
+  {
+			name: 'James',
+			lastName: 'Smith',
+			age: 20
+	}
+])
+
+
+db.user.insertMany([
+  {
+			_id: 5,
+			name: 'Tom',
+			lastName: 'Jameson'
+	},
+  {
+			_id: 6,
+			name: 'Jack',
+			lastName: 'Watson',
+			age: 26
+	}
+])
+
+
+// Создать коллекцию fruits и заполнить документами со следующими свойствами:
+// _id, title, price, count. Используйте следующие данные:
+
+// 1 Apple 280 4
+// 2 Lemon 300 8
+// 3 Lime 500 3
+// 4 Orange 200 8
+
+createCollection
+// db.createCollection('user')
+
+use GT171023
+db.createCollection('fruits')
+db.fruits.insertMany([
+  {
+		_id: 1,
+		title: 'Apple',
+		price: 280,
+		count: 4
+	},
+  {
+		_id: 2,
+		title: 'Lemon',
+		price: 300,
+		count: 8
+},
+{
+		_id: 3,
+		title: 'Lime',
+		price: 500,
+		count: 3
+},
+{
+		_id: 4,
+		title: 'Orange',
+		price: 200,
+		count: 8
+}
+])
+
+db.user.deleteOne({name: 'Bob'})
+// db.users.deleteOne({Условие}) - удалит первую запись соответсувующий запросу
+// db.users.deleteMany({Условие}) - удалит все записи соответсувующие запросу
+
+db.user.deleteMany({lastName: 'Smith'})
+
+db.user.drop()
+db.dropDatabase()
