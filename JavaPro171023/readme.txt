@@ -5,7 +5,8 @@ Java Professional Program
 Для более глубокого понимания темы можно брать
 Дуг Ли, Брайан Готц - Java - concurrency in practice
 Грегори Р. Эндрюс - Основы многопоточного параллельного и распределенного программирования 
-
+https://blog.skillfactory.ru/chto-mozhno-napisat-na-java-10-idej-dlya-trenirovochnyh-proektov/
+pet проекты java
 
 1. OOP (Object-Oriented Programming)
 Classes, objects, fields and methods of an object. Fields and methods of a Class Encapsulation. Modifier 'static' and 'final.*
@@ -136,6 +137,10 @@ https://dzen.ru/list/gadgets/prostoi-primer-java-wait-notify
 https://proselyte.net/tutorials/java-core/multithreading/threads-interaction/
 https://habr.com/ru/articles/120343/   Алгоритмы
 https://htmlacademy.ru/blog/js/greedy-algo  Алгоритмы
+https://javarush.com/quests/lectures/questservlets.level19.lecture04
+https://java-online.ru/concurrent-queue-block.xhtml#synhronous
+https://sky.pro/wiki/java/vybor-ocheredi-v-java-concurrent-linked-queue-i-drugie/
+https://jdevnotes.blogspot.com/2014/03/blockingqueue-java.html
 ВОПРОСЫ
 1.
 Определение инкапсуляции, наследования, полиморфизма, раннего и позднего связывания.
