@@ -20,7 +20,7 @@ import java.util.concurrent.TimeUnit;
 public class SimpleTask1 {
     private static final int TOTAL_CUSTOMERS = 10_000;
     private static final int CUSTOMERS_INSIDE = 10;
-    private static final int SERVIS_TIME = 30;
+    private static final int SERVICE_TIME = 30;
 
     private static int customersCount = 0;
 
@@ -67,7 +67,7 @@ public class SimpleTask1 {
             try {
                 semaphore.acquire();
                 System.out.println("Клиент " + customerID + " вошел в магазин");
-                TimeUnit.SECONDS.sleep(SERVIS_TIME);
+                TimeUnit.SECONDS.sleep(SERVICE_TIME);
                 System.out.println("Клиент " + customerID + " оставил магазин");
 
             } catch (
