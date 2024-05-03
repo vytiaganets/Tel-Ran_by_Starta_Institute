@@ -141,6 +141,15 @@ https://javarush.com/quests/lectures/questservlets.level19.lecture04
 https://java-online.ru/concurrent-queue-block.xhtml#synhronous
 https://sky.pro/wiki/java/vybor-ocheredi-v-java-concurrent-linked-queue-i-drugie/
 https://jdevnotes.blogspot.com/2014/03/blockingqueue-java.html
+https://java-online.ru/concurrent-collections.xhtml
+https://javarush.com/quests/lectures/jru.module2.lecture20
+https://www.youtube.com/watch?v=iB2N8aqwtxc   Алексей Шипилёв — Прагматика Java Memory Model
+https://javarush.com/groups/posts/2537-chastjh-8-pishem-neboljhshoe-prilozhenie-na-spring-boot
+https://javarush.com/groups/posts/2529-chastjh-5-servletih-pishem-prostoe-veb-prilozhenie\
+https://javarush.com/groups/posts/2523-chastjh-4osnovih-maven
+https://start.spring.io
+
+
 ВОПРОСЫ
 1.
 Определение инкапсуляции, наследования, полиморфизма, раннего и позднего связывания.
