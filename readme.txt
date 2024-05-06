@@ -89,6 +89,18 @@ https://github.com/KorolovaJana
 https://github.com/maratgmk
 https://github.com/WEST100
 https://github.com/Alenushka1988
+https://github.com/SergejsP84 Project
+luibovtuipina		
+	<dependency>
+          <groupId>com.github.javafaker</groupId>
+          <artifactId>javafaker</artifactId>
+          <version>1.0.2</version>
+      </dependency>
+public static final Faker FAKER = new Faker();
+
+Yevhenii Ashurov
+eugen volkau
+https://github.com/fusibleman1985
 https://github.com/iohichu
 https://github.com/IliaIliukovich/practice-171023 Java-summary
 https://github.com/alex2808pl/JavaPro171023
