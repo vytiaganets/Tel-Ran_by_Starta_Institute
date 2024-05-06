@@ -1,4 +1,4 @@
---Создать БД Shop, используя следующие данные: https://github.com/NelliEfr/MySQL_databases/blob/main/shop.txt
+--Создать БД SimpleShop, используя следующие данные: https://github.com/NelliEfr/MySQL_databases/blob/main/shop.txt
 create DATABASE store;
 
 use store;
