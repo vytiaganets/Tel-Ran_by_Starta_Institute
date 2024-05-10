@@ -148,6 +148,12 @@ https://javarush.com/groups/posts/2537-chastjh-8-pishem-neboljhshoe-prilozhenie-
 https://javarush.com/groups/posts/2529-chastjh-5-servletih-pishem-prostoe-veb-prilozhenie\
 https://javarush.com/groups/posts/2523-chastjh-4osnovih-maven
 https://start.spring.io
+https://java-online.ru/concurrent-collections.xhtml
+https://javarush.com/quests/lectures/jru.module2.lecture20
+https://javarush.com/groups/posts/2065-threadom-java-ne-isportishjh--chastjh-iv---callable-future-i-druzjhja 
+https://javarush.com/groups/posts/2523-chastjh-4osnovih-maven
+https://skillbox.ru/media/code/osnovy-maven-chto-eto-takoe-i-kak-rabotaet/
+https://start.spring.io/ 
 
 
 ВОПРОСЫ
