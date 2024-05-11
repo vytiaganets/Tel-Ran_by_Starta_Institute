@@ -1,17 +1,18 @@
-//package de.telran.bank.account;
+package de.telran.bank.account;
 //import org.springframework.stereotype.Controller;
-//import org.springframework.web.bind.annotation.RequestBody;
-//import org.springframework.web.bind.annotation.RequestMapping;
-//import org.springframework.web.bind.annotation.RequestMethod;
-//import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+@RequestMapping(path = "/accounts")
 //@Controller
-//public class AccountController {
-//    @RequestMapping(value = "/account", method = RequestMethod.GET)
-//    @ResponseBody
-//    public String accountInfo()
-//
-//    {
-//        AccountController.class
-//        return "I'm some account";
-//    }
-//}
+public class AccountController {
+    @GetMapping()
+    //@RequestMapping(value = "/account", method = RequestMethod.GET)
+    //@ResponseBody
+    public String accountInfo()
+
+    {
+        //AccountController.class
+        return "I'm some account";
+    }
+}
