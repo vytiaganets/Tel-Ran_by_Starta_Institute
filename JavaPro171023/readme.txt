@@ -154,7 +154,9 @@ https://javarush.com/groups/posts/2065-threadom-java-ne-isportishjh--chastjh-iv-
 https://javarush.com/groups/posts/2523-chastjh-4osnovih-maven
 https://skillbox.ru/media/code/osnovy-maven-chto-eto-takoe-i-kak-rabotaet/
 https://start.spring.io/ 
-
+Книги: Робер Мартин "Чистый код", "Чистая арихитектура"
+Design Patterns https://ru.wikipedia.org/wiki/Design_Patterns
+Проект с примерами design patterns на java https://github.com/iluwatar/java-design-patterns
 
 ВОПРОСЫ
 1.
