@@ -1,6 +1,7 @@
 package de.telran.lesson20240513practice.refactoring;
 
 public class Bet {
+
     private Integer stake;
     private Integer earned;
     private Integer condition;
@@ -8,7 +9,6 @@ public class Bet {
     public Integer getStake() {
         return stake;
     }
-
 
     public void setStake(Integer stake) {
         this.stake = stake;
