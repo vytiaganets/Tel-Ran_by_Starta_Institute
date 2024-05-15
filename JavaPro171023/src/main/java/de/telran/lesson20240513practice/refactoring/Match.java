@@ -1,5 +1,6 @@
 package de.telran.lesson20240513practice.refactoring;
 
+
 public class Match {
     private Integer goalsA = 0;
     private Integer goalsB = 0;
@@ -15,6 +16,5 @@ public class Match {
     public void setGoalsB(Integer goalsB) {
         this.goalsB = goalsB;
     }
-
 
 }
