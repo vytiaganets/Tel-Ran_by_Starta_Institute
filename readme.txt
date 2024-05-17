@@ -98,6 +98,23 @@ luibovtuipina
       </dependency>
 public static final Faker FAKER = new Faker();
 
+Официальный туториал от Midjourney
+https://docs.midjourney.com/docs/parameter-list
+Midjourney Prompt Generator
+https://huggingface.co/spaces/doevent/prompt-generator
+Midjourney Prompt Builder
+https://www.imiprompt.com/builder
+50+ Midjourney Prompts
+https://bootcamp.uxdesign.cc/50-midjourney-prompts-for-to-perfect-your-art-363996b702b6
+
+API Documentation
+https://useapi.net/docs/start-here/setup-midjourney#example-of-discord-server-with-private-api-text-channel-and-midjourney-bot
+ 
+Гера to Everyone (16 May 2024, 16:57)
+https://aimlapi.com/?utm_source=google&utm_medium=cpc&utm_campaign=Germany&utm_id=high&utm_content=ad1&gad_source=1&gbraid=0AAAAA9UQYpOiV1aFUDllf-m8JltmhAvWx&gclid=Cj0KCQjw3ZayBhDRARIsAPWzx8oJJLDbE3pvHAT_TilRa68qheTFpLOeOP5ehpcXeI6FGsTTzyjO5kAaAjXQEALw_wcB
+https://openai.com/index/introducing-chatgpt-and-whisper-apis/
+
+
 Yevhenii Ashurov
 eugen volkau
 https://github.com/fusibleman1985
