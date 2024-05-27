@@ -157,6 +157,13 @@ https://start.spring.io/
 Книги: Робер Мартин "Чистый код", "Чистая арихитектура"
 Design Patterns https://ru.wikipedia.org/wiki/Design_Patterns
 Проект с примерами design patterns на java https://github.com/iluwatar/java-design-patterns
+https://javarush.com/groups/posts/2753-biblioteka-lombok
+https://javarush.com/groups/posts/1896-java-annotacii-chto-ehto-i-kak-ehtim-poljhzovatjhsja
+https://drive.google.com/drive/u/0/folders/1XOD2TGjQ9eK5wFjlzSwk-bMUdUKVtDPx
+https://www.bing.com/chat?q=Microsoft+Copilot&FORM=hpcodx
+https://javarush.com/groups/posts/2259-jpa--znakomstvo-s-tekhnologiey
+https://drive.google.com/drive/folders/1I0JeNovNG7R3owGi1itGDT9Ks5t7t3BH
+https://habr.com/ru/articles/776914/
 
 ВОПРОСЫ
 1.

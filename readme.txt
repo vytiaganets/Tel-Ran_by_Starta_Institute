@@ -80,7 +80,7 @@ https://github.com/4rad95
 https://github.com/romanowskaelena
 https://github.com/Parasolkasweet
 https://github.com/Serhii-Horb
-https://github.com/JuliaVladimirov
+https://github.com/JuliaVladimirov julia.vladimirov@gmail.com
 https://github.com/anghelusion
 https://github.com/YevheniiDema
 https://github.com/ViktoriaBriese
