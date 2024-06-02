@@ -164,6 +164,7 @@ https://www.bing.com/chat?q=Microsoft+Copilot&FORM=hpcodx
 https://javarush.com/groups/posts/2259-jpa--znakomstvo-s-tekhnologiey
 https://drive.google.com/drive/folders/1I0JeNovNG7R3owGi1itGDT9Ks5t7t3BH
 https://habr.com/ru/articles/776914/
+https://medium.com/huawei-developers/database-relationships-in-spring-data-jpa-8d7181f50f60
 
 ВОПРОСЫ
 1.
