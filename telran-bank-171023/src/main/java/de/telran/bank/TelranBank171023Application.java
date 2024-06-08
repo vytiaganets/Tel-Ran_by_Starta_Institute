@@ -4,10 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Main {
+public class TelranBank171023Application {
 
     public static void main(String[] args) {
-        //System.out.println("Hello world!");
-        SpringApplication.run(Main.class, args);
+        SpringApplication.run(TelranBank171023Application.class, args);
     }
 }
