@@ -119,7 +119,7 @@ Yevhenii Ashurov
 eugen volkau
 https://github.com/fusibleman1985
 https://github.com/iohichu
-https://github.com/IliaIliukovich/practice-171023 Java-summary
+https://github.com/IliaIliukovich/practice-171023 Java-summary ilia.iliukovich@gmail.com
 https://github.com/alex2808pl/JavaPro171023
 https://github.com/tel-ran-de/summary-171023 rayman.k26@gmail.com
 https://github.com/NelliEfr/Group_171023_GenTech SQL-summary
