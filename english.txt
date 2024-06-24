@@ -1,0 +1,61 @@
+13.06.2024
+SoftSkillsInterviewQuestions.pdf
+
+Sample interview questions
+Tell me about yourself?
+Prepare a story about yourself in advance, it may contain 3 parts:
+1. What you were doing in the past or how you started programming
+2. What are you working on now and
+3. What are your plans for the future
+Tell me about your most inspiring project?
+Here we need a story about some proiect you have done with an accent on some technical challenges and complexities. For most of the interviewers your project is boring and challenges are not challenging, but this is your story and you should clearly explain what was challenging and inspiring for you. Example: at my previous job I significantly contributed to a decoupling of legacy poorly documented monolith and its migration to the cloud.
+Reading, understanding legacy code and some outdated technologies was challenging and not easy, but I managed to deep dive, understand the code base and deprecate old code and build new functionality.
+Similar questions:
+1. Tell me what was the impact you have created at your previous job?
+
+My name is Andrii. I am a teacher and programmer in the past. I started programming 10 years ago. I wrote simple websites in the PHP programming language. I liked frameworks like Bootstrap and React. Now I have changed the direction of study and am studying the Java programming language. I learn something new every day. I have plans to work as a Java programmer. I am planning to develop an online store project for garden equipment with my colleagues. We have a team now, which consists of 5 people. We have 4 weeks of Sprints to write and prepare the project. I plan to work in a large company, but I need to write a resume, cover letter, research history.
+I had a lot of interviews. I often went through two levels of interviews. I successfully passed logical tasks from HR. But I often failed the so-called technical interviews. I needed a lot of practical experience. I remember that I came for an interview at Samsung 5 times. But I received constant rejections from Samsung. I stopped writing there. I got the job only after recommendations from colleagues. I often hear that out of 300-500 resumes sent, only a few will be invited to an interview. I know that Antonina Berkivska had many connections in Telran. But she resigned a few months ago.
+
+Tell me about your most inspiring project?
+Here we need a story about some project you have done with an accent on some technical challenges and complexities. For most of the interviewers your project is boring and challenges are not challenging, but this is your story and you should clearly explain what was challenging and inspiring for you. Example: at my previous job I significantly contributed to a decoupling of legacy poorly documented monolith and its migration to the cloud. Reading, understanding legacy code and some outdated technologies was challenging and not easy, but I managed to deep dive, understand the code base and deprecate old code and build new functionality.
+Similar questions:
+1. Tell me what was the impact you have created at your previous job?
+
+The most inspiring project in my life is related to the bank. I worked for a long time in a bank. In two months, I had to change all the software with my colleagues and switch to a new version of the banking application. During these two months, testers and developers worked together. Everything was delivered on time. But I had a lot of stress. I often worked on Saturdays and Sundays. I was very exhausted, but I worked and worked. It all ended very quickly. The transition happened when there was a coronavirus. There were many errors in the program code, which over time were corrected by fellow programmers. But the bank's clients often called and complained about problems with the banking program. But a month after switching to the new software, there were no more errors in the code. It was a good time for my skills, I got a very good practical experience.
+
+14.06.2024
+Why should we hire you?
+The question may sound stupid: the company is looking for an engineer and here you are letting them choose, but in fact they want to see whether you took time to understand what the company is about, make up your mind about their tasks and what the company wants to make and thought how you can help them to achieve their goals. Therefore, check company’s website before interview, understand what is their product, think what your everyday tasks will be and explain at the interview how will you do this. An example: I​see that you are expanding your services to different countries, which means the load on existing services may increase and in case you have monolithic services, it may become difficult to maintain their stability. A migration to microservices is an option. I have an experience in designing RESTFull APIs, building microservices, producing high quality code, covered by tests. I believe this is what you need and where I can be of great help.
+
+I really don't like it when 10 people come for one vacancy. Vacancies are often accepted through the recommendation of colleagues or superiors. I often look up information on the Internet before going to an interview.
+
+Why do you want to work for us?
+This is similar to some questions above, but here it is enough to say that you like what the company is doing (your values comply with company values) and you think that your skills matches company’s expectations.
+
+I love when the company allocates a lot of money to the development of colleagues. For example, the company often sends employees to paid conferences.
+
+10 Tips to Succeed in Your Next
+Research the company and your interviewers
+Practice your answers to common interview questions
+Study the job description and note required skills, qualities and experience
+Answer questions using the STAR method (Situation, Task, Action, Result)
+Recruit a friend to practice answering questions
+Be prepared with examples of your work
+Plan your interview attire the night before
+Prepare smart questions for your interviewers
+Bring copies of your resume, a notebook and pen
+Tie your answers back to your skills and accomplishments
+
+20.06.2024
+https://www.bilibili.com/video/BV14h411S7m9/
+I think this is a difficult interview. The interviewer keeps the folder in front of him all the time and is nervous. This is an interview in a large company, if one employer. I think all questions are general. This video is taken from a Chinese server, so it is a traditional Chinese interview. The Chinese are very picky. I think that all questions must be answered. I heard the answers to all the questions. This is great
+I understood that the questions can be very different. The main rule is to answer all questions. I remembered the limousine and the tennis balls.. I have a quick question. Why didn't we discuss appearance? How to dress properly? thank you
+21.06.2024
+https://www.youtube.com/watch?v=UJJrBX8YpWA
+I have never been in such a situation. I didn't have that problem. I think I need to talk to the boss. We use various programs where you can see your results and the results of your colleagues. For example, it can be a Kanban board or a hit site. In addition, we have weekly sprints. Sprints can also be done at home. I think it is necessary to use different programs. Programs will allow you to solve various problems as well.
+
+You have a planned project deadline by the end of the week but you recognized that you need another 3 weeks. What will you do?
+The wrong answer in short is “I will work extra hours to fit the deadline”. The correct answer is to accept the situation, calm down and get learnings out of the situation by asking yourself questions like: what could possibly went wrong so that we failed the deadline? should we try to plan better next time? Were we too optimistic about project complexity and our capacity as a team? How can we improve this? When answered all that you approach the customer/manager, share the analysis of the situation and come with new estimates. Important: do not blame people, colleagues or managers. Accept that there is a problem and analyze the situation. You contributed to every failure and it has already happened, so blaming anyone will not help you to fix the missed deadline but will rather distract the relationships in the team.
+
+This is a difficult situation for me. I think I need to go to the boss. I know that assignments are checked weekly. This is also a problem with the Program Manager. Why didn't the program manager look at and comment on Sprint. I have daily meetings where tasks are checked. I said there how much time I need to complete the task. The program manager should break down the three-week task into detailed sub-tasks.
+
