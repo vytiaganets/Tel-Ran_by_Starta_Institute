@@ -19,7 +19,7 @@ public class CategoryServiceImpl{
 
     public List<CategoryDto> getCategory() {
         List<CategoryEntity> categoryEntityList = categoryJpaRepository.findAll();
-        return MapperConfiguration.convertList(categoryJpaRepository.findAll(), mappers::convertToCategoryDto);
+        return MapperConfiguration.convertList(categoryEntityList, mappers::convertToCategoryDto);
     }
 
     public CategoryDto getCategoryById(Long id) {
