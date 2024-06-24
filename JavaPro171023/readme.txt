@@ -1,4 +1,12 @@
 Java Professional Program
+??? https://leetcode.com ??? Exercises
+
+КНИГИ:
+1. MySQL High Availability: Tools for Building Robust Data Centers 2nd Edition by Charles Bell (Author), Mats Kindahl (Author), Lars Thalmann (Author)
+2. Efficient MySQL Performance: Best Practices and Techniques By Daniel Nichter
+3. MongoDB: The Definitive Guide, 3rd Edition by Shannon Bradshaw, Eoin Brazil, Kristina Chodorow
+4. MongoDB Data Modeling and Schema Design by Daniel Coupal (Author), Pascal Desmarets (Author), Steve Hoberman (Author)
+
 Отвечаю на вопрос по поводу литературы: 
 По многопоточности в рамках курса достаточно посмотреть соотв. раздел из любой книги по Java,
 например: Core Java for the Impatient, Cay S. Horstmann
@@ -159,10 +167,8 @@ Design Patterns https://ru.wikipedia.org/wiki/Design_Patterns
 Проект с примерами design patterns на java https://github.com/iluwatar/java-design-patterns
 https://javarush.com/groups/posts/2753-biblioteka-lombok
 https://javarush.com/groups/posts/1896-java-annotacii-chto-ehto-i-kak-ehtim-poljhzovatjhsja
-https://drive.google.com/drive/u/0/folders/1XOD2TGjQ9eK5wFjlzSwk-bMUdUKVtDPx
 https://www.bing.com/chat?q=Microsoft+Copilot&FORM=hpcodx
 https://javarush.com/groups/posts/2259-jpa--znakomstvo-s-tekhnologiey
-https://drive.google.com/drive/folders/1I0JeNovNG7R3owGi1itGDT9Ks5t7t3BH
 https://habr.com/ru/articles/776914/
 https://medium.com/huawei-developers/database-relationships-in-spring-data-jpa-8d7181f50f60
 http://modelmapper.org/user-manual/
@@ -173,9 +179,41 @@ https://habr.com/ru/companies/otus/articles/746414/
 https://howtodoinjava.com/spring-boot2/testing/spring-boot-mockmvc-example/
 https://reflectoring.io/unit-testing-spring-boot/
 https://algorithmica.org/tg/mergesort
-
-
-
+https://habr.com/ru/articles/428548/
+https://www.thymeleaf.org
+https://struchkov.dev/blog/ru/exception-handling-controlleradvice/
+https://www.baeldung.com/spring-cloud-openfeign
+https://habr.com/ru/articles/144611/
+https://habr.com/ru/companies/itelma/articles/546372/
+https://habr.com/ru/articles/688530/
+https://igororlov92.livejournal.com/26151.html
+https://habr.com/ru/companies/otus/articles/472040/
+https://mishadoff.com/blog/dfs-on-binary-tree-array/
+https://habr.com/ru/articles/128017/
+https://ru.wikipedia.org/wiki/Коллизия_хеш-функции
+https://javarush.com/groups/posts/513-reflection-api-refleksija-temnaja-storona-java
+https://javarush.com/groups/posts/1896-java-annotacii-chto-ehto-i-kak-ehtim-poljhzovatjhsja
+https://skillbox.ru/media/base/kak-napisat-annotatsiyu-na-java-za-5-shagov/?topic=base&section=kak-napisat-annotatsiyu-na-java-za-5-shagov
+https://habr.com/ru/articles/347378/
+https://xn--80a2ac.xn--p1ai/материалы/метод-двух-указателей/
+https://vk.com/@hexlet-grokaem-algoritmy-gaid-po-algoritmam-dlya-teh-komu-slozhno-r
+https://habr.com/ru/articles/433958/
+https://sysout.ru/testirovanie-repozitoriev-datajdbctest-dirtiescontext/
+https://www.baeldung.com/junit-datajpatest-repository
+https://blog.skillfactory.ru/glossary/rest-api/
+https://habr.com/ru/articles/483202/
+https://sysout.ru/preobrazovanie-entity-v-dto-s-pomoshhyu-modelmapper/
+https://modelmapper.org/user-manual/
+https://www.baeldung.com/java-performance-mapping-frameworks
+https://habr.com/ru/companies/otus/articles/746414/
+https://howtodoinjava.com/spring-boot2/testing/spring-boot-mockmvc-example/
+https://habr.com/ru/companies/otus/articles/780090/
+https://www.baeldung.com/mockito-verify
+https://www.mongodb.com/docs/manual/reference/operator/aggregation-pipeline/
+https://www.mongodb.com/docs/manual/reference/operator/aggregation/
+https://habr.com/ru/articles/428548/
+https://javarush.com/quests/lectures/questspring.level01.lecture60
+https://habr.com/ru/articles/580062/ Выполнение запланированных заданий в Spring Boot
 ВОПРОСЫ
 1.
 Определение инкапсуляции, наследования, полиморфизма, раннего и позднего связывания.

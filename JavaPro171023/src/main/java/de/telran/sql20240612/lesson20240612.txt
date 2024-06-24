@@ -1,0 +1,253 @@
+// 1. Создать пустую коллекцию orders
+db.createCollection('orders')
+
+https://github.com/annykh/GenTech-220823/blob/main/orders.txt
+
+db.orders.insertMany([
+  {
+    orderId: 1,
+    customerFirstName: "John",
+    customerLastName: "Doe",
+    items: [
+      { name: "Laptop", price: 1200 },
+      { name: "Mouse", price: 30 },
+      { name: "Keyboard", price: 100 }
+    ],
+    totalAmount: 1330,
+    status: "pending",
+    deliveryAddress: "123 Main St, City, Country",
+    orderDate: ISODate("2023-02-15T10:30:00Z")
+  },
+  {
+    orderId: 2,
+    customerFirstName: "Alice",
+    customerLastName: "Smith",
+    items: [
+      { name: "Smartphone", price: 800 },
+      { name: "Headphones", price: 50 }
+    ],
+    totalAmount: 850,
+    status: "delivered",
+    deliveryAddress: "456 Elm St, City, Country",
+    orderDate: ISODate("2023-03-05T14:45:00Z")
+  },
+  {
+    orderId: 3,
+    customerFirstName: "Emily",
+    customerLastName: "Johnson",
+    items: [
+      { name: "Tablet", price: 400 },
+      { name: "Charger", price: 20 }
+    ],
+    totalAmount: 420,
+    status: "pending",
+    deliveryAddress: "789 Oak St, City, Country",
+    orderDate: ISODate("2023-03-10T11:00:00Z")
+  },
+  {
+    orderId: 4,
+    customerFirstName: "Michael",
+    customerLastName: "Williams",
+    items: [
+      { name: "Smartwatch", price: 300 },
+      { name: "Power Bank", price: 40 }
+    ],
+    totalAmount: 340,
+    status: "delivered",
+    deliveryAddress: "101 Pine St, City, Country",
+    orderDate: ISODate("2023-03-12T09:20:00Z")
+  },
+  {
+    orderId: 5,
+    customerFirstName: "Emma",
+    customerLastName: "Brown",
+    items: [
+      { name: "Printer", price: 200 },
+      { name: "Scanner", price: 150 }
+    ],
+    totalAmount: 350,
+    status: "pending",
+    deliveryAddress: "222 Maple St, City, Country",
+    orderDate: ISODate("2023-03-14T16:30:00Z")
+  },
+  {
+    orderId: 6,
+    customerFirstName: "James",
+    customerLastName: "Jones",
+    items: [
+      { name: "Camera", price: 700 },
+      { name: "Tripod", price: 80 }
+    ],
+    totalAmount: 780,
+    status: "delivered",
+    deliveryAddress: "333 Cedar St, City, Country",
+    orderDate: ISODate("2023-03-17T10:15:00Z")
+  },
+  {
+    orderId: 7,
+    customerFirstName: "Sophia",
+    customerLastName: "Wilson",
+    items: [
+      { name: "Monitor", price: 200 },
+      { name: "Keyboard", price: 100 }
+    ],
+    totalAmount: 300,
+    status: "pending",
+    deliveryAddress: "444 Birch St, City, Country",
+    orderDate: ISODate("2023-03-20T13:45:00Z")
+  },
+  {
+    orderId: 8,
+    customerFirstName: "Alexander",
+    customerLastName: "Taylor",
+    items: [
+      { name: "External Hard Drive", price: 120 },
+      { name: "USB Flash Drive", price: 15 }
+    ],
+    totalAmount: 135,
+    status: "delivered",
+    deliveryAddress: "555 Walnut St, City, Country",
+    orderDate: ISODate("2023-03-22T15:00:00Z")
+  },
+  {
+    orderId: 9,
+    customerFirstName: "Mia",
+    customerLastName: "Martinez",
+    items: [
+      { name: "Printer", price: 200 },
+      { name: "Ink Cartridge", price: 30 }
+    ],
+    totalAmount: 230,
+    status: "pending",
+    deliveryAddress: "666 Ash St, City, Country",
+    orderDate: ISODate("2023-03-25T09:00:00Z")
+  },
+  {
+    orderId: 10,
+    customerFirstName: "Alice",
+    customerLastName: "Smith",
+    items: [
+      { name: "Wireless Earbuds", price: 100 },
+      { name: "Bluetooth Speaker", price: 80 }
+    ],
+    totalAmount: 180,
+    status: "delivered",
+    deliveryAddress: "777 Pine St, City, Country",
+    orderDate: ISODate("2023-03-28T12:30:00Z")
+  },
+  {
+    orderId: 11,
+    customerFirstName: "Charlotte",
+    customerLastName: "Anderson",
+    items: [
+      { name: "Tablet", price: 400 },
+      { name: "Case", price: 25 }
+    ],
+    totalAmount: 425,
+    status: "pending",
+    deliveryAddress: "888 Elm St, City, Country",
+    orderDate: ISODate("2023-03-30T14:20:00Z")
+  },
+  {
+    orderId: 12,
+    customerFirstName: "Benjamin",
+    customerLastName: "Thomas",
+    items: [
+      { name: "External SSD", price: 150 },
+      { name: "USB-C Cable", price: 10 }
+    ],
+    totalAmount: 160,
+    status: "delivered",
+    deliveryAddress: "999 Oak St, City, Country",
+    orderDate: ISODate("2023-04-01T16:00:00Z")
+  }
+])
+
+// 2. Найти все заказы, где общая сумма больше 1000.
+db.orders.find({totalAmount: {$gt: 1000}})
+
+// 4. Найти заказы, сделанные клиентом по имени "Mia".
+db.orders.find({customerFirstName: 'Mia'})
+
+// 5. Найти первые 5 заказов, отсортированные по дате заказа по убыванию.
+db.orders.find().sort({orderDate: -1}).limit(5)
+
+// 6. Найти заказы, где сумма заказа находится в диапазоне от 100 до 500, отсортировать их по возрастанию суммы и пропустить первую запись.
+db.orders.find({totalAmount: {$gt: 100,  $lt: 500}}).sort({totalAmount: 1}).skip(1)
+
+// 7. Изменить статус заказа с orderId 2 на "shipped".
+db.orders.updateOne({orderId: 2}, {$set: {status: 'shipped'}})
+
+// 8. Используя агрегацию, найдите среднee значение общей суммы заказов.
+db.orders.aggregate([
+    {$group: {_id: null, avgTotal: {$avg: '$totalAmount'}}}
+])
+
+
+// MYSQL
+
+// CRUD
+// Create - create database, create table
+// Read - select.. from (where(>, <, >=, <=, =, !=, in, between, like, and, or), limit, order by, joins, group, having)
+// Update - alter table(add, drop, change, rename, modify), update ... set
+// Delete - drop database, drop table, delete from..
+-- Вывести имена, фамилии и зарплаты сотр. с зарплатой выше 10000
+
+select first_name, last_name, salary
+from employees
+where salary > 10000;
+
+
+-- Вывести кол/во сотрудников в каждом департаменте
+select department_id, count(*) as emp_count
+from employees
+where department_id is not null
+group by department_id;
+
+-- Вывести департаменты в которых работают больше 10 сотр.
+select department_id, count(*) as emp_count
+from employees
+where department_id is not null
+group by department_id
+having emp_count > 10;
+
+-- Изменить тип quantity на numeric(4, 2)
+alter table goods1
+modify quantity numeric(4, 2);
+select distinct department_id
+from employees;
+
+
+Итоговый тест по General Tech
+Вопрос 1. Что такое SQL?A) Язык программированияB) Система управления базами данныхC) Язык структурированных запросовD) Протокол передачи данныхПравильный ответ: C
+Вопрос 2. Для чего используется оператор SELECT?A) Для вставки данных в таблицуB) Для выборки данных из таблицыC) Для обновления данных в таблицеD) Для удаления данных из таблицыПравильный ответ: B
+Вопрос 3. Какой оператор используется для фильтрации записей?A) FILTERB) WHEREC) SELECTD) ORDER BYПравильный ответ: B
+Вопрос 4. Что делает оператор JOIN в SQL?A) Соединяет строки из двух таблицB) Объединяет столбцы из одной таблицыC) Удаляет дубликаты из таблицыD) Фильтрует строки по определенному условиюПравильный ответ: A
+Вопрос 5. Какое ключевое слово используется для сортировки результатов запроса?A) SORTB) ORDERC) ORDER BYD) ALIGNПравильный ответ: C
+Вопрос 6. Что делает оператор INSERT?A) Вставляет новые строки в таблицуB) Обновляет существующие строки в таблицеC) Удаляет строки из таблицыD) Выбирает строки из таблицыПравильный ответ: A
+Вопрос 7. Какой оператор удаляет строки из таблицы?A) REMOVEB) DELETEC) ERASED) DROPПравильный ответ: B
+Вопрос 8. Какое утверждение верно относительно первичных ключей?A) Они могут содержать NULL значенияB) Они должны быть уникальными в каждой таблицеC) Они автоматически удаляют дубликатыD) Они могут повторяться в таблицеПравильный ответ: B
+Вопрос 9. Что такое нормализация данных?A) Процесс разделения данных на таблицы для уменьшения избыточностиB) Преобразование данных в более читаемый форматC) Слияние таблиц для увеличения скорости обработкиD) Удаление данных из базы данныхПравильный ответ: A
+Вопрос 10. Что означает аббревиатура ACID в контексте баз данных?A) Atomicity, Consistency, Isolation, DurabilityB) Association, Condition, Isolation, DistributionC) Accuracy, Consistency, Integrity, DensityD) Atomicity, Compilation, Integration, DistributionПравильный ответ: A
+Вопрос 11. Для чего используется оператор UPDATE?A) Для обновления структуры таблицыB) Для обновления существующих записей в таблицеC) Для добавления новых записей в таблицуD) Для удаления таблицы из базы данныхПравильный ответ: B
+Вопрос 12. Какая команда используется для создания новой таблицы в SQL?A) CREATE TABLEB) NEW TABLEC) INSERT TABLED) MAKE TABLEПравильный ответ: A
+Вопрос 13. Что такое транзакция в контексте баз данных?A) Передача данных между таблицамиB) Запрос на выборку данныхC) Последовательность операций, обрабатываемых как единое целоеD) Процесс создания резервной копии базы данныхПравильный ответ: C
+Вопрос 14. Какой командой в SQL можно удалить таблицу?A) REMOVE TABLEB) DROP TABLEC) DELETE TABLED) ERASE TABLEПравильный ответ: B
+Вопрос 15. Что такое индекс в контексте баз данных?A) Указатель на все строки в таблицеB) Структура данных, используемая для ускорения поискаC) Первичный ключ таблицыD) Способ упорядочивания данных в таблицеПравильный ответ: B
+Вопрос 16. Что означает термин "внешний ключ"?A) Уникальный идентификатор строки в таблицеB) Ссылка на первичный ключ в другой таблицеC) Метод шифрования данныхD) Атрибут, определяющий порядок строкПравильный ответ: B
+Вопрос 17. Какое утверждение верно для команды "GROUP BY"?A) Группирует результаты по одному или нескольким столбцамB) Объединяет несколько таблиц в однуC) Сортирует результаты запросаD) Удаляет дубликаты из результатов запросаПравильный ответ: A
+Вопрос 18. Для чего используется команда "HAVING" в SQL?A) Для фильтрации группированных результатовB) Для определения условий выборки данныхC) Для указания условий на столбцы после группировкиD) Для обновления записей, соответствующих определенным условиямПравильный ответ: A
+Вопрос 19. Какая команда SQL используется для добавления ограничений на столбцы таблицы?A) ADD CONSTRAINTB) SET RULEC) MODIFY RESTRICTIOND) LIMITПравильный ответ: A
+Вопрос 20. Что делает оператор "DISTINCT"?A) Удаляет дубликаты из результатов запросаB) Определяет уникальные строки в таблицеC) Сравнивает строки на уникальностьD) Создает копию таблицы без дубликатовПравильный ответ: A
+Вопрос 21. Какие типы данных обычно поддерживает SQL?A) Текст, число, дата/времяB) Только текстC) Только числаD) Только булевы значенияПравильные ответы: A
+Вопрос 22. Что такое "субданные"?A) Данные внутри других данныхB) Подзапрос в SQLC) Внешняя таблица, связанная с основнойD) Дубликаты данныхПравильный ответ: B
+Вопрос 23. Как изменить структуру существующей таблицы?A) MODIFY TABLEB) ALTER TABLEC) CHANGE TABLED) UPDATE TABLEПравильный ответ: B
+Вопрос 24. Что такое представление (view) в SQL?A) Копия таблицыB) Виртуальная таблица, основанная на результате запросаC) Новая таблица с даннымиD) Переименованная таблицаПравильный ответ: B
+Вопрос 25. Какая команда создает новую базу данных?A) CREATE DATABASEB) NEW DATABASEC) MAKE DATABASED) INIT DATABASEПравильный ответ: A
+Вопрос 26. Какой командой можно вывести список всех таблиц в базе данных?A) SHOW TABLESB) LIST TABLESC) DISPLAY TABLESD) TABLESПравильный ответ: A
+Вопрос 27. Как в SQL можно ограничить количество строк, возвращаемых запросом?A) USE LIMITB) SET LIMITC) LIMITD) MAX ROWSПравильный ответ: C
+Вопрос 28. Что делает операция UNION?A) Объединяет результаты двух или более запросов без дублирования строкB) Соединяет строки из двух таблиц, основываясь на связанных столбцахC) Добавляет строки из одного запроса к другомуD) Создает новую таблицу из двух существующихПравильный ответ: A
+Вопрос 29. Как удалить все строки из таблицы, не удаляя саму таблицу?A) DELETE FROM tablenameB) DROP TABLE tablenameC) TRUNCATE TABLE tablenameD) REMOVE * FROM tablenameПравильные ответы: A, C
+Вопрос 30. Какая команда позволяет изменить данные в таблице?A) CHANGEB) ALTERC) UPDATED) MODIFYПравильный ответ: C
+
+Abschlusstest zu General TechFrage 1. Was ist SQL?A) Eine ProgrammierspracheB) Ein DatenbankmanagementsystemC) Eine Strukturierte AbfragespracheD) Ein DatenübertragungsprotokollRichtige Antwort: CFrage 2. Wofür wird der SELECT-Befehl verwendet?A) Zum Einfügen von Daten in eine TabelleB) Zum Abfragen von Daten aus einer TabelleC) Zum Aktualisieren von Daten in einer TabelleD) Zum Löschen von Daten aus einer TabelleRichtige Antwort: BFrage 3. Welcher Operator wird zur Filterung von Datensätzen verwendet?A) FILTERB) WHEREC) SELECTD) ORDER BYRichtige Antwort: BFrage 4. Was macht der JOIN-Operator in SQL?A) Verbindet Zeilen aus zwei TabellenB) Kombiniert Spalten aus einer TabelleC) Entfernt Duplikate aus einer TabelleD) Filtert Zeilen nach einer bestimmten BedingungRichtige Antwort: AFrage 5. Welches Schlüsselwort wird verwendet, um die Ergebnisse einer Abfrage zu sortieren?A) SORTB) ORDERC) ORDER BYD) ALIGNRichtige Antwort: CFrage 6. Was macht der INSERT-Befehl?A) Fügt neue Zeilen in eine Tabelle einB) Aktualisiert bestehende Zeilen in einer TabelleC) Löscht Zeilen aus einer TabelleD) Wählt Zeilen aus einer Tabelle ausRichtige Antwort: AFrage 7. Welcher Operator entfernt Zeilen aus einer Tabelle?A) REMOVEB) DELETEC) ERASED) DROPRichtige Antwort: BFrage 8. Welche Aussage ist bezüglich Primärschlüssel richtig?A) Sie können NULL-Werte enthaltenB) Sie müssen in jeder Tabelle einzigartig seinC) Sie löschen automatisch DuplikateD) Sie können in der Tabelle wiederholt werdenRichtige Antwort: BFrage 9. Was ist Daten-Normalisierung?A) Der Prozess des Aufteilens von Daten in Tabellen, um Redundanz zu reduzierenB) Umwandlung von Daten in ein lesbareres FormatC) Zusammenführen von Tabellen zur Beschleunigung der VerarbeitungD) Löschen von Daten aus der DatenbankRichtige Antwort: AFrage 10. Was bedeutet die Abkürzung ACID im Kontext von Datenbanken?A) Atomicity, Consistency, Isolation, DurabilityB) Association, Condition, Isolation, DistributionC) Accuracy, Consistency, Integrity, DensityD) Atomicity, Compilation, Integration, DistributionRichtige Antwort: AFrage 11. Wofür wird der UPDATE-Befehl verwendet?A) Zum Aktualisieren der TabellenstrukturB) Zum Aktualisieren bestehender Datensätze in einer TabelleC) Zum Hinzufügen neuer Datensätze zu einer TabelleD) Zum Löschen einer Tabelle aus der DatenbankRichtige Antwort: BFrage 12. Welcher Befehl wird verwendet, um eine neue Tabelle in SQL zu erstellen?A) CREATE TABLEB) NEW TABLEC) INSERT TABLED) MAKE TABLERichtige Antwort: AFrage 13. Was ist eine Transaktion im Kontext von Datenbanken?A) Die Übertragung von Daten zwischen TabellenB) Eine Abfrage zum Auswählen von DatenC) Eine Sequenz von Operationen, die als Ganzes behandelt wirdD) Der Prozess des Erstellens einer Datenbank-BackupRichtige Antwort: CFrage 14. Mit welchem SQL-Befehl kann man eine Tabelle löschen?A) REMOVE TABLEB) DROP TABLEC) DELETE TABLED) ERASE TABLERichtige Antwort: BFrage 15. Was ist ein Index im Kontext von Datenbanken?A) Ein Zeiger auf alle Zeilen in einer TabelleB) Eine Datenstruktur, die verwendet wird, um die Suche zu beschleunigenC) Der Primärschlüssel einer TabelleD) Eine Methode zum Sortieren von Daten in einer TabelleRichtige Antwort: BFrage 16. Was bedeutet der Begriff "Fremdschlüssel"?A) Ein einzigartiger Identifikator einer Zeile in einer TabelleB) Ein Verweis auf den Primärschlüssel in einer anderen TabelleC) Eine Methode zum Verschlüsseln von DatenD) Ein Attribut, das die Reihenfolge der Zeilen definiertRichtige Antwort: BFrage 17. Was ist richtig über den Befehl "GROUP BY"?A) Gruppiert die Ergebnisse nach einem oder mehreren SpaltenB) Kombiniert mehrere Tabellen in eineC) Sortiert die Ergebnisse einer AbfrageD) Entfernt Duplikate aus den AbfrageergebnissenRichtige Antwort: AFrage 18. Wofür wird der Befehl "HAVING" in SQL verwendet?A) Zum Filtern gruppierter ErgebnisseB) Zum Festlegen von AuswahlbedingungenC) Zum Angeben von Bedingungen an Spalten nach der GruppierungD) Zum Aktualisieren von Datensätzen, die bestimmten Bedingungen entsprechenRichtige Antwort: AFrage 19. Welcher SQL-Befehl wird verwendet, um Einschränkungen für Tabellenspalten hinzuzufügen?A) ADD CONSTRAINTB) SET RULEC) MODIFY RESTRICTIOND) LIMITRichtige Antwort: AFrage 20. Was macht der Operator "DISTINCT"?A) Entfernt Duplikate aus den AbfrageergebnissenB) Bestimmt einzigartige Zeilen in einer TabelleC) Vergleicht Zeilen auf EinzigartigkeitD) Erstellt eine Kopie der Tabelle ohne DuplikateRichtige Antwort: AFrage 21. Welche Datentypen werden typischerweise von SQL unterstützt?A) Text, Zahl, Datum/ZeitB) Nur TextC) Nur ZahlenD) Nur boolesche WerteRichtige Antworten: AFrage 22. Was sind "Subqueries"?A) Daten innerhalb anderer DatenB) Ein Unterabfrage in SQLC) Eine externe Tabelle, die mit der Haupttabelle verknüpft istD) Daten-DuplikateRichtige Antwort: BFrage 23. Wie ändert man die Struktur einer bestehenden Tabelle?A) MODIFY TABLEB) ALTER TABLEC) CHANGE TABLED) UPDATE TABLERichtige Antwort: BFrage 24. Was ist eine View in SQL?A) Eine Kopie einer TabelleB) Eine virtuelle Tabelle, basierend auf dem Ergebnis einer AbfrageC) Eine neue Tabelle mit DatenD) Eine umbenannte TabelleRichtige Antwort: BFrage 25. Welcher Befehl erstellt eine neue Datenbank?A) CREATE DATABASEB) NEW DATABASEC) MAKE DATABASED) INIT DATABASERichtige Antwort: AFrage 26. Welcher Befehl zeigt alle Tabellen in einer Datenbank an?A) SHOW TABLESB) LIST TABLESC) DISPLAY TABLESD) TABLESRichtige Antwort: AFrage 27. Wie kann man in SQL die Anzahl der zurückgegebenen Zeilen eines Abfrage limitieren?A) USE LIMITB) SET LIMITC) LIMITD) MAX ROWSRichtige Antwort: CFrage 28. Was macht die UNION-Operation?A) Kombiniert die Ergebnisse von zwei oder mehr Abfragen ohne DuplikateB) Verbindet Zeilen aus zwei Tabellen basierend auf verbundenen SpaltenC) Fügt Zeilen aus einer Abfrage zu einer anderen hinzuD) Erstellt eine neue Tabelle aus zwei bestehendenRichtige Antwort: AFrage 29. Wie löscht man alle Zeilen aus einer Tabelle, ohne die Tabelle selbst zu löschen?A) DELETE FROM tablenameB) DROP TABLE tablenameC) TRUNCATE TABLE tablenameD) REMOVE * FROM tablenameRichtige Antworten: A, CFrage 30. Welcher Befehl wird verwendet, um Daten in einer Tabelle zu ändern?A) CHANGEB) ALTERC) UPDATED) MODIFYRichtige Antwort: C

@@ -1,3 +1,18 @@
+https://drive.google.com/drive/folders/1jxznGORZYWW4Vvw2lffrayZys2r1YLvD
+https://docs.google.com/document/d/1Xn41eFhdYAJVYzRucsNwpbLJ5lNxdvpfx__SZf5DwXA/edit#heading=h.pps80w7oerbv
+Техническое задание для онлайн-магазина товаров для дома и сада
+https://docs.google.com/presentation/d/1aDZau4peZ3sEQRTb-azHZN6T-Wj62IDx/edit#slide=id.p4
+Установочная встреча
+https://docs.google.com/presentation/d/1RDQ7XzZD-A4TVxdvTXfopMr9DikuJ-w2/edit#slide=id.p1
+Командный проект 
+
+https://drive.google.com/drive/u/0/folders/1XOD2TGjQ9eK5wFjlzSwk-bMUdUKVtDPx
+Java
+https://drive.google.com/drive/folders/1I0JeNovNG7R3owGi1itGDT9Ks5t7t3BH
+Recommendations
+https://drive.google.com/drive/folders/1vCslMkyKeVgV-H4JLhJPbJibJm1eDNm3
+Linux
+
 Для Java:
 1. Объясните JDK, JRE и JVM?
 2. Что такое конструкторы?
@@ -59,6 +74,28 @@ https://airtable.com/appQWRUJA8s7JBJHn/shrMHsqzD0ZqyPEk1/tblvIBp9Y86Xae4k5/viwpc
 https://www.glassdoor.de/index.htm
 olgale4@gmail.com
 
+WEST100
+Serhii-Horb
+Alona1212
+natol2023
+romanowskaelena
+ViktoriaBriese
+OlenaVovchenko
+234mph
+IvanBurniashev
+Yakushchenko-Oleg
+vasylyeva12
+maratgmk
+olena.iakovleva.63@gmail.com
+anghelusion
+Olgayakubovich81
+Parasolkasweet
+Anastasiamus
+sulida
+4rad95
+romanowskaelena
+olena.iakovleva.63@gmail.com
+Olena63
 https://github.com/Crystaldw
 https://github.com/ghibnerelvira
 https://github.com/ArtemSG/
