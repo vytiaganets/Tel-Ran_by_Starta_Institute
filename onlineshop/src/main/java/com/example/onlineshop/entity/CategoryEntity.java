@@ -5,7 +5,6 @@ import lombok.*;
 
 import java.util.Set;
 
-@Entity
 @Table(name = "Categories")
 @Setter
 @Getter
