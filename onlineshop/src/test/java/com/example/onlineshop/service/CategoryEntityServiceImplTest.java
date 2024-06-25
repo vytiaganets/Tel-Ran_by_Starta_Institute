@@ -28,7 +28,7 @@ public class CategoryEntityServiceImplTest {
     void getCategoryById_WhenCategoryDoesNotExist(){
         Long id = 1L;
         when(categoryJpaRepository.findById(id)).thenReturn(Optional.empty());
-        assertThrows(CategoryNotFoundException.class, () -> categoryServiceImpl.getCategoryById(id));
+        assertThrows(CategoryNotFoundException.class, () -> categoryServiceImpl.getById(id));
         verify(categoryJpaRepository).findById(id);
     }
 }
