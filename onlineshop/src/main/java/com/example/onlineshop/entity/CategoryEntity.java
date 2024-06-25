@@ -2,10 +2,12 @@ package com.example.onlineshop.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
+import org.springframework.stereotype.Component;
 
+import java.util.HashSet;
 import java.util.Set;
-
-@Table(name = "Categories")
+@Entity
+@Table(name = "category")
 @Setter
 @Getter
 @AllArgsConstructor
@@ -16,6 +18,6 @@ public class CategoryEntity {
     private Long id;
     private String name;
 
-    @OneToMany(mappedBy = "category",cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    private Set<ProductEntity> products;
+    @OneToMany(mappedBy = "category",cascade = CascadeType.ALL)
+    private Set<ProductEntity> products = new HashSet<>();
 }

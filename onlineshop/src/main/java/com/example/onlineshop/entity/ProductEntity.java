@@ -7,8 +7,8 @@ import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
-
-@Table(name = "Product")
+@Entity
+@Table(name = "product")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
