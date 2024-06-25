@@ -33,8 +33,8 @@ public class CategoryController {
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    public void createCategory(@RequestBody @Valid CategoryDto categoryDto) {
-        categoryService.createCategory(categoryDto);
+    public CategoryDto createCategory(@RequestBody @Valid CategoryDto categoryDto) {
+        return categoryService.createCategory(categoryDto);
     }
 
     @ResponseStatus(HttpStatus.BAD_REQUEST)
