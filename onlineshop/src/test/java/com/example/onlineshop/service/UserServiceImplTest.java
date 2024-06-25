@@ -46,16 +46,16 @@ public class UserServiceImplTest {
         userCreateDto.setPassword("password");
     }
 
-    @Disabled
-    @Test
-    void create_ShouldCreateUser() {
-        when(userMapper.userCreateDtoToEntity(any(UserCreateDto.class))).thenReturn(userEntity);
-        when(userJpaRepository.save(any(UserEntity.class))).thenReturn(userEntity);
-
-        UserEntity createdUser = userService.create(userEntity);
-
-        assertThat(createdUser).isNotNull();
-        assertThat(createdUser.getName()).isEqualTo(userCreateDto.getName());
-        verify(userJpaRepository).save(any(UserEntity.class));
-    }
+//    @Disabled
+//    @Test
+//    void create_ShouldCreateUser() {
+//        when(userMapper.userCreateDtoToEntity(any(UserCreateDto.class))).thenReturn(userEntity);
+//        when(userJpaRepository.save(any(UserEntity.class))).thenReturn(userEntity);
+//
+//        UserEntity createdUser = userService.create(userEntity);
+//
+//        assertThat(createdUser).isNotNull();
+//        assertThat(createdUser.getName()).isEqualTo(userCreateDto.getName());
+//        verify(userJpaRepository).save(any(UserEntity.class));
+//    }
 }
