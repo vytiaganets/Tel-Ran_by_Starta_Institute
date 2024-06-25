@@ -34,7 +34,6 @@ public class UserServiceImplTest {
     private UserCreateDto userCreateDto;
     @BeforeEach
     void setUp() {
-        //тестовые данные, чтобы не писать постоянно
         userEntity = new UserEntity();
         userEntity.setId(1L);
         userEntity.setName("Test User");
