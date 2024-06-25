@@ -1,31 +1,22 @@
 package com.example.onlineshop.entity;
 
+import jakarta.persistence.*;
 import lombok.*;
-
-@Getter
-@Setter
+import com.example.onlineshop.enums.UserRole;
+@Entity
+@Table(name = "users")
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
 public class UserEntity {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     private String name;
     private String email;
     private String phone;
     private String password;
-    private String role;
-
-    public UserEntity(String name, String email, String phone, String password) {
-        this.name = name;
-        this.email = email;
-        this.phone = phone;
-        this.password = password;
-    }
-    public UserEntity(long id, String name, String email, String phone, String password) {
-        this.id = id;
-        this.name = name;
-        this.email = email;
-        this.phone = phone;
-        this.password = password;
-    }
+    @Enumerated(EnumType.ORDINAL)
+    private UserRole role;
 
 }

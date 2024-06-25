@@ -1,42 +1,25 @@
 package com.example.onlineshop.dto;
 
 import com.example.onlineshop.enums.UserRole;
-import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.*;
 
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@JsonInclude(JsonInclude.Include.NON_NULL)
 public class UserDto {
+    @JsonProperty("id")
     private long id;
+    @JsonProperty("name")
     private String name;
+    @JsonProperty("email")
     private String email;
+    @JsonProperty("phone")
     private String phone;
+    @JsonIgnore
     private String password;
-    private String role;
-
-    public UserDto(String name, String email, String phone, String password){
-        this.name = name;
-        this.email = email;
-        this.phone = phone;
-        this.password = password;
-    }
-    public UserDto(long id, String email, String phone, String password, String role){
-        this.id = id;
-        this.name = name;
-        this.phone = phone;
-        this.password = password;
-        this.role = role;
-    }
-
-    public UserDto(long id, String name, String email, String phone, String password, UserRole role) {
-        this.id = id;
-        this.name = name;
-        this.email = email;
-        this.phone = phone;
-        this.password = password;
-        this.role = String.valueOf(role);
-    }
+    @JsonProperty("role")
+    private UserRole role;
 }
