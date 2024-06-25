@@ -36,6 +36,7 @@ public class UserControllerTest {
     @BeforeEach
     public void setUp(){mockMvc = MockMvcBuilders.standaloneSetup(userController).build();
     }
+
     @Test
     void listAllUserDto() throws Exception{
         UserDto userDto = new UserDto(1L, "Test", "andrii@ukr.net","1234567890","hash", UserRole.USER);
