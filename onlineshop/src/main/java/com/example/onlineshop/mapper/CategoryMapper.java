@@ -5,7 +5,7 @@ import com.example.onlineshop.dto.CategoryDto;
 import com.example.onlineshop.entity.CategoryEntity;
 import org.mapstruct.Mapper;
 
-@Mapper
+@Mapper(componentModel = "spring")
 public interface CategoryMapper {
     CategoryDto toDto(CategoryEntity entity);
     CategoryEntity toEntity(CategoryDto dto);
