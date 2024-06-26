@@ -20,16 +20,19 @@
     <changeSet id="2" author="Andrii">
         <comment>Insert data into categories</comment>
         <insert tableName="category">
-            <column name="name" value="Lopata"/>
+            <column name="name" value="Fertilizer"/>
         </insert>
         <insert tableName="category">
-            <column name="name" value="Sapa"/>
+            <column name="name" value="Protective products and septic tanks"/>
         </insert>
         <insert tableName="category">
-            <column name="name" value="Vila"/>
+            <column name="name" value="Planting material"/>
         </insert>
         <insert tableName="category">
-            <column name="name" value="Kosa"/>
+            <column name="name" value="Tools and equipment"/>
+        </insert>
+        <insert tableName="category">
+            <column name="name" value="Pots and planters"/>
         </insert>
     </changeSet>
 </databaseChangeLog>

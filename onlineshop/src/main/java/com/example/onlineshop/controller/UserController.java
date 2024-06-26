@@ -65,13 +65,13 @@ public class UserController {
         return authService.authenticate(request);
     }
     @ExceptionHandler(UserNotFoundException.class)
-    public ResponseEntity<String> handleUserNotExceeption(UserNotFoundException ex){
-        log.error("Пользователь не найден: {}", ex.getMessage());
+    public ResponseEntity<String> handleUserNotExceeption(UserNotFoundException userNotFoundException){
+        log.error("Пользователь не найден: {}", userNotFoundException.getMessage());
         return ResponseEntity.notFound().build();
     }
     @ExceptionHandler(UserInvalidArgumentException.class)
-    public ResponseEntity<String> handleUserInvalidArgumentException(UserInvalidArgumentException ex){
-        log.error("Недопустимый аргумент пользователя: {}", ex.getMessage());
-        return ResponseEntity.badRequest().body(ex.getMessage());
+    public ResponseEntity<String> handleUserInvalidArgumentException(UserInvalidArgumentException userInvalidArgumentException){
+        log.error("Недопустимый аргумент пользователя: {}", userInvalidArgumentException.getMessage());
+        return ResponseEntity.badRequest().body(userInvalidArgumentException.getMessage());
     }
 }
