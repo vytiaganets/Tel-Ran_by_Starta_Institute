@@ -16,7 +16,13 @@ public class UserEntity {
     private String email;
     private String phone;
     private String password;
-    @Enumerated(EnumType.ORDINAL)
-    private UserRole role;
-
+    @Enumerated(EnumType.STRING)
+    private UserRole role = UserRole.USER;
+    public UserEntity(String name,String email, String phone, String password){
+        this.name = name;
+        this.email = email;
+        this.phone = phone;
+        this.password = password;
+        this.role = UserRole.USER;
+    }
 }

@@ -14,6 +14,6 @@ public interface UserService {
 
     UserEntity edit(long id, UserCreateDto  userCreateDto);
 
-    void delete(Long id);
+    void delete(long id);
     Long getCurrentUserId();
 }
