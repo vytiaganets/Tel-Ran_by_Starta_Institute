@@ -22,7 +22,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
-@RequestMapping("api/v1/users")
+@RequestMapping("/v1/users")
 @Slf4j
 @RequiredArgsConstructor
 public class UserController {

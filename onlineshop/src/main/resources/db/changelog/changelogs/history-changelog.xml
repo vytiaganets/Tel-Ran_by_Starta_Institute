@@ -17,7 +17,8 @@
                 <constraints nullable="false" referencedTableName="Users" referencedColumnNames="id" foreignKeyName="fk_history_Users"/>
             </column>
             <column name="OrderID" type="BIGINT">
-                <constraints nullable="false" referencedTableName="orders" referencedColumnNames="id" foreignKeyName="fk_history_orders"/>
+                <constraints nullable="false" referencedTableName="Orders" referencedColumnNames="id"
+                             foreignKeyName="fk_history_orders"/>
             </column>
         </createTable>
     </changeSet>
