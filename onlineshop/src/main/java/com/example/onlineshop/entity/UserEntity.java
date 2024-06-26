@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import lombok.*;
 import com.example.onlineshop.enums.UserRole;
 @Entity
-@Table(name = "users")
+@Table(name = "Users")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
