@@ -1,14 +1,12 @@
 package com.example.onlineshop.entity;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 @Entity
-@Table(name = "product")
+@Table(name = "Products")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -24,6 +22,6 @@ public class ProductEntity {
     private LocalDateTime createdAt = LocalDateTime.now();
     private LocalDateTime updatedAt = LocalDateTime.now();
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "category_id")
+    @JoinColumn(name = "CategoryID")
     private CategoryEntity category;
 }
