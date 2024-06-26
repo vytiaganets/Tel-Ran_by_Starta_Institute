@@ -24,8 +24,8 @@ public class UserDetailsServiceImpl implements UserDetailsService {
             UserEntity userEntity = userService.getByLogin(username);
             return new User(userEntity.getName(), userEntity.getPassword(),
                     List.of(new SimpleGrantedAuthority(userEntity.getRole().getRoleName())));
-        } catch (UserNotFoundException exception) {
-            throw new UsernameNotFoundException(exception.getMessage());
+        } catch (UserNotFoundException userNotFoundException) {
+            throw new UsernameNotFoundException(userNotFoundException.getMessage());
         }
     }
 }
