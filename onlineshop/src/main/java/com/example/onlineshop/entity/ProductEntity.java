@@ -13,13 +13,21 @@ import java.time.LocalDateTime;
 public class ProductEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "ProductID")
     private Long id;
+    @Column(name = "Name")
     private String name;
+    @Column(name = "Description")
     private String description;
+    @Column(name = "Price")
     private BigDecimal price;
+    @Column(name = "ImageURL")
     private String image;
+    @Column(name = "DiscountPrice")
     private BigDecimal discountPrice;
+    @Column(name = "CreatedAt")
     private LocalDateTime createdAt = LocalDateTime.now();
+    @Column(name = "UpdatedAt")
     private LocalDateTime updatedAt = LocalDateTime.now();
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "CategoryID")

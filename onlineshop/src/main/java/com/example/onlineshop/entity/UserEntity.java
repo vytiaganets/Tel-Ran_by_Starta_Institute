@@ -11,12 +11,19 @@ import com.example.onlineshop.enums.UserRole;
 public class UserEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "UserID")
     private long id;
+    @Column(name = "Name")
     private String name;
+    @Column(name = "Email")
     private String email;
+    @Column(name = "PhoneNumber")
     private String phone;
+    @Column(name = "PasswordHash")
     private String password;
+
     @Enumerated(EnumType.STRING)
+    @Column(name = "Role")
     private UserRole role = UserRole.USER;
     public UserEntity(String name,String email, String phone, String password){
         this.name = name;
