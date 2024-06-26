@@ -61,7 +61,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public void delete(Long id) {
+    public void delete(long id) {
         log.debug("Попытка удалить пользователя с идентификатором: {}", id);
         UserEntity user = userJpaRepository.findById(id).orElseThrow(() -> {
             log.error("Попытка удалить несуществующего пользователя с идентификатором: {}", id);
@@ -82,14 +82,12 @@ public class UserServiceImpl implements UserService {
             UserEntity user = getByLogin(username);
             return user.getId();
         }else {
-            throw new IllegalArgumentException("Основной объект аутентификации не может быть использован для " +
-                    "получения идентификатора.");
+            throw new IllegalArgumentException("Основной объект аутентификации не может быть использован для получения идентификатора.");
         }
     }
 
     @Override
     public UserEntity getByLogin(String login) {
-        return userJpaRepository.findByName(login).orElseThrow(() -> new UserNotFoundException("Пользователь с " +
-                "логином {} " +  login + " не найден." ));
+        return userJpaRepository.findByName(login).orElseThrow(() -> new UserNotFoundException("Пользователь с логином {} " +  login + " не найден." ));
     }
 }

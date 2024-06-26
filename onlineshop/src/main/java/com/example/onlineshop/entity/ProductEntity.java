@@ -21,8 +21,9 @@ public class ProductEntity {
     private BigDecimal price;
     private String image;
     private BigDecimal discountPrice;
-    private LocalDateTime createdAt;
-    private LocalDateTime updatedAt;
+    private LocalDateTime createdAt = LocalDateTime.now();
+    private LocalDateTime updatedAt = LocalDateTime.now();
     @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "category_id")
     private CategoryEntity category;
 }
