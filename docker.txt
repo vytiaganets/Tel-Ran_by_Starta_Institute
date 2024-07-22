@@ -1,0 +1,79 @@
+https://www.docker.com/products/docker-desktop/
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+wsl --set-default-version 2
+docker run redis
+
+1. Запуск Docker containers
+docker run -d -p3000:6379 redis:alpine
+docker run -d -p3001:6379 redis:alpine
+
+2. Копирование приложения:
+git clone https://github.com/2a-stra/docker-demo.git
+cd docker-demo/lab1
+
+3. Запуск приложения:
+python3 app.py 3000 &
+https://github.com/2a-stra/docker-demo.git
+docker build -t lab1_docker .
+docker build -t lab1_tt:v1 .
+docker run -d --rm -p 8000:8000 portal-app:0.1
+docker run -d --rm -p 8001:8000 lab1_tt:v1
+docker exec -it <portal-app> sh
+
+
+28.06.2024
+docker network create redis_network
+docker run -d --name redis-db --net redis-network redis
+
+docker build -t python_app .
+
+docker run -rm -p 8000:8888 -e REDIS_HOST=redis-db -e REDIS_PORT=6379 -e APP_PORT=8888 --net redis_network python_app
+
+version: "3"
+services:
+  redis:
+    image: "redis:latest"
+    container_name: "redis-db"
+    ports:
+      - "6379:6379"
+    networks:
+      - my_network
+  python_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: "python_app"
+    ports:
+      - "5000:8888"
+    depends_on:
+      - redis
+    environment:
+      - REDIS_HOST=redis-db
+      - REDIS_PORT=6379
+      - APP_PORT=8888
+    networks:
+      - my_network
+networks:
+  my_network:
+
+docker-compose.yml
+
+docker-compose up -d
+
+https://github.com/rasnaut/WebCalculator/tree/34-add-and-setup-docker-compose
+https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fconsole%2Fhome%3FhashArgs%3D%2523%26isauthcode%3Dtrue%26nc2%3Dh_ct%26oauthStart%3D1719566714747%26src%3Dheader-signin%26state%3DhashArgsFromTB_eu-north-1_8e1002913dd499dd&client_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fcanvas&forceMobileApp=0&code_challenge=6r2lVXeHtO0FEA_3fZ954nGkT1Xkjn4OvLdWQbFfpCA&code_challenge_method=SHA-256
+https://aws.amazon.com/console/
+https://aws.amazon.com
+
+sudo apt update
+
+sudo apt update
+sudo apt install aptitude
+sudo aptitude install docker-compose
+ 
+scp -i ..\MyUbuntu2Instance.pem -r .\lab2\ ubuntu@ec2-13-51-197-193.eu-north-1.compute.amazonaws.com:/home/ubuntu/lab2/
+ 
+sudo systemctl start docker
+ 
+sudo docker-compose up

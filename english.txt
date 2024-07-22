@@ -59,3 +59,230 @@ The wrong answer in short is “I will work extra hours to fit the deadline”. 
 
 This is a difficult situation for me. I think I need to go to the boss. I know that assignments are checked weekly. This is also a problem with the Program Manager. Why didn't the program manager look at and comment on Sprint. I have daily meetings where tasks are checked. I said there how much time I need to complete the task. The program manager should break down the three-week task into detailed sub-tasks.
 
+27.06.2024
+How do you learn?
+Companies want to hire people, who are curious and constantly looking forward in improving their skills. Therefore, you should provide a solid explanation how do you learn. Ideally, you should mention learning from more experienced colleagues, taking online courses on Yandex, Coursera, Udemy, Linkedin Learning plus classical books in your area: Effective Java, Clean Code, Design Patterns by Gang of Four, etc. If you say that you took an online course, be ready to say which one exactly, why you took, what you have learned from it in few sentences. It is extremely important to be precise here. “I am watching Youtube videos and read blogs” is the wrong answer. If you are going to say you read Effective Java, read it before the interview at least couple of time.
+Why do you want to work for us?
+This is similar to some questions above, but here it is enough to say that you like what the company is doing (your values comply with company values) and you think that your skills matches company’s expectations.
+
+When you work on a project or in the team, how do you know that you are successful?
+It is a big question. Below is a sample schema for answering this. You should define success first. Let’s say, success for you is that you are a good team player and technically good engineer, which delivers on time according to stakeholders expectations. How do you know that you are a good team player? I welcome continuous feedback on my work by asking my colleagues how I am doing, I participate in regular 360 feedback rounds, I am constantly working on fixing feedback comments on areas where I may need to improve. On the other hand I have my own KPIs: how many features/projects I do per year? How many comments I receive to my Pull Requests in average? How long does it take for me to develop a feature? How successful are projects which I deliver as a part of the team? I measure all this and make conclusions so to understand whether I am good or not good enough.
+
+
+I really like to read books. I often download new Java books and do all the exercises written there. I am currently reading a book from Booth Spring. I do everything that is written there. I am sure that constant motivation is needed in the team. Mandatory participation in programming conferences and forums is required.
+
+Where do you see yourself in 5 years?
+This one considered as the suppiest question of all time, but it is very easy to answer it wrong and get rejected. If you apply as a junior, the company does not expect you to become a CTO in 5 years. They may want to hire you because they have tasks for you. It is
+correct to say that you would like to help the company to move ahead and succeed plus you expect the company will let you grow professionally so that you learn from more experienced colleagues. In five years I would like to become a far more technically experienced engineer.
+
+I think that in 5 years I will be a senior Java engineer. The maximum position in my field is a software architect. I can give presentations at programming conferences of various levels. But I'm not sure about that. Now artificial intelligence is developing very quickly. And this is a very big competition
+
+If your boss (technical lead, architect) is proposing the solution that is not optimal in a long-term in your opinion, what would you do?
+The right answer - express your opinion in constructive grounded way (maybe it would require several discussion iterations to prove your point of view). But if boss still does not agree - accept his position. Wrong answer - say “I don’t care, it’s his responsibility, I would not say anything”.
+
+I would go with the long-term solution that the boss suggested. But I would definitely have to tell him my position on solving the problem. I must avoid conflict. I am at work in a campaign. I have to do what the boss tells me. The boss is responsible for all decisions in the company. I'm sure all decisions are about money. If the decision is wrong, the company will lose money. This is a secondary issue. In the first place are colleagues, workers in the campaign
+
+Your attitude to overtimes?
+The right answer - I understand that sometimes objective situation may require overtimes and I am ok with it. But if it happens too often - it’s symptom of organizational or process issues, that should be fixed at management level.
+
+I work overtime every day. I worked as a teacher for a long time. I also worked overtime every day. I often worked on weekends. I needed to work with students not in classes, but in consultations. The student has a question that I must answer. Now there is a Java project. I have to write the code and write the test. It takes a very long time. I'm working overtime right now. I have time to eat and sleep. I love working overtime. I think this is very important in this software development profession. If I have done my task, I must learn new things every day.
+
+Thank you. I like apps from Google. I use the Google calendar every day. All my plans are in the calendar. I also like to read sports books. The last book I read was by Arnold Schwarzenegger. How to achieve results in sports. I have a short wish. At the end of the lecture, please send me a link to the resources for writing a cover letter.
+
+28.06.2024
+I think it is necessary to improve anything by reading books. If you compare it with videos on YouTube, it will save a lot of time. I like reading books.
+
+Dear Hiring Manager,
+I am writing to express my interest in the opening for an administrative assistant at [name of company].
+I'm drawn to this opportunity for several reasons. First, I have a proven track record of success in administrative roles, most recently in my current job as an administrative coordinator. A highlight from my time here was when I proactively stepped in to coordinate a summit for our senior leaders last year. I arranged travel and accommodation for a group of 15 executives from across the company, organized meals and activities, collaborated with our internal events team and ensured that everything ran according to schedule over the two-day summit. Due to the positive feedback | received, I'm now tasked with doubling attendance for the event this year and leading an internal team to get the job done.
+I am attracted to this role because of the growth opportunities that [name of company] provides. The research that I've done on your company culture has shown me that there are ample opportunities for self-motivated individuals like me. A high level of organization and attention to detail is second nature to me, and I'm eager to apply these skills in new and challenging environments.
+I look forward to sharing more details of my experience and motivations with you. Thank you for your consideration.
+Sincerely,
+2 (Your name]
+
+Achievements should be written in the cover letter. This example describes it well. My colleague wrote that he completed all assignments at the School on time. The main thing in writing cover letters is to have some detail that will distinguish you from other competitors. At the last meeting at the School, we were told about the case. Colleagues refused, because of a passive reaction to the invitation to work in the campaign. This is a random event. But you need to prepare a good cover letter.
+I think it's poorly described here for an experienced admin. This is a cover letter for a junior administrator. One achievement is mentioned here. This is a bad cover letter.
+
+A cover letter should include the following parts:
+1. Header
+2. Salutation
+3. Introduction
+4. Body paragraph
+5. Closing paragraph
+6. Letter ending and signature
+
+Header example:
+Ali Lang
+ali.lang@email.com
+555 Orchard Lane, Las Vegas, NV(555) 888-4000
+May 5, 20XX
+Terry Washington
+Revolve Inc.
+123 Vineyard Drive, Las Vegas, NV
+
+Greetings example:
+•Dear Hiring Manager,
+•Dear Tyler Wallace,
+
+
+Opening paragraph example:
+"I'm excited to apply for the Graphic Designer position at Cloud Clearwater I found on Indeed. I understand you're currently adding several new product lines, and I believe my skills in video and animation provide a significant advantage for creating a successful launch. As a longtime fan of your products, I'm thrilled at the opportunity to bring my unique style and passion for beachwear to the company."
+Second paragraph example:
+"As the Director of Human Resources at Wes Morgan Philips, I was a key senior leader in the organization and was responsible for improving the efficiency and performance of the company's 540 employees. Before that, I worked in human resources, equal employment opportunity and diversity for Jenkins Technology Solutions, Inc. At Jenkins Technology, I developed an employee retention plan involving a wellness program, an internal training
+• program and a promotions selection process. This led to a 50% reduction in the overall emplovee turnover rate."
+
+Closing paragraph example:
+"Achieving ambitious marketing goals is always a top priority, and I am always looking out for the company's best interests. I enjoy delivering marketing presentations to potential clients and focusing on an organization's strengths. My marketing skills at River Tech helped the company experience new levels of success and a 45% increase in customer engagement.
+I'm never satisfied with the status quo, and I believe that a company should continually look for ways to improve and reach new clients through innovative campaigns."
+
+The third paragraph is very well written. Very important achievements in the life of a colleague are written here. I like the numbers written there. I don't like very general phrases. Am I missing details, what tools were used?
+
+Signoff example:
+"Thank you for your time and consideration. I look forward to learning more about the sales position and TradeLot. Growth is essential to my continued success, and I'm excited for the chance to be a part of TradeLot's industry-leading team. My proven track record and TradeLot's quality products are a winning combination for increasing the company's market share.
+Sincerely,
+Malik Rabb
+
+All paragraphs are written very competently. Very important achievements in the life of a colleague are written here. I like the numbers written there. I don't like very general phrases. Am I missing details, what tools were used? Where are the specifics? I like the details. These percentages are a bad example. I lack a concrete plan of action if you will work for this company. I would rewrite your example with a detailed plan and specific steps. It is my opinion.
+
+04.07.2024
+Yelyzaveta Shydenko
+Hello HR,
+I am writing to apply for the Frontend vacancy at Company Name
+Tam a driven and enthusiastic frontend developer with a passion for learning and growing. I have experience in creating responsive websites with a focus on usability and clean code. I am always on the lookout for new trends in web development and love to develop various projects. I am a great communicator, team player and collaborator, which allows me to effectively solve problems and achieve goals.
+During my studies, I acquired expertise in website development, created various projects, collaborated in a team, utilised the Git version control system and accessed data from APls. During the training programme, I developed practical skills in creating adaptive and interactive web applications, as well as mastered effective team collaboration.
+Furthermore, my diploma project was a site that provided a user-friendly interface for viewing products, categorising them, adding to cart and placing an order. I have utilised tools such as React, Redux, Redux Toolkit, React Router API, and SCSS.
+I have assisted my colleagues in comprehending the information provided by our teachers. Additionally, during the diploma project, I assumed the role of team leader, guiding my team and reviewing their code before merging.
+I am passionate about being a competent and contributing team player and would be grateful for the opportunity to discuss my examples in greater detail with you.
+I look forward to answering your questions and learning more about this position and your development teams.
+P.S.: I did not see the numbers in the letter. Too much text for me. I think it's necessary to hurry.
+Georgeta Varvarici
+
+Answer
+(123) 456-7891
+fredrickson@email.com
+May 1, 2018
+Dear Hiring Manager,
+I am pleased to be applying for the Web Developer position at River Tech. My extensive experience with designing and developing websites using C#, Java, and Ruby on Rails matches well with your requirements. In addition, my background with working in large development teams has given me the skills to adjust to the changing dynamics and processes of those environments while meeting scheduled milestones and deliverables.
+In my previous experience at Cloud Clearwater, I developed several web-based applications for a project management software client. These cloud-based applications tracked and managed information technology project information for several of the world's largest financial companies. I was involved in the design and development process for all applications, and I managed enhancement requests after each rollout.
+I am a proven team player, which is another important requirement for this position. I was recently voted by my peers to receive Cloud Clearwater's Distinguished Developer Award for exhibiting idwal teamwork traits, including reliability, good communication, commitment, adaptability, and going above and beyond what is asked.
+Management also recognized my accomplishments in meeting project deliverable deadlines over 99% of the time, exceeding expectations by 5%.
+Thank you for taking the time to review my credentials and accomplishments. I am very passionate about being a competent and contributing team player, and I hope to have the opportunity to discuss my examples in greater detail with you. I look forward to answering your questions and learning more about this position and your development teams
+Sincerely,
+Cody Fredrickson
+P.S.: This is a very nice cover letter. Many facts are written here. I really liked the structure of the cover letters. Everything is clearly written that I want to invite him for an interview right now. I didn't like the phrase "I'm a team player".
+
+Profile
+Experienced Digital Marketing Manager with a proven track record of developing and directing high impact digital marketing strategies. Skilled in overseeing web strategy and development, digital engagement, and consumer-facing tools.
+Adept in guiding strategic relationships to achieve company goals.
+Employment History
+Digital Marketing Manager, Algine Inc., New York November 2017 - March 2021
+• Defined, developed, and implemented marketing strategies to automate and measure target audience movement.
+•Established processes and protocols for campaign measurement to optimize results.
+• Maximized cost-effective operations and continually evaluated spending.
+•Partnered across the organization to ensure content developed addressed consumer needs and wants.
+• Served as an expert for digital channel platforms.
+Digital Marketing Manager, Client XII, Seattle July 2014 - October 2017
+
+Megi Pramesti
+Date of birth: 01/01/1995 Natianality: Indaresie Address: Alarmanda, Depak 99999, I resia
+Phone number: 999999999 Email address: hello@kickresume.com
+Web: https://www.linkedin.com/compary/kickresume.com
+Profile
+Designated as the local contact for all media relations. Spearheaded mutimedia marketing campaigns. Designing. creating and managing content across multiple communication platforms. Developed presentation, communication and mentoring skills.
+Work experience
+Marketing
+ANZ Bank Indonesia
+1 05/2013 - 10/2013 © JAKARTA, INDONESIA
+Build an efficient and effective team.
+Negotiations with events sponsors.
+Participate with the team in making affers for sponsors.
+Networking and communication with other parties.
+Upgrading the brand image of the company.
+Pricing strategy development, from formulating hypotheses, testing their impact and final resuits anelyses to acjustments implementation.
+Affecting company culture via presentations and consultation to become more data-driven.
+Managing e-commerce personalization project.
+Digital Marketing
+Kaymedia
+E305/2016 05/2017 © LAMPUNG, INDONESIA
+Developed multi-platform advertising campaign for retail client.
+Executed digital strategy for acoount, while also outperforming competition in al engagement metrics.
+Collaborate with marketing staff in the development and production of visual content.
+Coordinate live-streaming events' social media interaction and breedcest. Assist with creating post-production content for further use across media channels.
+Create content for email marketing campaions.
+Ident y social media opportunties and develop an actionable plan for execution.
+Recommend and develop strategies for growing and leveraging our social media follower base using promotion contests, poils, ads surveys and referral programo
+Education
+Skills
+Informatics Engineering
+University of Indraprasta PGRI
+C 06/2014 - present O JAKARTA, INDONESIA
+* Analyzing and developing database by gathered date from all of branches.
+Organizing information by studying, analyzing, interpreting and classifying data.
+Worked on automating of vulnerability assessment framework for network device configurations.
+O PROGRAMMING
+
+05.07.2024
+I think that it is necessary to write additional courses, some certificates. For example, from Intuit University. You must write projects in github. A portfolio of projects is required. There is no volunteer experience here. You need some raisin. Maybe she graduated from the university with a red diploma? I didn't see. thank you
+
+https://www.themuse.com/advice/how-to-write-an-interview-thankyou-note-an-email-template
+
+11.07.2024
+Thank you very much. I work on a project every day. I write more than 100 lines of code every day. I've been writing tests for my project all day today. I feel like a tester, not a programmer. I have to finish by July 30th. I am surprised that we will have English classes in August? Why not? I have some resume questions, can I send you a message on the discord chat? help me please Thank you very much.
+
+About
+am a New York Times bestselling author. The Wall Street Journal calls me a top influencer on the web, Forbes says I am one of the top 10 marketers, and Entrepreneur Magazine says I created one of the 100 most brilliant companies. I was recognized as a top 100 entrepreneur under the age of 30 by President Obama and a top 100 entrepreneur under the age of 35 by the United Nations.
+I've helped Amazon, Microsoft, Airbnb, Google, Thomson Reuters, Viacom, NBC, Intuit, Zappos, American Greetings, General Motors, and SalesForce grow through marketing.
+My marketing blog generates over 4 million visitors per month (51% of them spend money on paid ads), my Marketing School podcast generates over 1 million listens per month, my YouTube channel about marketing has over 31 million views and 765,000 subscribers, I have 1 million Facebook fans, and 372,000 Twitter followers.
+I've spoken at over 310 conferences and companies around the world. From speaking at Facebook and Thomson Reuters to every major growth marketing conference, I'm available and interested in speaking at events worldwide.
+For speaking opportunities, collaborations, events, and business development, please email Marina at
+untampieri@npdigital.com
+
+ Aleyda Solís | Linkedln
+About
+Aleyda Solis is an international SEO consultant and founder of boutique SEO consultancy Orainti, working with established brands and high-growth startups worldwide to achieve their organic search goals.
+Alevda is also an experienced speaker in English and Spanish (+ 100 events in +20 countries), and author (SEO, Las Clales Esenciales), who also offers free SEO tips in the Crawling Mondays video series, the latest SEO news in the weekly SEOFOMO newsletter (+33K subscribers), as well as in digital marketing news in the MarketingFOMO newsletter. Alevda is also the creator behind LearninaSEO.io, a reliable roadman to learn SEO for free.
+Awarded as European Search Personality in 2018, she's also co-founder of Remoters.net, a remote work hub, featuring a free remote job board, tools, guides, and more to empower remote work.
+
+There is not enough comparison in percentages. Success is not marked in numbers. There are no positive achievements in numbers. I think this is for beginner level
+
+Avinash Kaushik
+About
+Avinash is the global Chief Strategy Officer of Croud, a leading full-service marketing Agency.
+His prior professional experience includes a sixteen-year stint at Google, and roles at Intuit, DirecTV, Silicon Graphics in the US & DHL in Saudi Arabia.
+Through his newsletter, The Marketing < > Analytics Intersect, blog, Occam's Razor, and his best-selling books, Web Analytics: An Hour A Day and Web Analytics 2.0, Avinash has become recognized as an authoritative voice on how marketers, executives teams and industry leaders can leverage data to fundamentally reinvent their digital existence.
+Avinash puts a common-sense framework around the often frenetic world of web analytics and combines that with the philosophy that investing in talented analysts is the key to long-term success. He passionately advocates customer centricity and leveraging bleeding edge competitive intelligence techniques.
+Avinash has received rave reviews for bringing his energetic, inspiring, and practical insights to companies like Unilever, Dell, Time Warner, Vanguard, Porsche, and IBM. He has delivered keynotes at a variety of global conferences, including Ad-Tech, Monaco Media Forum, Search Engine Strategies, JMP Innovators' Summit, The Art of Marketing and Web 2.0.
+Acting on his passion for teaching, Avinash has lectured at major universities such as Stanford University, University of Virginia, University of California - Los Angeles and University of Utah.
+Among the awards Avinash has received are Statistical Advocate of the Year from the American Statistical Association, Most Influential Industry Contributor from the Web Analytics Association, and Founder's Award from Google.
+
+The picture was an advertisement for an old book. I think there is a lot of text here. I saw little progress. I mean what the conference presentations gave as a result. He could specify what achievements can be obtained from his book. Web 3.0 and artificial intelligence are very relevant now. I think this is old information.
+
+Rand Fishkin
+About
+In 2018, I started SparkToro, software that makes audience research accessible to everyone. I'm also cofounder of indie game maker, Snackbar Studio, author of Lost and Founder: (2018), prev founded & led Moz (2001-17) and am a frequent keynote speaker on marketing and entrepreneurship. But, I'm probably best known as the amateur chef husband of renowned author, Geraldine DeRuiter.
+
+I see a lot of positives, jokes. Creative suggestions are appreciated here. I don't understand the word feminist. In what context is feminist used.
+
+Larry Kim
+About
+CEO of Customers.Al - Al-Enabled Sales Outreach & Consumer Data Platform for B2C.
+Also, founder of WordStream, Inc - The leading provider of AdWords, Facebook and keyword tools used by millions of marketers worldwide. The company employs over three hundred people and manages Billions of dollars of ad spend on behalf of tens of thousands of customers. Acquired by Gannett for $150 million in June 2018.
+Ranked the #8 most popular author on Medium. Contributor to CNBC and Inc. Magazine. Key Interests include: AdWords, Facebook Ads, Entrepreneurship and Start-ups.
+Marketer of the Year awards from Search Engine Land, US Search Awards, PPC Hero. Guest Lecturer at Harvard MBA, MIT & BU. Received special recognition from the US Senate and House of Representatives for having created over a thousand high-tech jobs in the last decade.
+
+Heidi Cohen
+Heidi Cohen helps brands and businesses to meet your audience's needs and wants based on your unique talents within the context of voice and other evolving technologies.
+Top Global Digital, Content and Social Media Marketing Influencer, Heidi Cohen runs the award-winning Actionable Marketing Guide and Riverside Marketing Strategies, a marketing consultancy. She has worked with Fortune 100 companies, startups, private equity firms and not-for-profits.
+By removing fears of emerging technology, data and math, Heidi develops consensus and community to build strategies for brands and businesses. Heidi enables businesses to meet their audiences' needs and wants through content, within the context of voice and Al and other evolving technologies.
+To deepen and extend customer relationships over time, Heidi helps clients understand and apply actionable tactics to execute their marketing strategies. In the process, she develops consensus and community across organizations to deliver measurable financial results.
+Heidi started her career at a local New York City newspaper at age 18, where she learned how media works from the inside. Over her career, she has helped global organizations include Sony, Bertelsmann, The Economist, The New York Times and others to build measurable business value.
+As a professor at NYU, CUNY and Rutgers, Heidi has created and taught graduate-level courses in advanced digital marketing, not-for-profit marketing, social media strategy, direct marketing, and finance and analysis for marketers.
+As a senior executive said, "When you meet with Heidi, you will get at least 5 new ideas to grow your business."
+Heidi's expertise includes: Omni-channel Marketing, Digital Marketing, Voice Marketing, Content Marketing, Social Media and Direct Marketing
+Subscribe to Heidi Cohen's Actionable Marketing Guide Newsletter: https://heidicohen.com/subscribe
+
+
+Yelyzaveta Shydenko
+About
+1am a driven and enthusiastic frontend developer with a passion for learning and growing. I have experience in creating responsive websites with a focus on usability and clean code. I am always on the lookout for new trends in web development and love to develop various projects and learn new things through online courses. I am a great communicator, team player and collaborator, which allows me to effectively solve problems and achieve goals.
+I consider myself a creative soul, always open to new challenges and opportunities. Currently living in Germany, I am actively honing my language skills and have already achieved a B1 level in German. With a friendly and communicative nature, I love to connect with fellow professionals and look for opportunities to work together.
