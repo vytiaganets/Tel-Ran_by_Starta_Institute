@@ -214,6 +214,16 @@ https://www.mongodb.com/docs/manual/reference/operator/aggregation/
 https://habr.com/ru/articles/428548/
 https://javarush.com/quests/lectures/questspring.level01.lecture60
 https://habr.com/ru/articles/580062/ Выполнение запланированных заданий в Spring Boot
+https://vk.com/@javatutorial-spring-transactional-oshibki-kotorye-sovershali-vse
+https://en.wikipedia.org/wiki/Isolation_%28database_systems%29
+https://habr.com/ru/articles/682362/
+https://javarush.com/quests/lectures/questspring.level03.lecture03
+https://www.rabbitmq.com/docs/publishers
+https://vk.com/@javatutorial-spring-transactional-oshibki-kotorye-sovershali-vse
+ https://en.wikipedia.org/wiki/Isolation_%28database_systems%29
+ https://habr.com/ru/articles/682362/
+ https://javarush.com/quests/lectures/questspring.level03.lecture03
+ https://www.rabbitmq.com/docs/publishers
 ВОПРОСЫ
 1.
 Определение инкапсуляции, наследования, полиморфизма, раннего и позднего связывания.
